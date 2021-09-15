@@ -1,0 +1,265 @@
+// Variables
+$primary-color: #00487e;
+$primary-color-light: #195a8a;
+$secondary-color: #edd59d;
+$light-color: #f4f4f4;
+$dark-color: #333;
+$font-main: 'Quicksand', sans-serif;
+$font-code: 'Source Code Pro', monospace;
+
+// General
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+// Pages
+h1 {
+  font-family: $font-main;
+  font-size: 40px;
+  padding: 15px;
+  margin-top: 15px;
+  color: $primary-color;
+  text-align: center;
+}
+
+section {
+  font-family: $font-main;
+  margin: 15px 20vw;
+
+  h2, h3 {
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color: $primary-color;
+    border-bottom: $primary-color solid 1px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  p, p ul, p ol {
+    padding: 15px 0;
+
+    li {
+      font-size: 18px ;
+    text-align: justify;
+    }   
+  }
+
+  a {
+    text-decoration: none;
+    color: $primary-color-light;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    padding: 2.5vw;
+  }
+}
+// rgba(6, 43, 94, 0.5)
+
+
+// Header and Footer
+header {
+  background-color: $primary-color;
+  background-image: url("../images/navigation/banner_background_light_small.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 80px;
+  padding: 10px;
+  font-family: $font-main;
+  color: $light-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  // position: absolute;
+  // top: 0;
+  // left: 0;
+  
+  .logo {
+    padding: 0 15px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    img {
+      max-height: 80px;
+      object-fit: contain;
+      padding: 5px 0;
+      z-index: -1;
+    }
+
+    a {
+      // float: left;
+      position: absolute;
+      padding: 20px 0;
+      text-decoration: none;
+      color: $light-color;
+
+      &:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+
+  ul {
+    // float: right;
+    // margin: 0 15px;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    li {
+      margin: 0 3px;
+      padding: 20px 17px;
+
+      a {
+        text-decoration: none;
+        color: $light-color;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $primary-color;
+  background-image: url("../images/navigation/banner_background_light_small.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 120px;
+  // padding: 10px;
+  font-family: $font-main;
+  color: $light-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+
+  div{
+    padding: 15px;
+
+    h3 {
+      color: $secondary-color;
+    }
+  
+    a {
+      text-decoration: none;
+      color: $light-color;
+  
+      &:hover {
+        color: $secondary-color;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+// for tablet mode
+@media (max-width: 1024px) {
+  section {
+    margin: 15px 15vw;
+  }
+  
+  header {
+    display: block;
+    // height: 160px;
+
+    // .logo {
+    //   padding: 40px;
+    // }
+
+    // ul {
+    //   display: grid;
+    //   grid-template-columns: 1fr 1fr 1fr;
+    //   padding: 0 40px;
+    // }
+  }
+}
+
+//for landscape mode on phone
+@media (max-width: 900px) {
+  section {
+    margin: 15px 10vw;
+  }
+
+  header {
+    height: 160px;
+
+    .logo {
+      padding: 40px;
+      // margin: 0;
+      // padding: 80px 20px;
+    }
+
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding: 0 40px;
+
+      li  {
+        padding: 20px 7px;
+      }
+    }
+  }
+
+  footer {
+    height: 160px;
+  }
+}
+
+//for phone mode + landscape on small screens
+@media (max-width: 700px) {
+  section {
+    p, p ul, p ol {
+      text-align: left;
+    }  
+  }
+  
+  header {
+    height: 480px;
+
+    .logo {
+      padding: 0;
+      width: 100vw;
+
+      img {
+        float: left;
+      }
+
+      a {
+        left: 33vw;
+      }
+    }
+
+    ul {
+      display: block;
+      margin-top: 80px;
+      width: 100vw;
+    }
+  }
+
+  footer {
+    height: 320px;
+    flex-direction: column-reverse;
+    text-align: justify;
+    justify-content: space-evenly;
+  }
+}
