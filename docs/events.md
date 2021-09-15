@@ -22,7 +22,7 @@ The conference and workshop Human-Machine Cooperation in Archaeology, Epigraphy 
 *	Copyrights vs. opening and sharing our sources.
 *	Intensive small learning workshops on the implementation of digital humanities tools.
 
-We would like to thank all participants for their fascinating talks and workshop sessions. A summary of the talks and workshops with abstracts can be viewed in the [following link](/website-trial/file_links/Abstracts_conference_2020.pdf).
+We would like to thank all participants for their fascinating talks and workshop sessions. A summary of the talks and workshops with abstracts can be viewed in the [following link](/file_links/Abstracts_conference_2020.pdf).
 
 
 
