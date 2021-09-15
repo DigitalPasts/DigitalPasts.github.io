@@ -7,7 +7,7 @@ For the Babylonian Engine tools, follow this [link](https://babylonian.herokuapp
 
 Approximately five thousand years ago, the first cipher was invented between the rivers Tigris and Euphrates, in modern-day Iraq. The people there needed a more effective way to preserve and convey information over time and distances. They came up with a system of basic words and numbers. Slowly, that system developed and was able to convey more complex words, able to encode full human language. Their cipher was highly effective - it remained in use for more than three millennia.
 
-<script src="https://embed.github.com/view/geojson/DigitalPasts/DigitalPasts.github.io/main/images/BEn/CIGS_v1_3_20210701.geojson" width="60vw" height="30vw"></script>
+<script src="https://embed.github.com/view/geojson/DigitalPasts/DigitalPasts.github.io/main/images/BEn/CIGS_v1_3_20210701.geojson" ?height=500&width=700></script>
 
 Fig 1: An interactive map highlighting sites where cuneiform tablets were found. Rattenborg, Rune, Johansson, Carolin, Nett, Seraina, Smidt, Gustav Ryberg, & Andersson, Jakob. (2021). Cuneiform Inscriptions Geographical Site Index (CIGS) (1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5217600
 
