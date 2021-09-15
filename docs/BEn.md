@@ -3,6 +3,8 @@ layout: default-main
 title: The Babylonian Engine
 ---
 
+For the Babylonian Engine tools, follow this [link](https://babylonian.herokuapp.com/#/)
+
 Approximately five thousand years ago, the first cipher was invented between the rivers Tigris and Euphrates, in modern-day Iraq. The people there needed a more effective way to preserve and convey information over time and distances. They came up with a system of basic words and numbers. Slowly, that system developed and was able to convey more complex words, able to encode full human language. Their cipher was highly effective - it remained in use for more than three millennia.
 
 ==picture of a map of Mesopotamia==
@@ -37,4 +39,4 @@ Further tools are currently under development: see our [Projects page](projects.
 
 ## Vision 
 
-We plan that several years from now (although we cannot say for sure how many), when archaeologists and philologists are on an excavation site and discovering a new archive of cuneiform texts, they will be able to take a picture of each tablet, and get a transliteration and translation of the texts; a possible dating based on the handwriting, even a suggested scribe or scribal group; genre attribution; and more. We plan to have online editing tools for cuneiform texts, for researchers to edit and improve upon the engine's initial results. We plan to create virtual reality tours of the ancient capitals and steppe of Mesopotamia and Anatolia, and gamify the learning experience for students. This will revolutionize the field of assyriology from a niche subject to one that is better known and studied, expedite the research process significantly, and exponentially increase our knowledge of one the earliest and most prospering societies in the world.
+We plan that several years from now (although we cannot say for sure how many), when archaeologists and philologists are on an excavation site and discovering a new archive of cuneiform texts, they will be able to take a picture of each tablet, and get a rough transliteration and translation of the texts; a possible dating based on the handwriting, even a suggested scribe or scribal group; genre attribution; and more. We plan to have online editing tools for cuneiform texts, for researchers to edit and improve upon the engine's initial results. We plan to create virtual reality tours of the ancient capitals and steppe of Mesopotamia and Anatolia, and gamify the learning experience for students. This will revolutionize the field of assyriology from a niche subject to one that is better known and studied, expedite the research process significantly, and exponentially increase our knowledge of one the earliest and most prospering societies in the world.
