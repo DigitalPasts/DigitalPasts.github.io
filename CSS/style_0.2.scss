@@ -18,7 +18,7 @@ $font-code: 'Source Code Pro', monospace;
 // Pages
 h1 {
   font-family: $font-main;
-  font-size: 4vw;
+  font-size: 3.2vw;
   padding: 15px;
   margin-top: 15px;
   color: $primary-color;
@@ -37,20 +37,20 @@ section {
   }
 
   h2 {
-    font-size: 3.5vw;
+    font-size: 2.7vw;
   }
 
   h3 {
-    font-size: 3vw;
+    font-size: 2.5vw;
   }
 
   p, p ul, p ol {
     padding: 15px 0;
     text-align: justify;
-    font-size: 1.3vw;
+    font-size: 1.35vw;
 
     li {
-      font-size: 1.3vw;
+      font-size: 1.35vw;
       text-align: justify;
     }   
   }
@@ -176,28 +176,38 @@ footer {
 
 // for tablet mode
 @media (max-width: 1024px) {
+  h1 {
+    font-size: 4vw;
+  }
+  
   section {
     margin: 15px 15vw;
+
+    h2 {
+      font-size: 3.5vw;
+    }
+
+    h3 {
+      font-size: 3vw;
+    }
+
+    p, p ul, p ol {
+      font-size: 2vw;
+  
+      li {
+        font-size: 2vw;
+      }   
+    }
   }
   
   header {
     display: block;
-    // height: 160px;
-
-    // .logo {
-    //   padding: 40px;
-    // }
-
-    // ul {
-    //   display: grid;
-    //   grid-template-columns: 1fr 1fr 1fr;
-    //   padding: 0 40px;
-    // }
   }
 }
 
 //for landscape mode on phone
 @media (max-width: 900px) {
+
   section {
     margin: 15px 10vw;
   }
@@ -207,8 +217,6 @@ footer {
 
     .logo {
       padding: 40px;
-      // margin: 0;
-      // padding: 80px 20px;
     }
 
     ul {
@@ -229,10 +237,30 @@ footer {
 
 //for phone mode + landscape on small screens
 @media (max-width: 700px) {
+  h1 {
+    font-size: 40px;
+  }
+  
   section {
     p, p ul, p ol {
       text-align: left;
     }  
+
+    h2 {
+      font-size: 35px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+
+    p, p ul, p ol {
+      font-size: 17px;
+  
+      li {
+        font-size: 17px;
+      }   
+    }
   }
   
   header {
