@@ -30,13 +30,13 @@ section h2 {
 section h3 {
     font-size: 2.5vw;
 }
-section p, section p ul, section p ol {
+section p, section p ul, section p ol, section a {
     padding: 15px 0;
     text-align: justify;
-    font-size: 1.35vw;
+    font-size: 1.15vw;
 }
-section p li, section p ul li, section p ol li {
-    font-size: 1.35vw;
+section p li, section p ul li, section p ol li, section a li {
+    font-size: 1.15vw;
     text-align: justify;
 }
 section .fig {
