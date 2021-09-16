@@ -7,7 +7,7 @@
 
 h1 {
     font-family: "Quicksand", sans-serif;
-    font-size: 40px;
+    font-size: 4vw;
     padding: 15px;
     margin-top: 15px;
     color: #00487e;
@@ -25,16 +25,18 @@ section h2, section h3 {
     border-bottom: #00487e solid 1px;
 }
 section h2 {
-    font-size: 35px;
+    font-size: 3.5vw;
 }
 section h3 {
-    font-size: 30px;
+    font-size: 3vw;
 }
 section p, section p ul, section p ol {
     padding: 15px 0;
+    text-align: justify;
+    font-size: 1.3vw;
 }
 section p li, section p ul li, section p ol li {
-    font-size: 18px;
+    font-size: 1.3vw;
     text-align: justify;
 }
 section a {

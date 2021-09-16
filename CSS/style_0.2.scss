@@ -18,7 +18,7 @@ $font-code: 'Source Code Pro', monospace;
 // Pages
 h1 {
   font-family: $font-main;
-  font-size: 40px;
+  font-size: 4vw;
   padding: 15px;
   margin-top: 15px;
   color: $primary-color;
@@ -37,18 +37,20 @@ section {
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 3.5vw;
   }
 
   h3 {
-    font-size: 30px;
+    font-size: 3vw;
   }
 
   p, p ul, p ol {
     padding: 15px 0;
+    text-align: justify;
+    font-size: 1.3vw;
 
     li {
-      font-size: 18px ;
+      font-size: 1.3vw;
       text-align: justify;
     }   
   }

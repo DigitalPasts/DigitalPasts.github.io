@@ -28,3 +28,5 @@ Computer raadt missend spijkerschrift (September 2020). _NRC_. [Read more](https
 Shai Gordin & Samuel Clark (2021). MAPA Gazetteer version 0.1. <https://github.com/DigitalPasts/MAPA>
 
 Shai Gordin (2021). Introduction to the Ancient Middle East: Between Physical and Cultural Geography (Hebrew). [ARC-GIS story](https://www.arcgis.com/apps/MapJournal/index.html?appid=0d8ea53679044b78b8237690b5e4c842)
+
+Shai Gordin (2020) Mesopotamian Ancient Place-names Almanac (MAPA): Doing Historical Geography in the Age of Linked Open Data. [ARC-GIS story](https://arcg.is/0mLyC8)
