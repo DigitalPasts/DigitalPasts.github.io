@@ -55,7 +55,7 @@ section {
     }   
   }
 
-  p.fig {
+  p .fig {
     font-size: 1vw;
     padding: 20px 0;
     line-height: 1.4;
@@ -205,7 +205,7 @@ footer {
       }   
     }
 
-    p.fig {
+    p .fig {
       font-size: 1.5vw;
     }
   }
@@ -246,7 +246,7 @@ footer {
 }
 
 //for phone mode + landscape on small screens
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 40px;
   }
@@ -272,7 +272,7 @@ footer {
       }   
     }
 
-    p.fig {
+    p .fig {
       font-size: 14vw;
     }
   }

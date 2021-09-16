@@ -39,7 +39,7 @@ section p li, section p ul li, section p ol li {
     font-size: 1.35vw;
     text-align: justify;
 }
-section p.fig {
+section p .fig {
     font-size: 1vw;
     padding: 20px 0;
     line-height: 1.4;
@@ -159,7 +159,7 @@ footer div a:hover {
     section p li, section p ul li, section p ol li {
         font-size: 2vw;
     }
-    section p.fig {
+    section p .fig {
         font-size: 1.5vw;
     }
 
@@ -191,7 +191,7 @@ footer div a:hover {
         height: 160px;
     }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 40px;
     }
@@ -211,7 +211,7 @@ footer div a:hover {
     section p li, section p ul li, section p ol li {
         font-size: 17px;
     }
-    section p.fig {
+    section p .fig {
         font-size: 14vw;
     }
 
