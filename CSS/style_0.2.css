@@ -191,7 +191,7 @@ footer div a:hover {
         height: 160px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     h1 {
         font-size: 40px;
     }
@@ -212,7 +212,7 @@ footer div a:hover {
         font-size: 17px;
     }
     section .fig {
-        font-size: 14vw;
+        font-size: 14px;
     }
 
     header {

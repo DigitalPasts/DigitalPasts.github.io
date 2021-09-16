@@ -246,7 +246,7 @@ footer {
 }
 
 //for phone mode + landscape on small screens
-@media (max-width: 768px) {
+@media (max-width: 700px) {
   h1 {
     font-size: 40px;
   }
@@ -273,7 +273,7 @@ footer {
     }
 
     .fig {
-      font-size: 14vw;
+      font-size: 14px;
     }
   }
   
