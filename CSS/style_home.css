@@ -1,10 +1,13 @@
+h2, h3 {
+    border-bottom: none;
+    text-align: center;
+}
+
 section .container {
     position: relative;
     width: 100%;
 }
 section .container h3 {
-    border-bottom: none;
-    text-align: center;
     margin-top: 45px;
 }
 section .container .image {
