@@ -39,9 +39,9 @@ section p li, section p ul li, section p ol li {
     font-size: 1.35vw;
     text-align: justify;
 }
-section p .fig {
+section .fig {
     font-size: 1vw;
-    padding: 20px 0;
+    padding: 15px 25px;
     line-height: 1.4;
 }
 section a {
