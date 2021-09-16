@@ -3,6 +3,8 @@ layout: default-main
 title: The Babylonian Engine
 ---
 
+{% include BEn_link.html %}
+
 For the Babylonian Engine tools, follow this [link](https://babylonian.herokuapp.com/#/)
 
 Approximately five thousand years ago, the first cipher was invented between the rivers Tigris and Euphrates, in modern-day Iraq. The people there needed a more effective way to preserve and convey information over time and distances. They came up with a system of basic words and numbers. Slowly, that system developed and was able to convey more complex words, able to encode full human language. Their cipher was highly effective - it remained in use for more than three millennia.
@@ -14,7 +16,8 @@ Approximately five thousand years ago, the first cipher was invented between the
 Alas, after it fell out of use, no one kept proper documentation, as happens to many good and successful projects. The knowledge of this cipher was lost for close to two thousand years. It was deciphered in the middle of the 19<sup>th</sup> century by the pure human efforts of [Edward Hincks](https://en.wikipedia.org/wiki/Edward_Hincks), [Sir Henry Creswicke Rawlinson](https://en.wikipedia.org/wiki/Sir_Henry_Rawlinson,_1st_Baronet), [Hormuzd Rassam](https://en.wikipedia.org/wiki/Hormuzd_Rassam), and [Sir Austen Henry Layard](https://en.wikipedia.org/wiki/Austen_Henry_Layard). This cipher was named by modern scholars cuneiform.
 
 ![early assyriologists and Behistun](/images/BEn/early_assyriologists.jpg)
-<p>Fig 2: From left to right, Hormuzd Rassam, Edward Hincks, Sir Henry Creswicke Rawlinson, and Sir Austen Henry Layard. Below them is the <a href="https://en.wikipedia.org/wiki/Behistun_Inscription" target="_blank">Behistun Inscription</a>, written using the cuneiform script in three different languages: Old Persian, Elamite, and Babylonian Akkadian. Thanks to knowledge of Middle Persian, it was possible to crack the cuneiform script, as well as Elamite and Akkadian, which by this point have not been read for close to two millennia.</p>
+
+<p class="fig">Fig 2: From left to right, Hormuzd Rassam, Edward Hincks, Sir Henry Creswicke Rawlinson, and Sir Austen Henry Layard. Below them is the <a href="https://en.wikipedia.org/wiki/Behistun_Inscription" target="_blank">Behistun Inscription</a>, written using the cuneiform script in three different languages: Old Persian, Elamite, and Babylonian Akkadian. Thanks to knowledge of Middle Persian, it was possible to crack the cuneiform script, as well as Elamite and Akkadian, which by this point have not been read for close to two millennia.</p>
 
 Cuneiform writings informed us regarding many things we did not know about our past - the emerging cultures, states and empires of the ancient Near East, their thousands of years of history, literature, and scientific endeavors. Their contribution to world heritage does not stand on its own, either. Our astronomical knowledge and sixty-based numerical system are owed to the ancient Mesopotamians, to name a few, as well as further knowledge of neighboring cultures such as the Egyptians and Greeks, and the historical background for the emergence of monotheistic Judaism and the writings of the Bible. 
 
