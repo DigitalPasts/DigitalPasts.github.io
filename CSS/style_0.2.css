@@ -53,6 +53,9 @@ section img {
     height: auto;
     padding: 2.5vw;
 }
+section i {
+    font-size: 40px;
+}
 
 header {
     background-color: #00487e;
