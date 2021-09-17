@@ -3,7 +3,8 @@ section .members {
     grid-template-columns: 1fr 1fr;
 }
 section .members h4 {
-    font-size: 1.2vw;
+    font-size: 1vw;
+    font-weight: normal;
 }
 section .members p {
     padding: 5px 0;
