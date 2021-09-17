@@ -51,10 +51,14 @@ section a {
 section a:hover {
     color: #00487e;
 }
-section img, section svg {
+section img {
     max-width: 100%;
     height: auto;
     padding: 2.5vw;
+}
+section svg {
+    max-width: 100%;
+    height: auto;
 }
 section i {
     font-size: 25px;
