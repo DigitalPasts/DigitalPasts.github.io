@@ -75,7 +75,7 @@ section {
   img {
     max-width: 100%;
     height: auto;
-    padding: 2.5vw;
+    padding: 0 2.5vw;
   }
 
   i {
@@ -214,10 +214,10 @@ footer {
     }
 
     p, p ul, p ol, a {
-      font-size: 2vw;
+      font-size: 2vw !important;
   
       li {
-        font-size: 2vw;
+        font-size: 2vw !important;
       }   
     }
 
@@ -278,10 +278,10 @@ footer {
 
     p, p ul, p ol, a {
       text-align: left;
-      font-size: 17px;
+      font-size: 17px !important;
   
       li {
-        font-size: 17px;
+        font-size: 17px !important;
       }   
     }
 

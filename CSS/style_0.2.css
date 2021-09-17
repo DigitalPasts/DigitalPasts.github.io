@@ -54,7 +54,7 @@ section a:hover {
 section img {
     max-width: 100%;
     height: auto;
-    padding: 2.5vw;
+    padding: 0 2.5vw;
 }
 section i {
     font-size: 25px;
@@ -165,10 +165,10 @@ footer div a:hover {
         font-size: 3vw;
     }
     section p, section p ul, section p ol, section a {
-        font-size: 2vw;
+        font-size: 2vw !important;
     }
     section p li, section p ul li, section p ol li, section a li {
-        font-size: 2vw;
+        font-size: 2vw !important;
     }
     section .fig, section .fig a {
         font-size: 1.5vw;
@@ -215,10 +215,10 @@ footer div a:hover {
     }
     section p, section p ul, section p ol, section a {
         text-align: left;
-        font-size: 17px;
+        font-size: 17px !important;
     }
     section p li, section p ul li, section p ol li, section a li {
-        font-size: 17px;
+        font-size: 17px !important;
     }
     section .fig, section .fig a {
         font-size: 14px;
