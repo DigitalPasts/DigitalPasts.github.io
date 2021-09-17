@@ -213,7 +213,7 @@ footer {
       font-size: 3vw;
     }
 
-    p, p ul, p ol {
+    p, p ul, p ol, a {
       font-size: 2vw;
   
       li {
@@ -268,10 +268,6 @@ footer {
   }
   
   section {
-    p, p ul, p ol {
-      text-align: left;
-    }  
-
     h2 {
       font-size: 35px;
     }
@@ -280,7 +276,8 @@ footer {
       font-size: 30px;
     }
 
-    p, p ul, p ol {
+    p, p ul, p ol, a {
+      text-align: left;
       font-size: 17px;
   
       li {

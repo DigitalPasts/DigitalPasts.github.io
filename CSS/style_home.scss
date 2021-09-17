@@ -84,6 +84,11 @@ section {
 
 @media (hover: none) {
   .container {
+
+    h3 a {
+      font-size: 30px;
+    }
+
     .image {
       opacity: 0.7 !important;
     }

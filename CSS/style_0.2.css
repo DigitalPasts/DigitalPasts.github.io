@@ -164,10 +164,10 @@ footer div a:hover {
     section h3 {
         font-size: 3vw;
     }
-    section p, section p ul, section p ol {
+    section p, section p ul, section p ol, section a {
         font-size: 2vw;
     }
-    section p li, section p ul li, section p ol li {
+    section p li, section p ul li, section p ol li, section a li {
         font-size: 2vw;
     }
     section .fig {
@@ -207,19 +207,17 @@ footer div a:hover {
         font-size: 40px;
     }
 
-    section p, section p ul, section p ol {
-        text-align: left;
-    }
     section h2 {
         font-size: 35px;
     }
     section h3 {
         font-size: 30px;
     }
-    section p, section p ul, section p ol {
+    section p, section p ul, section p ol, section a {
+        text-align: left;
         font-size: 17px;
     }
-    section p li, section p ul li, section p ol li {
+    section p li, section p ul li, section p ol li, section a li {
         font-size: 17px;
     }
     section .fig {
