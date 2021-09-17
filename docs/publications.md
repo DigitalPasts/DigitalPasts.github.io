@@ -5,7 +5,7 @@ title: Publications
 
 ## Scientific Publications
 
-Shai Gordin, Gai Gutherz, Ariel Elazary, Avital Romach, Enrique Jiménez, Berant, & Yoram Cohen (2020). Reading Akkadian Cuneiform using Natural Language Processing. _PLOS ONE_, 15(10), e0240511. [https://doi.org/10.1371/journal.pone.0240511 <i class="fas fa-external-link-square-alt"></i>](https://doi.org/10.1371/journal.pone.0240511)
+Shai Gordin, Gai Gutherz, Ariel Elazary, Avital Romach, Enrique Jiménez, Jonathan Berant, & Yoram Cohen (2020). Reading Akkadian Cuneiform using Natural Language Processing. _PLOS ONE_, 15(10), e0240511. [https://doi.org/10.1371/journal.pone.0240511 <i class="fas fa-external-link-square-alt"></i>](https://doi.org/10.1371/journal.pone.0240511)
 
 Ethan Fetaya, Yonatan Lifshitz, Elad Aaron, & Shai Gordin (2020). Restoration of Fragmentary Babylonian Texts Using Recurrent Neural Networks. _Proceedings of the National Academy of Sciences_, 117(37), 22743–22751. [https://doi.org/10.1073/pnas.2003794117 <i class="fas fa-external-link-square-alt"></i>](https://doi.org/10.1073/pnas.2003794117)
 
