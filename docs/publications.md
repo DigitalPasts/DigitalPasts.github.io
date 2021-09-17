@@ -13,7 +13,7 @@ Ethan Fetaya, Yonatan Lifshitz, Elad Aaron, & Shai Gordin (2020). Restoration of
 
 Shai Gordin, Avital Romach, & Ethan Fetaya (September 2021). Tidings from Before the Flood: How Artificial Intelligence Rediscovers Ancient Babylonian Texts. _The Science Breaker_. <https://doi.org/10.25250/thescbr.brk584>
 
-On Artificial Intelligence and Ancient Clay Tablets (December 2020). _Machon Davidson_ (Hebrew). [Read more](https://davidson.weizmann.ac.il/online/firefly/%D7%A2%D7%9C-%D7%91%D7%99%D7%A0%D7%94-%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA-%D7%95%D7%9C%D7%95%D7%97%D7%95%D7%AA-%D7%97%D7%A8%D7%A1-%D7%A2%D7%AA%D7%99%D7%A7%D7%99%D7%9D)
+On Artificial Intelligence and Ancient Clay Tablets (December 2020). _Machon Davidson_ (Hebrew). [<i class="fas fa-external-link-square-alt"></i>](https://davidson.weizmann.ac.il/online/firefly/%D7%A2%D7%9C-%D7%91%D7%99%D7%A0%D7%94-%D7%9E%D7%9C%D7%90%D7%9B%D7%95%D7%AA%D7%99%D7%AA-%D7%95%D7%9C%D7%95%D7%97%D7%95%D7%AA-%D7%97%D7%A8%D7%A1-%D7%A2%D7%AA%D7%99%D7%A7%D7%99%D7%9D)
 
 Israeli Scientists Use AI to Reconstruct Broken Babylonian Tablets (November 2020). _Haaretz_. [Read more](https://www.haaretz.com/israel-news/scientists-artificial-intelligence-babylonian-tablets-cuneiform-script-israel-1.9284653)
 
