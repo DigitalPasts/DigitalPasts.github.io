@@ -3,7 +3,7 @@
   <div>
     <h3>Contact us</h3>
     <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-    <p>Twitter: <a href="{{ site.twitter }}" target="_blank">{{ site.twitter }}</a></p>
+    {% include twitter_link.html %}
   </div>
 
   <div class="funding">

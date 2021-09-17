@@ -7,6 +7,6 @@ The Humanities are the cornerstone of the university as an institution. For cent
 
 The Digital Humanities program is meant to be a space of experimentation and collaboration for researchers of all levels in the humanities and social sciences. It is a place to engage with new methods of analysis, work with advanced computing and imaging tools and pose new questions or tryout a fresh outlook on various forms of data. Our main aims at the program will be a historical study and analysis of textuality and materiality from the last 5000 years using state-of-the-art digital methods and tools. We are studying objects, peoples, and texts beginning in the ancient Near East all the way to the Modern Era. The program seeks to furnish the participant students with an almost personalized toolkit, based on some introductory courses and deeper dives into more specific topics and aspects of the field in the later stages. The program is built in a way that allows foreign students to participate. 
 
-Registration details and further information is TBA. Follow us on Twitter to stay updated!
+Registration details and further information is TBA. Follow us on Twitter to stay updated! {% include twitter_link.html %}
 
 **Program Staff**: Dr. Shai Gordin (head of program); Prof. Itzhaq Shai; Dr. Amos Azaria; Dr. Lee-Ad Gottlieb; Dr. Gil Ben Artzi; Dr. Assaf Hoogi
