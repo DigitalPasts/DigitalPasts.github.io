@@ -9,7 +9,7 @@ The Humanities are the cornerstone of the university as an institution. For cent
 
 The Digital Humanities one-year [certificate program](https://www.ariel.ac.il/wp/international-programs/international-digital-humanities-program/) is meant to be a space of experimentation and collaboration for researchers of all levels in the humanities and social sciences. It is a place to engage with new methods of analysis, work with advanced computing and imaging tools and pose new questions or tryout a fresh outlook on various forms of data. Our main aims at the program will be historical study and analysis of textuality and materiality from the last 5000 years using state-of-the-art digital methods and tools. We are studying objects, peoples, and texts beginning in the ancient Near East all the way to the Modern Era. The program seeks to furnish the participant students with an almost personalized toolkit, based on some introductory courses and deeper dives into more specific topics and aspects of the field in the later stages. The program is targeted for students of all levels in humanities. 
 
-The program will be available from October 2022. Further information is TBA. Send an [email]({{ site.email }}) to the lab for more information, or follow us on [Twitter]({{ site.twitter }}) to stay updated!
+The program will be available from **October 2022**. Further information is TBA. Send an email ({{ site.email }}) to the lab for more information, or follow us on [Twitter]({{ site.twitter }}) to stay updated!
 
 In the meantime, you can play with the corpus of entries for "Digital Humanities" in all languages available on wikipedia, to get a "distant reading" glimpse into the field.
 

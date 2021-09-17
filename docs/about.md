@@ -14,7 +14,7 @@ Furthermore, digitization offers not only a better preservation method, but also
 We can summarize our vision in the following four main goals: 
 
 - curation of data in digital methods, be it texts, artifacts, or otherwise.
-- using and developing ML models for working with historical sources, particularly cuneiform texts.
+- using and developing ethical ML models for working with historical sources, particularly cuneiform texts.
 - investigating the strengths and weaknesses of new technologies when used for humanities research.
 - nourishing interdisciplinary research by using shared digital methodologies, such as linked open data (LOD).
 
