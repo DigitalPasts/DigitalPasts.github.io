@@ -57,7 +57,7 @@ section img {
     padding: 2.5vw;
 }
 section i {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 header {
@@ -141,7 +141,7 @@ footer div a {
     color: #f4f4f4;
 }
 footer div a i {
-    font-size: 40px;
+    font-size: 30px;
 }
 footer div a:hover {
     color: #edd59d;
