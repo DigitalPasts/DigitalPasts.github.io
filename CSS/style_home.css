@@ -42,6 +42,9 @@ section .container .middle a {
     padding: 10px;
     text-align: center;
 }
+section .container .middle a:hover {
+    color: #edd59d;
+}
 section .container:hover .image {
     opacity: 0.7;
 }
