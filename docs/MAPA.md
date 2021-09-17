@@ -5,7 +5,7 @@ title: Mesopotamian Ancient Place-names Almanac
 
 The Mesopotamian Ancient Place-names Almanac (MAPA) is planned as a long-term project for the historical geography of Mesopotamia in the age of Empires (first millennium BCE), aiming to incorporate both textual and remote-sensing data for large scale relational mapping of the landscape. The core of the project is made up of a gazetteer of place names in texts and surveys, both on the ground and via satellite. Names in texts will be linked to thousands of Akkadian everyday records.
 
-![map of Uruk](/images/MAPA/shay_2020_10_figure2_preview.jpeg)
+![map of Uruk](/images/MAPA/Shay_2020_10_figure2_preview.jpeg)
 
 <p class="fig">Fig 1: The archeological sites around ancient Uruk, as surveyed from the air and ground by different teams from the US, Iraq, and England. We would like to thank Mark Altaweel (UCL) for providing us with this data.</p>
 
