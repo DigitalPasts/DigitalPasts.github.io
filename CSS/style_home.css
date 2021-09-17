@@ -59,7 +59,7 @@ section .container:hover .middle {
 }
 @media (hover: none) {
     .container h3 a {
-        font-size: 30px;
+        font-size: 30px !important;
     }
     .container .image {
         opacity: 0.7 !important;
