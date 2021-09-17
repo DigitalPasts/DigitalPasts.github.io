@@ -9,14 +9,14 @@ $font-code: 'Source Code Pro', monospace;
 
 section {
 
+  h2, h3 {
+    border-bottom: none !important;
+    text-align: center;
+  }
+
   .container {
     position: relative;
-    width: 100%;
-
-    h2, h3 {
-      border-bottom: none !important;
-      text-align: center;
-    }    
+    width: 100%;    
 
     h3 {
       // border-bottom: none;
