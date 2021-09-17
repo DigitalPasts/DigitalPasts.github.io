@@ -8,7 +8,10 @@ section .members h4 {
 section .members p {
     padding: 5px 0;
     text-align: center;
-    font-size: 1vw !important;
+    font-size: 0.75vw !important;
+}
+section .members p a {
+    font-size: 0.75vw !important;
 }
 section .members .member {
     display: grid;
