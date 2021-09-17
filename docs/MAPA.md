@@ -13,7 +13,7 @@ MAPA focuses on the Mesopotamian deltaic city of Uruk ([modern Warka](https://pl
 
 ![administrative texts mentioning locations around Uruk](/images/MAPA/imittu.jpg)
 
-<p class="fig">Fig 2: A selection of <em>imittu</em> records, tax evaluations of yearly date palm yields which can help reconstruct fields around Uruk along the main canals. &copy; Yale Babylonian Collection.</p>
+<p class="fig">Fig 2: A selection of <em>imittu</em> records, tax evaluations of annual date palm yields which can help reconstruct fields around Uruk along the main canals. &copy; Yale Babylonian Collection.</p>
 
 ## MAPA Gazetteer
 
@@ -23,15 +23,13 @@ Already this gazetteer data can be visualized as a network (see Fig. 3), which s
 
 ![modern vs. previous reconstruction of the landscape based on textual data](/images/MAPA/LandscapeReconstruct.jpg)
 
-<p class="fig">Fig 3: on the left is a reconstructed network of Urukean landscape based on cuneiform texts. Each place is marked by a three letter code. On the right is the same imagined landscape based on studies done in the 60's and 70's on a chosen subset of the texts (Cocquerillat 1968). Especially interesting is the corroboration of recent identifications of the Chaldean tribal territories (BDKR and BAMK) and Sumundar canal (SUM).</p>
+<p class="fig">Fig 3: On the left is a reconstructed network of Urukean landscape based on cuneiform texts. Each place is marked by a three letter code. On the right is the same imagined landscape based on studies done in the 60's and 70's (Cocquerillat 1968). Especially interesting is the corroboration of recent identifications of the Chaldean tribal territories (BDKR and BAMK) and Sumundar canal (SUM).</p>
 
 ## Project Next Steps
 
-The next step of the project, currently underway, is to enrich the gazetteer with data accumulated and tagged directly from texts or text summaries. This will be achieved by two parallel pipelines: a manual and a semi-automatic pipeline.
+We are continuing to enrich the gazetteer. Some of the data we collected from earlier publications is outdated, or missing information needed for our purposes. Place name instances for each entry are being added, according to the most up-to-date textual editions, as well as unpublished references, and linking them to the gazetteer. We are also curating site biographies for each of the ancient canals around Uruk. The biography describes each settlement in both physical and social terms: what kinds of social groups are active there, what are its main economic activities, and what natural features and agricultural systems and technologies are attested there. Most interesting are the outgoing and incoming elements in each site (documented e.g. in administrative texts or correspondence).
 
-The manual pipeline will involve digitizing texts. The texts are entered in ATF format, the standard digital format for cuneiform text editions (see the [eBL-ATF standards](https://github.com/ElectronicBabylonianLiterature/ebl-api/blob/master/docs/ebl-atf.md)). Then, the relevant information, text id, date, places and people, will be tagged using [Recogito](https://wiki.digitalclassicist.org/Recogito). Recogito produces TEI/XML files which can later be incorporated into the gazetteer.
-
-The semi-automatic pipeline will use texts and text summaries which are already available in some digitized format. We will use different computational methods for detecting dates, places and people. Then, we will explore methods for automatic disambiguation of people and places, which is still a *desideratum* for cuneiform texts. Finally, these places and dates will be added to relevant entries in the gazetteer.
+Furthermore, we are using the latest available declassified satellite and aerial imagery ([available at USGS](https://earthexplorer.usgs.gov/)) to identify ground features (canals and settlements), and tagging them accordingly. We will also enrich this dataset by scanning more declassified imagery available on site at the [National Archives](https://www.archives.gov/). In the last phase of the project, we will attempt to use these taggings with machine learning methods in order to identify ground features, compare them with known site surveys, and link them to possible identifications from the gazetteer.
 
 ## Final Vision
 
