@@ -39,10 +39,13 @@ section p li, section p ul li, section p ol li, section a li {
     font-size: 1.15vw;
     text-align: justify;
 }
-section .fig, section .fig a {
+section .fig {
     font-size: 1vw;
     padding: 15px 25px;
     line-height: 1.4;
+}
+section .fig a {
+    font-size: 1vw;
 }
 section a {
     text-decoration: none;
