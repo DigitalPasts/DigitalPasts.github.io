@@ -7,6 +7,7 @@ $dark-color: #333;
 $font-main: 'Quicksand', sans-serif;
 $font-code: 'Source Code Pro', monospace;
 $icon-size: 30px;
+$icon-padding: 5px;
 
 // General
 * {
@@ -79,6 +80,7 @@ section {
 
   i {
     font-size: $icon-size;
+    padding: $icon-padding;
   }
 }
 // rgba(6, 43, 94, 0.5)
@@ -183,6 +185,7 @@ footer {
 
       i {
         font-size: $icon-size;
+        padding: $icon-padding;
       }
   
       &:hover {

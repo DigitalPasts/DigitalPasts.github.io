@@ -58,6 +58,7 @@ section img {
 }
 section i {
     font-size: 30px;
+    padding: 5px;
 }
 
 header {
@@ -142,6 +143,7 @@ footer div a {
 }
 footer div a i {
     font-size: 30px;
+    padding: 5px;
 }
 footer div a:hover {
     color: #edd59d;
