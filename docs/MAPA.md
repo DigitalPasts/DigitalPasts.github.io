@@ -23,7 +23,7 @@ Already this gazetteer data can be visualized as a network (see Fig. 3), which s
 
 ![modern vs. previous reconstruction of the landscape based on textual data](/images/MAPA/LandscapeReconstruct.jpg)
 
-<p class="fig">Fig 3: on the left is a reconstructed network of Urukean landscape based on cuneiform texts. Each place is marked by a three letter code. On the right is the same imagined landscape based on studies done in the 60's and 70's on a chosen subset of the texts (Cocquerillat 1968). Especially interesting is the corroboration of recent identifications of the Chaldean tribal territories (BDKR and BAMK) and Sumundar canal (SUM). </p>
+<p class="fig">Fig 3: on the left is a reconstructed network of Urukean landscape based on cuneiform texts. Each place is marked by a three letter code. On the right is the same imagined landscape based on studies done in the 60's and 70's on a chosen subset of the texts (Cocquerillat 1968). Especially interesting is the corroboration of recent identifications of the Chaldean tribal territories (BDKR and BAMK) and Sumundar canal (SUM).</p>
 
 ## Project Next Steps
 
