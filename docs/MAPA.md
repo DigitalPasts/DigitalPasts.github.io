@@ -19,9 +19,11 @@ MAPA focuses on the Mesopotamian deltaic city of Uruk ([modern Warka](https://pl
 
 The MAPA team spent most of the first year of the project assembling the available sporadic registers (see *bibliography* below) into one gazetteer of Babylonia in the first millennium BCE, that is formatted according to the standards of the JSON-LD based [Linked Places format (LPF)](https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md) of the [World Historical Gazetteer](http://whgazetteer.org/). MAPA is an official partner in the [Pelagios Network](https://pelagios.org/) and is collaborating on its visualization activity. The JSON-LD syntax employed by the LPF is productive both as RDF and Geo-JSON, as well as providing for optional temporal scoping of names, geometry, place types, and place relations. At its core, the LPF allows to index metadata about place records from multiple gazetteers, based on stable URIs. The first version of the gazetteer is now available as TSV and JSON formats in the GitHub [MAPA repository](https://github.com/DigitalPasts/MAPA).
 
-Already this gazetteer data can be visualized as a network, which shows the relational proximity of Uruk’s surrounding villages, fields, canals and other urban centres. The results are based on computational analysis of relational data that does not take into account all known connections, but rather gravity and sequence according to the few known elements in the network. Nevertheless, they already provide a better imagined landscape than previous studies done in the 60’s and 70’s on a chosen subset of the texts. Especially interesting is the corroboration of recent identifications of the Chaldean tribal territories and Sumundar canal.
+Already this gazetteer data can be visualized as a network (see Fig. 3), which shows the relational proximity of Uruk’s surrounding villages, fields, canals and other urban centres. The results are based on computational analysis of relational data that does not take into account all known connections, but rather gravity and sequence according to the few known elements in the network.
 
 ![modern vs. previous reconstruction of the landscape based on textual data](/images/MAPA/LandscapeReconstruct.jpg)
+
+<p class="fig">Fig 3: on the left is a reconstructed network of Urukean landscape based on cuneiform texts. Each place is marked by a three letter code. On the right is the same imagined landscape based on studies done in the 60's and 70's on a chosen subset of the texts (Cocquerillat 1968). Especially interesting is the corroboration of recent identifications of the Chaldean tribal territories (BDKR and BAMK) and Sumundar canal (SUM). </p>
 
 ## Project Next Steps
 
@@ -49,8 +51,10 @@ Adams, Robert McC., and Hans J. Nissen. 1972. *The Uruk Countryside: The Natural
 
 Bagg, Ariel M. 2020. *Die Orts- und Gewässernamen der neuassyrischen Zeit, Teil 3: Babylonien, Urartu und die östlichen Gebiete*. RGTC 7, Vol. 3. Weisbaden: Dr. Ludwing Reichert Verlag.
 
-Ermidoro, Stefania. 2016 “New Data on the Babylonian Hydraulic Landscape: An Update to the Répertoire Géographique des Textes Cunéiformes Vol. 8.” *Kaskal* 13: 135–74.
+Cocquerillat, Denise. 1968. *Palmeraies et cultures de l’Eanna d’Uruk (559-520)*. ADFU 8. Berlin: Mann.
 
-Zadok, Ran. *Geographical Names According to New- and Late-Babylonian Texts*. RGTC 8. Weisbaden: Dr. Ludwing Reichert Verlag, 1985.
+Ermidoro, Stefania. 2016. “New Data on the Babylonian Hydraulic Landscape: An Update to the Répertoire Géographique des Textes Cunéiformes Vol. 8.” *Kaskal* 13: 135–74.
+
+Zadok, Ran. 1985. *Geographical Names According to New- and Late-Babylonian Texts*. RGTC 8. Weisbaden: Dr. Ludwing Reichert Verlag.
 
 Zadok, Ran. 2020. “New Documents about Uruk, Its Countryside and the Sealand.” In *DES POLYTHEISMES AUX MONOTHEISMES: Melanges d’Assyriologie Offerts a Marcel Sigrist*, Uri Gabbay & Jean Jacques Pérennés (Eds.). Leuven: Peeters.
