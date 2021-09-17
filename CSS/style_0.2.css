@@ -48,6 +48,9 @@ section a {
     text-decoration: none;
     color: #195a8a;
 }
+section a:hover {
+    color: #00487e;
+}
 section img {
     max-width: 100%;
     height: auto;
