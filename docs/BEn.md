@@ -5,8 +5,6 @@ title: The Babylonian Engine
 
 {% include BEn_link.html %}
 
-For the Babylonian Engine tools, follow this [link](https://babylonian.herokuapp.com/#/)
-
 Approximately five thousand years ago, the first cipher was invented between the rivers Tigris and Euphrates, in modern-day Iraq. The people there needed a more effective way to preserve and convey information over time and distances. They came up with a system of basic words and numbers. Slowly, that system developed and was able to convey more complex words, able to encode full human language. Their cipher was highly effective - it remained in use for more than three millennia.
 
 <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="ANE-cunei-HeatMap" src="//www.arcgis.com/apps/Embed/index.html?webmap=0d1d589823824487b3825237481824ca&extent=1.2935,16.3724,88.0855,52.5025&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&basemap_toggle=true&alt_basemap=topo&disable_scroll=true&theme=light"></iframe></div>
@@ -39,7 +37,7 @@ The Babylonian Engine plans to take different tasks that assyriologists perform 
 
 - **Akkademia** includes three machine learning models for transliterating and segmenting Unicode cuneiform signs. Cuneiform signs are polyvalent, meaning each sign has more than one possible reading, and the appropriate reading is determined by the preceding and following signs. We trained [HMM](https://en.wikipedia.org/wiki/Hidden_Markov_model), [MEMM](https://en.wikipedia.org/wiki/Maximum-entropy_Markov_model) and [Bi](https://en.wikipedia.org/wiki/Bidirectional_recurrent_neural_networks)[LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) machine learning models to determine the appropriate reading and segmentation automatically. For training we used the RINAP corpora (Royal Inscriptions of the Neo-Assyrian Period), which are available in JSON and XML/TEI formats thanks to the efforts of the Official Inscriptions of the Middle East in Antiquity (OIMEA) Munich Project of Karen Radner and Jamie Novotny, funded by the Alexander von Humboldt Foundation, available [here](http://oracc.museum.upenn.edu/rinap/). We achieve accuracy rates of 89.5% with HMM, 94% with MEMM, and 96.7% with BiLSTM on the trained corpora, and also surprisingly good results on texts from other genres and periods. We are currently training the models on other available corpora in JSON format from the [ORACC website](http://oracc.museum.upenn.edu/projectlist.html), to be released in a following version soon. Will plan to implement Akkademia as part of a bigger pipeline that will be able to take images of tablets, identify the cuneiform signs with their Unicode equivalents, and provide a transliteration and translation into a modern language. Further information on the models can be found in our [published article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240511).
 
-Our tools can be accessed and freely used through this [link](https://babylonian.herokuapp.com/#/).
+{% include BEn_link.html %}
 
 Further tools are currently under development: see our [Projects page](projects.html).
 
