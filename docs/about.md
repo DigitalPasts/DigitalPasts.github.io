@@ -1,6 +1,6 @@
 ---
 layout: default-main
-title: "About"
+title: "About the Lab"
 ---
 
 The Digital Pasts Lab (DigPasts-Lab) is geared towards performing innovative, quality research in digital humanities, with an emphasis on historical research. We aim to create an interdisciplinary workspace among different humanities researchers and between humanities researchers and data scientists, which develops and enriches both worlds.
@@ -13,12 +13,12 @@ Furthermore, digitization offers not only a better preservation method, but also
 
 We can summarize our vision in the following four main goals: 
 
-* curation of data in digital methods, be it texts, artifacts, or otherwise.
-* using and developing ML models for working with historical sources, particularly cuneiform texts.
-* investigating the strengths and weaknesses of new technologies when used for humanities research.
-* nourishing interdisciplinary research by using shared digital methodologies, such as linked open data (LOD).
+- curation of data in digital methods, be it texts, artifacts, or otherwise.
+- using and developing ML models for working with historical sources, particularly cuneiform texts.
+- investigating the strengths and weaknesses of new technologies when used for humanities research.
+- nourishing interdisciplinary research by using shared digital methodologies, such as linked open data (LOD).
 
-For more information on our projects, each of which touches on at least one or more of these goals, see the Projects page. For existing tools for assyriologists, see the [Babylonian Engine tools page][BEn-link].
+For more information on our projects, each of which touches on at least one or more of these goals, see the [Projects page](projects.html). For existing tools for assyriologists, see the [Babylonian Engine tools page][BEn-link].
 
 Scholars, companies, or other parties interested in cooperating with the lab may contact us through the lab email: [{{ site.email }}](mailto:{{ site.email }}).
 
