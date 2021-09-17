@@ -43,7 +43,7 @@ We would like to thank Ariel M. Bagg, Michael Jursa, Ran Zadok, Francis Joannès
 
 We would also like to extend our appreciation to our partners at [Pelagios](https://pelagios.org/), especially Elton Barker, Gethin Rees, and Simon Rainer, for their constant support and technical consultation.
 
-Lastly, thanks to Karl Grossner from the World Historical Gazeetter, who assisted us with conforming to the JSON-LD based Linked Places format.
+Lastly, thanks to Karl Grossner from the [World Historical Gazetteer](http://whgazetteer.org/), who assisted us with conforming to the JSON-LD based Linked Places format.
 
 ### Bibliography
 
