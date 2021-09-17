@@ -21,7 +21,7 @@ One of the main tasks in reading any language, but particularly ancient language
 
 ## Cuneiform Stroke Recognition (Marie)
 
-An OCR model for recognizing cuneiform signs from 2D or 3D images is one of the biggest *desiderata* for assyriology in the 21<sup>st</sup> century. Marie is an OCR model currently under development for recognizing cuneiform sign strokes from 2D images of cuneiform tablets. Cuneiform signs are created by different combination of a limited number of strokes: horizontals, verticals, obliques and diagonals. Marie is being trained to recognize and vectorize each one of these stroke types in a given image. At the next stage, we will train the model to also identify combinations of strokes as specific signs. For more information, see the designated website for that project with our collaborators at CULS Prague <https://cuneiform2d.wixsite.com/cuneiform>.
+An OCR model for recognizing cuneiform signs from 2D or 3D images is one of the biggest *desiderata* for assyriology in the 21<sup>st</sup> century. Marie is an OCR model currently under development for recognizing cuneiform sign strokes from 2D images of cuneiform tablets. Cuneiform signs are created by different combination of a limited number of strokes: horizontals, verticals, obliques and diagonals. Marie is being trained to recognize and vectorize each one of these stroke types in a given image. At the next stage, we will train the model to also identify combinations of strokes as specific signs. See also the [designated website](https://cuneiform2d.wixsite.com/cuneiform) for the project with our collaborators at CULS Prague.
 
 ## Digital Cuneiform Paleography
 
@@ -33,7 +33,7 @@ Language is one of the biggest barriers between human cultures. But today, this 
 
 ## OCR for Cuneiform Hand-Copies
 
-In the 19<sup>th</sup> and 20<sup>th</sup> centuries, the most efficient way to publish cuneiform tablets was creating hand-copies, drawings imitating cuneiform signs in black and white. This is still widely used to this day in assyriological publications. Therefore, there are thousands, if not tens of thousands of these hand-copies, which, because of their relative simplicity, can be an easier first step into OCR of cuneiform signs. We are currently curating a database of cuneiform signs, derived from hand-copies, for training a machine learning model that will be able to identify the positions of individual signs within a given image, and then identify the signs themselves. After achieving successful results with hand-copies, we hope to apply our model to 2D and 3D images.
+In the 19<sup>th</sup> and 20<sup>th</sup> centuries, the most efficient way to publish cuneiform tablets was creating hand-copies, drawings imitating cuneiform signs in black and white. This is still widely used to this day in assyriological publications. Therefore, there are thousands, if not tens of thousands of these hand-copies, which, because of their relative simplicity, can be an easier first step into OCR of cuneiform signs. We are currently curating a database of cuneiform signs, derived from hand-copies, for training a machine learning model that will be able to identify the positions of individual signs within a given image, and then identify the signs themselves. After achieving successful results with hand-copies, we hope to apply our model to 2D.
 
 ## OCR for Cuneiform Text Editions
 
