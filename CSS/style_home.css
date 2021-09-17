@@ -1,11 +1,10 @@
-h2, h3 {
-    border-bottom: none;
-    text-align: center;
-}
-
 section .container {
     position: relative;
     width: 100%;
+}
+section .container h2, section .container h3 {
+    border-bottom: none !important;
+    text-align: center;
 }
 section .container h3 {
     margin-top: 45px;
@@ -38,6 +37,7 @@ section .container .middle a {
     font-size: 2vw;
     display: inline-block;
     padding: 10px;
+    text-align: center;
 }
 section .container:hover .image {
     opacity: 0.7;
