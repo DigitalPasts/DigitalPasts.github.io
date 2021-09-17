@@ -9,9 +9,11 @@ The Mesopotamian Ancient Place-names Almanac (MAPA) is planned as a long-term pr
 
 <p class="fig">Fig 1: The archeological sites around ancient Uruk, as surveyed from the air and ground by different teams from the US, Iraq, and England. We would like to thank Mark Altaweel (UCL) for providing us with this data.</p>
 
-The first phase of MAPA focuses on the Mesopotamian deltaic city of Uruk ([modern Warka](<https://pleiades.stoa.org/places/912986)). In the first millennium BCE, the city became a central hub of cult, commerce and agriculture under the Assyrian, Babylonian and Achaemenid empires. We are still lacking a dynamic understanding of the city’s surroundings, the agricultural communities that served the city centre, and the massive and complex irrigation infrastructure that enabled the existence of its major horticulture industry. Due to the extensive textual record of Babylonia in the first millennium, however, numerous registers of place names have been generated, containing large numbers of places whose geographical location is unknown.
+MAPA focuses on the Mesopotamian deltaic city of Uruk ([modern Warka](https://pleiades.stoa.org/places/912986)). In the first millennium BCE, the city became a central hub of cult, commerce and agriculture under the Assyrian, Babylonian and Achaemenid empires. We are still lacking a dynamic understanding of the city’s surroundings, the agricultural communities that served the city centre, and the massive and complex irrigation infrastructure that enabled the existence of its major horticulture industry. Due to the extensive textual record of Babylonia in the first millennium, however, numerous registers of place names have been generated, containing large numbers of places whose geographical location is unknown.
 
-![map of Uruk with reconstruction of canals and places](/images/MAPA/shai_2020_12_map9_channels.jpg)
+![administrative texts mentioning locations around Uruk](/images/MAPA/imittu.jpg)
+
+<p class="fig">A selection of <sup>imittu</sup> records, tax evaluations of yearly date palm yields which can help reconstruct fields around Uruk along the main canals. &copy Yale Babylonian Collection.</p>
 
 ## MAPA Gazetteer
 
