@@ -5,7 +5,7 @@ title: Events
 
 ## Upcoming
 
-In March-April, we will hold a hybrid conference on uses of optical character recognition with humanities data: challenges, potential, and impacts. More information about the conference will be found here in the upcoming months. Follow us on Twitter to stay updated!
+In May, we will hold a hybrid conference on uses of optical character recognition with humanities data: challenges, potential, and impacts. More information about the conference will be found here in the upcoming months. Follow us on [Twitter]({{ site.twitter}}) to stay updated!
 
 ## Past Events
 
