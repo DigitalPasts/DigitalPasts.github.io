@@ -3,9 +3,11 @@ layout: default-main
 title: Mesopotamian Ancient Place-names Almanac
 ---
 
-The Mesopotamian Ancient Place-names Almanac (MAPA) is planned as a long-term project for the historical geography of Mesopotamia in the age of Empires (first millennium BCE), aiming to incorporate both textual and remote-sensing data for large scale relational mapping of the landscape. The core of the project is made up of a gazetteer of place names in texts and surveys, both on the ground and via satellite. Names in texts will be linked to thousands of Akkadian everyday records, that are available in multiple formats: in transliteration, as summaries in English and German, and in English translation.
+The Mesopotamian Ancient Place-names Almanac (MAPA) is planned as a long-term project for the historical geography of Mesopotamia in the age of Empires (first millennium BCE), aiming to incorporate both textual and remote-sensing data for large scale relational mapping of the landscape. The core of the project is made up of a gazetteer of place names in texts and surveys, both on the ground and via satellite. Names in texts will be linked to thousands of Akkadian everyday records.
 
-![map of Uruk](/images/MAPA/shai_2020_12_map4.jpg)
+![map of Uruk](/images/MAPA/shay_2020_10_figure2_preview.jpeg)
+
+<p class="fig">Fig 1: The archeological sites around ancient Uruk, as surveyed from the air and ground by different teams from the US, Iraq, and England. We would like to thank Mark Altaweel (UCL) for providing us with this data.</p>
 
 The first phase of MAPA focuses on the Mesopotamian deltaic city of Uruk ([modern Warka](<https://pleiades.stoa.org/places/912986)). In the first millennium BCE, the city became a central hub of cult, commerce and agriculture under the Assyrian, Babylonian and Achaemenid empires. We are still lacking a dynamic understanding of the city’s surroundings, the agricultural communities that served the city centre, and the massive and complex irrigation infrastructure that enabled the existence of its major horticulture industry. Due to the extensive textual record of Babylonia in the first millennium, however, numerous registers of place names have been generated, containing large numbers of places whose geographical location is unknown.
 
