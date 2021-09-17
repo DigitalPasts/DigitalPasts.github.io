@@ -6,6 +6,7 @@ $light-color: #f4f4f4;
 $dark-color: #333;
 $font-main: 'Quicksand', sans-serif;
 $font-code: 'Source Code Pro', monospace;
+$icon-size: 40px;
 
 // General
 * {
@@ -73,7 +74,7 @@ section {
   }
 
   i {
-    font-size: 40px;
+    font-size: $icon-size;
   }
 }
 // rgba(6, 43, 94, 0.5)
@@ -175,6 +176,10 @@ footer {
     a {
       text-decoration: none;
       color: $light-color;
+
+      i {
+        font-size: $icon-size;
+      }
   
       &:hover {
         color: $secondary-color;

@@ -137,6 +137,9 @@ footer div a {
     text-decoration: none;
     color: #f4f4f4;
 }
+footer div a i {
+    font-size: 40px;
+}
 footer div a:hover {
     color: #edd59d;
     cursor: pointer;
