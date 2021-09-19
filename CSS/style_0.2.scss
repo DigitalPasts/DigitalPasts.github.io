@@ -230,12 +230,12 @@ footer {
       font-size: 3vw;
     }
 
-    p, p ul, p ol {
+    p {
+      font-size: 2vw !important; 
+    }
+
+    ul, ol {
       font-size: 2vw !important;
-  
-      li, a {
-        font-size: 2vw !important;
-      }   
     }
 
     .fig, .fig a {

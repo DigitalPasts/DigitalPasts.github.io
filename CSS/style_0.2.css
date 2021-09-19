@@ -177,10 +177,10 @@ footer div a:hover {
     section h3 {
         font-size: 3vw;
     }
-    section p, section p ul, section p ol {
+    section p {
         font-size: 2vw !important;
     }
-    section p li, section p a, section p ul li, section p ul a, section p ol li, section p ol a {
+    section ul, section ol {
         font-size: 2vw !important;
     }
     section .fig, section .fig a {
