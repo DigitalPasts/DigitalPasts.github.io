@@ -46,8 +46,8 @@ section ul, section ol {
     font-size: 1.15vw;
 }
 section ul li, section ol li {
-    font-size: inherit;
-    text-align: inherit;
+    font-size: inherit !important;
+    text-align: inherit !important;
 }
 section .fig {
     font-size: 1vw;
