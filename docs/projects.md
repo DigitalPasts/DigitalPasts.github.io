@@ -35,7 +35,7 @@ Language is one of the biggest barriers between human cultures. But today, this 
 
 In the 19<sup>th</sup> and 20<sup>th</sup> centuries, the most efficient way to publish cuneiform tablets was creating hand-copies, drawings imitating cuneiform signs in black and white. This is still widely used to this day in assyriological publications. Therefore, there are thousands, if not tens of thousands of these hand-copies, which, because of their relative simplicity, can be an easier first step into OCR of cuneiform signs. We are currently curating a database of cuneiform signs, derived from hand-copies, for training a machine learning model that will be able to identify the positions of individual signs within a given image, and then identify the signs themselves. After achieving successful results with hand-copies, we hope to apply our model to 2D.
 
-Collaborators: Dr Ethan Fetaya ([Bar Ilan University](https://scholar.google.com/citations?user=zLuqh-0AAAAJ&hl=en)); Dr Shimon Shahar (Tel Aviv University).
+Collaborators: Dr Ethan Fetaya ([Bar Ilan University](https://scholar.google.com/citations?user=zLuqh-0AAAAJ&hl=en)); Dr Shimon Shahar ([Tel Aviv University](https://datascience.tau.ac.il/team/moni-shahar)).
 
 ## OCR for Cuneiform Text Editions
 

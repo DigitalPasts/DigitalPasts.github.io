@@ -3,13 +3,13 @@ layout: default-main
 title: Publications
 ---
 
-##<i class="fas fa-book"></i> Scientific Publications
+## <i class="fas fa-book"></i> Scientific Publications
 
 Shai Gordin, Gai Gutherz, Ariel Elazary, Avital Romach, Enrique Jiménez, Jonathan Berant, & Yoram Cohen (2020). Reading Akkadian Cuneiform using Natural Language Processing. _PLOS ONE_, 15(10), e0240511. [https://doi.org/10.1371/journal.pone.0240511 <i class="fas fa-external-link-square-alt"></i>](https://doi.org/10.1371/journal.pone.0240511)
 
 Ethan Fetaya, Yonatan Lifshitz, Elad Aaron, & Shai Gordin (2020). Restoration of Fragmentary Babylonian Texts Using Recurrent Neural Networks. _Proceedings of the National Academy of Sciences_, 117(37), 22743–22751. [https://doi.org/10.1073/pnas.2003794117 <i class="fas fa-external-link-square-alt"></i>](https://doi.org/10.1073/pnas.2003794117)
 
-##<i class="far fa-newspaper"></i> Popular Publications
+## <i class="far fa-newspaper"></i> Popular Publications
 
 Shai Gordin, Avital Romach, & Ethan Fetaya (September 2021). Tidings from Before the Flood: How Artificial Intelligence Rediscovers Ancient Babylonian Texts. _The Science Breaker_. [https://doi.org/10.25250/thescbr.brk584 <i class="fas fa-external-link-square-alt"></i>](https://doi.org/10.25250/thescbr.brk584)
 
@@ -23,7 +23,7 @@ L'intelligence artificielle au service de la reconstitution des textes babylonie
 
 Computer raadt missend spijkerschrift (September 2020). _NRC_. [<i class="fas fa-external-link-square-alt"></i>](https://www.nrc.nl/nieuws/2020/09/07/computer-raadt-missend-spijkerschrift-a4011043)
 
-##<i class="fas fa-globe"></i> Web Publications
+## <i class="fas fa-globe"></i> Web Publications
 
 Shai Gordin & Samuel Clark (2021). MAPA Gazetteer version 0.1. [https://github.com/DigitalPasts/MAPA <i class="fas fa-external-link-square-alt"></i>](https://github.com/DigitalPasts/MAPA)
 
