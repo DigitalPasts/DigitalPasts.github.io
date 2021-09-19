@@ -5,6 +5,7 @@ section .toc {
     position: fixed;
     width: 20vw;
     padding: 0 2.5vw;
+    z-index: -1;
 }
 section .toc h2 {
     font-size: 1.2vw;
@@ -39,5 +40,14 @@ section .content {
     }
     section .toc .content {
         margin: 0 15vw !important;
+    }
+}
+@media (max-width: 700px) {
+    section .toc {
+        display: none;
+    }
+
+    .content {
+        margin: 0 10vw !important;
     }
 }
