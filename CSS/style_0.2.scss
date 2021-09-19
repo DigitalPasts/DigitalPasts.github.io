@@ -52,22 +52,23 @@ section {
     font-size: 1.15vw;
 
     a, i {
-      padding: inherit;
-      text-align: inherit;
-      font-size: inherit;
-    }
-
-    ul, ol {
-      padding: inherit;
-      text-align: inherit;
-      font-size: inherit;
-
-      li {
-        font-size: inherit;
-        text-align: inherit;
-      }  
+      padding: inherit !important;
+      text-align: inherit !important;
+      font-size: inherit !important;
     } 
+    
   }
+
+  ul, ol {
+    padding: 15px 0;
+    text-align: justify;
+    font-size: 1.15vw;
+
+    li {
+      font-size: inherit;
+      text-align: inherit;
+    } 
+  } 
 
   .fig {
     font-size: 1vw;

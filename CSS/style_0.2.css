@@ -36,16 +36,16 @@ section p {
     font-size: 1.15vw;
 }
 section p a, section p i {
-    padding: inherit;
-    text-align: inherit;
-    font-size: inherit;
+    padding: inherit !important;
+    text-align: inherit !important;
+    font-size: inherit !important;
 }
-section p ul, section p ol {
-    padding: inherit;
-    text-align: inherit;
-    font-size: inherit;
+section ul, section ol {
+    padding: 15px 0;
+    text-align: justify;
+    font-size: 1.15vw;
 }
-section p ul li, section p ol li {
+section ul li, section ol li {
     font-size: inherit;
     text-align: inherit;
 }
