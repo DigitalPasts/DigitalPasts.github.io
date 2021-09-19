@@ -4,21 +4,50 @@ section {
   .toc {
     position: fixed;
     width: 20vw;
-    padding: 20px;
+    padding: 0 2.5vw;
 
     h2 {
       font-size: 1vw;
+      border-bottom: none;
+      padding-bottom: none;
+      margin-bottom: none;
     }
 
-    ul li {
-      list-style: none;
-      text-align: left;
-      font-size: 1vw;
-      padding-bottom: 10px;
+    ul {
+
+      height: 50vh;
+      overflow: overlay;
+
+      li {
+        list-style: none;
+        text-align: left;
+        font-size: 1vw;
+        padding-bottom: 10px;
+      }
     }
+    
   }
 
   .content {
     margin: 0 20vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  section .toc {
+    
+    width: 15vw;
+
+    h2 {
+      font-size: 1.5vw;
+    }
+
+    ul li {
+      font-size: 1.2vw !important;
+    }
+
+    .content {
+      margin: 0 15vw;
+    }
   }
 }

@@ -4,10 +4,17 @@ section {
 section .toc {
     position: fixed;
     width: 20vw;
-    padding: 20px;
+    padding: 0 2.5vw;
 }
 section .toc h2 {
     font-size: 1vw;
+    border-bottom: none;
+    padding-bottom: none;
+    margin-bottom: none;
+}
+section .toc ul {
+    height: 50vh;
+    overflow: overlay;
 }
 section .toc ul li {
     list-style: none;
@@ -17,4 +24,19 @@ section .toc ul li {
 }
 section .content {
     margin: 0 20vw;
+}
+
+@media (max-width: 1024px) {
+    section .toc {
+        width: 15vw;
+    }
+    section .toc h2 {
+        font-size: 1.5vw;
+    }
+    section .toc ul li {
+        font-size: 1.2vw !important;
+    }
+    section .toc .content {
+        margin: 0 15vw;
+    }
 }
