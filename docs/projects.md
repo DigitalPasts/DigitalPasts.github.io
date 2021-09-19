@@ -25,7 +25,7 @@ One of the main tasks in reading any language, but particularly ancient language
 
 An OCR model for recognizing cuneiform signs from 2D or 3D images is one of the biggest *desiderata* for assyriology in the 21<sup>st</sup> century. Marie is an OCR model currently under development for recognizing cuneiform sign strokes from 2D images of cuneiform tablets. Cuneiform signs are created by different combination of a limited number of strokes: horizontals, verticals, obliques and diagonals. Marie is being trained to recognize and vectorize each one of these stroke types in a given image. At the next stage, we will train the model to also identify combinations of strokes as specific signs.
 
-Collaborators: Prof. [Josef Pavlíček](https://orcid.org/0000-0002-3959-5406) (CULS Prague), [Adéla Hamplová](https://orcid.org/0000-0002-1012-650X) (CULS Prague). See also the their [website](https://cuneiform2d.wixsite.com/cuneiform).
+Collaborators: Prof. [Josef Pavlíček](https://orcid.org/0000-0002-3959-5406) (CULS Prague), [Adéla Hamplová](https://orcid.org/0000-0002-1012-650X) (CULS Prague). See also their [website](https://cuneiform2d.wixsite.com/cuneiform).
 
 ## Digital Cuneiform Paleography
 
@@ -55,4 +55,4 @@ Collaborators: Prof. [Jonathan Berant](https://scholar.google.com/citations?user
 
 Contextual understanding in the humanities is its bread and butter - and NLP applications using word-embedding for contextualization is a revolutionizing method of doing just that. It provides the ability for an emic understanding of a text at hand, in the context of its own language, often forcing us to confront the biases with which we read the text before. When attempting to apply such models to Akkadian and biblical Hebrew, however, they offer particular challenges: these models work best with large datasets, but Akkadian and biblical Hebrew are low-resource languages. We are currently developing a word-sense induction model that will nevertheless be able to provide productive, contextual results for these two languages.
 
-Collaborators: Dr [Amos Azaria](https://scholar.google.co.il/citations?user=sdfKs_sAAAAJ&hl=en).
+Collaborators: Dr [Amos Azaria](https://scholar.google.co.il/citations?user=sdfKs_sAAAAJ&hl=en) (Ariel University, Department of Computer Science).
