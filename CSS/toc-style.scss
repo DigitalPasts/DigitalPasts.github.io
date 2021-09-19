@@ -1,12 +1,24 @@
 section {
-  display: flex;
   margin: 15px 0;
 
   .toc {
+    position: fixed;
     width: 20vw;
+    padding: 20px;
+
+    h2 {
+      font-size: 1vw;
+    }
+
+    ul li {
+      list-style: none;
+      text-align: left;
+      font-size: 1vw;
+      padding-bottom: 10px;
+    }
   }
 
   .content {
-    margin-right: 20vw;
+    margin: 0 20vw;
   }
 }
