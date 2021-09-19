@@ -36,6 +36,7 @@ section p {
     font-size: 1.15vw;
 }
 section p a, section p i {
+    padding: none;
     text-align: inherit !important;
     font-size: inherit !important;
 }
