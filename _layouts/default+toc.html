@@ -27,11 +27,12 @@
     <title>Digital Pasts Lab</title>
   </head>
   <body>
+    <a name="top"></a>
     {% include navigation.html %}
     <h1>{{ page.title }}</h1>
     <section>
       <div class="toc">
-        <h2><i class="far fa-folder-open"></i> On this page</h2>
+        <h2><a href="#top"><i class="far fa-folder-open"></i></a> On this page</h2>
         {% include toc.html html=content %}
       </div>
       <div class="content">
