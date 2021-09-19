@@ -46,15 +46,27 @@ section {
     font-size: 2.5vw;
   }
 
-  p, p ul, p ol {
+  p {
     padding: 15px 0;
     text-align: justify;
     font-size: 1.15vw;
 
-    li, a {
-      font-size: 1.15vw;
-      text-align: justify;
-    }   
+    a, i {
+      padding: inherit;
+      text-align: inherit;
+      font-size: inherit;
+    }
+
+    ul, ol {
+      padding: inherit;
+      text-align: inherit;
+      font-size: inherit;
+
+      li {
+        font-size: inherit;
+        text-align: inherit;
+      }  
+    } 
   }
 
   .fig {

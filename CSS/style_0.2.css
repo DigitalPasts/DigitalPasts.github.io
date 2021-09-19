@@ -30,14 +30,24 @@ section h2 {
 section h3 {
     font-size: 2.5vw;
 }
-section p, section p ul, section p ol {
+section p {
     padding: 15px 0;
     text-align: justify;
     font-size: 1.15vw;
 }
-section p li, section p a, section p ul li, section p ul a, section p ol li, section p ol a {
-    font-size: 1.15vw;
-    text-align: justify;
+section p a, section p i {
+    padding: inherit;
+    text-align: inherit;
+    font-size: inherit;
+}
+section p ul, section p ol {
+    padding: inherit;
+    text-align: inherit;
+    font-size: inherit;
+}
+section p ul li, section p ol li {
+    font-size: inherit;
+    text-align: inherit;
 }
 section .fig {
     font-size: 1vw;
