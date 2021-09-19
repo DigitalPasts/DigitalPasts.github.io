@@ -15,9 +15,10 @@ $icon-padding: 1px;
   margin: 0;
   box-sizing: border-box;
   line-height: 1.6;
+  overflow-x: hidden;
 
   ::-webkit-scrollbar {
-  width: 3px;
+  width: 4px;
   }
 
   ::-webkit-scrollbar-track {
