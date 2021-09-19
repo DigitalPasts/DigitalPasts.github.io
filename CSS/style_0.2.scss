@@ -46,18 +46,18 @@ section {
     font-size: 2.5vw;
   }
 
-  p, p ul, p ol, a {
+  p, p ul, p ol {
     padding: 15px 0;
     text-align: justify;
     font-size: 1.15vw;
 
-    li {
+    li, a {
       font-size: 1.15vw;
       text-align: justify;
     }   
   }
 
-  .fig, {
+  .fig {
     font-size: 1vw;
     padding: 15px 25px;
     line-height: 1.4;
@@ -217,10 +217,10 @@ footer {
       font-size: 3vw;
     }
 
-    p, p ul, p ol, a {
+    p, p ul, p ol {
       font-size: 2vw !important;
   
-      li {
+      li, a {
         font-size: 2vw !important;
       }   
     }
@@ -280,11 +280,11 @@ footer {
       font-size: 30px;
     }
 
-    p, p ul, p ol, a {
+    p, p ul, p ol {
       text-align: left;
       font-size: 17px !important;
   
-      li {
+      li, a {
         font-size: 17px !important;
       }   
     }

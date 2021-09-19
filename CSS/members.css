@@ -1,6 +1,7 @@
 section .members {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 50px 10px;
 }
 section .members h4 {
     font-size: 17px;

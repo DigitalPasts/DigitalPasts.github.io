@@ -30,12 +30,12 @@ section h2 {
 section h3 {
     font-size: 2.5vw;
 }
-section p, section p ul, section p ol, section a {
+section p, section p ul, section p ol {
     padding: 15px 0;
     text-align: justify;
     font-size: 1.15vw;
 }
-section p li, section p ul li, section p ol li, section a li {
+section p li, section p a, section p ul li, section p ul a, section p ol li, section p ol a {
     font-size: 1.15vw;
     text-align: justify;
 }
@@ -167,10 +167,10 @@ footer div a:hover {
     section h3 {
         font-size: 3vw;
     }
-    section p, section p ul, section p ol, section a {
+    section p, section p ul, section p ol {
         font-size: 2vw !important;
     }
-    section p li, section p ul li, section p ol li, section a li {
+    section p li, section p a, section p ul li, section p ul a, section p ol li, section p ol a {
         font-size: 2vw !important;
     }
     section .fig, section .fig a {
@@ -216,11 +216,11 @@ footer div a:hover {
     section h3 {
         font-size: 30px;
     }
-    section p, section p ul, section p ol, section a {
+    section p, section p ul, section p ol {
         text-align: left;
         font-size: 17px !important;
     }
-    section p li, section p ul li, section p ol li, section a li {
+    section p li, section p a, section p ul li, section p ul a, section p ol li, section p ol a {
         font-size: 17px !important;
     }
     section .fig, section .fig a {
