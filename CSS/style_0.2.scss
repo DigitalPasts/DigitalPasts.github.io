@@ -18,20 +18,20 @@ $icon-padding: 1px;
 
   ::-webkit-scrollbar {
   width: 10px;
-}
+  }
 
   ::-webkit-scrollbar-track {
   background: $light-color; 
-}
+  }
 
   ::-webkit-scrollbar-thumb {
   background: $primary-color-light;
   border-radius: 5px;
-}
+  }
 
   ::-webkit-scrollbar-thumb:hover {
   background: $primary-color; 
-}
+  }
 }
 
 // Pages

@@ -7,10 +7,10 @@ section {
     padding: 0 2.5vw;
 
     h2 {
-      font-size: 1vw;
+      font-size: 1.2vw;
       border-bottom: none;
-      padding-bottom: none;
-      margin-bottom: none;
+      padding-bottom: 0;
+      margin-bottom: 0;
     }
 
     ul {
@@ -35,7 +35,7 @@ section {
 
 @media (max-width: 1024px) {
   section .toc {
-    
+    padding: 0 2.5vw;
     width: 15vw;
 
     h2 {
@@ -47,7 +47,7 @@ section {
     }
 
     .content {
-      margin: 0 15vw;
+      margin: 0 15vw !important;
     }
   }
 }

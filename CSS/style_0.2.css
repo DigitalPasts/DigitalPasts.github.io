@@ -4,6 +4,19 @@
     box-sizing: border-box;
     line-height: 1.6;
 }
+* ::-webkit-scrollbar {
+    width: 10px;
+}
+* ::-webkit-scrollbar-track {
+    background: #f4f4f4;
+}
+* ::-webkit-scrollbar-thumb {
+    background: #4c7ea4;
+    border-radius: 5px;
+}
+* ::-webkit-scrollbar-thumb:hover {
+    background: #00487e;
+}
 
 h1 {
     font-family: "Quicksand", sans-serif;
