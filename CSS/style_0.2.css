@@ -40,8 +40,14 @@ section h2, section h3 {
 section h2 {
     font-size: 2.7vw;
 }
+section h2 i {
+    font-size: inherit;
+}
 section h3 {
     font-size: 2.5vw;
+}
+section h3 i {
+    font-size: inherit;
 }
 section p {
     padding: 15px 0;
@@ -114,7 +120,7 @@ header .logo img {
     max-height: 80px;
     object-fit: contain;
     padding: 5px 0;
-    z-index: -1;
+    width: 70px;
 }
 header .logo a {
     position: absolute;
@@ -263,12 +269,8 @@ footer div a:hover {
     header .logo {
         padding: 0;
         width: 100vw;
-    }
-    header .logo img {
-        float: left;
-    }
-    header .logo a {
-        left: 33vw;
+        display: flex;
+        justify-content: center;
     }
     header ul {
         display: block;
@@ -277,7 +279,7 @@ footer div a:hover {
     }
 
     footer {
-        height: 320px;
+        height: 400px;
         flex-direction: column-reverse;
         text-align: justify;
         justify-content: space-evenly;

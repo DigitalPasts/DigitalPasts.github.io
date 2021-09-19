@@ -57,10 +57,18 @@ section {
 
   h2 {
     font-size: 2.7vw;
+
+    i {
+      font-size: inherit;
+    }
   }
 
   h3 {
     font-size: 2.5vw;
+
+    i {
+      font-size: inherit;
+    }
   }
 
   p {
@@ -351,7 +359,7 @@ footer {
   }
 
   footer {
-    height: 320px;
+    height: 400px;
     flex-direction: column-reverse;
     text-align: justify;
     justify-content: space-evenly;
