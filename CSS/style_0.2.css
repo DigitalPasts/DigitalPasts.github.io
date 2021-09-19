@@ -112,22 +112,22 @@ header {
 }
 header .logo {
     padding: 0 15px;
-    height: 80px;
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 header .logo img {
     max-height: 80px;
     object-fit: contain;
-    padding: 5px 0;
-    width: 70px;
+    padding: 5px 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 header .logo a {
     position: absolute;
     padding: 20px 0;
     text-decoration: none;
     color: #f4f4f4;
+    left: 80px;
+    top: 0;
 }
 header .logo a:hover {
     color: #edd59d;

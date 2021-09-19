@@ -151,24 +151,23 @@ header {
   
   .logo {
     padding: 0 15px;
-    height: 80px;
-    position: absolute;
-    top: 0;
-    left: 0;
 
     img {
       max-height: 80px;
       object-fit: contain;
-      padding: 5px 0;
-      width: 70px;
+      padding: 5px 5px;
+      position: absolute;
+      left: 0;
+      top: 0;
     }
 
     a {
-      // float: left;
       position: absolute;
       padding: 20px 0;
       text-decoration: none;
       color: $light-color;
+      left: 80px;
+      top: 0;
 
       &:hover {
         color: $secondary-color;
