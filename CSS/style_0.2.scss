@@ -52,7 +52,7 @@ section {
     font-size: 1.15vw;
 
     a, i {
-      padding: none;
+      padding: none !important;
       text-align: inherit !important;
       font-size: inherit !important;
     } 
@@ -65,8 +65,8 @@ section {
     font-size: 1.15vw;
 
     li {
-      font-size: inherit !important;
-      text-align: inherit !important;
+      font-size: 1.15vw;
+      text-align: justify;
     } 
   } 
 

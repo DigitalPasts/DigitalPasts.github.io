@@ -36,7 +36,7 @@ section p {
     font-size: 1.15vw;
 }
 section p a, section p i {
-    padding: none;
+    padding: none !important;
     text-align: inherit !important;
     font-size: inherit !important;
 }
@@ -46,8 +46,8 @@ section ul, section ol {
     font-size: 1.15vw;
 }
 section ul li, section ol li {
-    font-size: inherit !important;
-    text-align: inherit !important;
+    font-size: 1.15vw;
+    text-align: justify;
 }
 section .fig {
     font-size: 1vw;
