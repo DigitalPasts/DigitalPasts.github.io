@@ -22,14 +22,20 @@
     <link rel="stylesheet" href="../CSS/style_0.2.css">
     <!-- style css for members page only -->
     <link rel="stylesheet" href="../CSS/members.css">
+    <!-- style css for table of contents -->
+    <link rel="stylesheet" href="../CSS/toc-style.css">
     <title>Digital Pasts Lab</title>
   </head>
   <body>
     {% include navigation.html %}
     <h1>{{ page.title }}</h1>
     <section>
-      {% include toc.html html=content %}
-    {{ content }}
+      <div class="toc">
+        {% include toc.html html=content %}
+      </div>
+      <div class="content">
+        {{ content }}
+      </div>
     </section>
     {% include footer.html %}
   </body>

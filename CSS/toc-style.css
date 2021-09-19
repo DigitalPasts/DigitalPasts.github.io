@@ -1,0 +1,10 @@
+section {
+    display: flex;
+    margin: 15px 0;
+}
+section .toc {
+    width: 20vw;
+}
+section .content {
+    margin-right: 20vw;
+}
