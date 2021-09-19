@@ -236,6 +236,10 @@ footer {
 
     ul, ol {
       font-size: 2vw !important;
+
+      li {
+        font-size: 2vw !important;
+      }
     }
 
     .fig, .fig a {
@@ -293,13 +297,18 @@ footer {
       font-size: 30px;
     }
 
-    p, p ul, p ol {
+    p {
+      text-align: left;
+      font-size: 17px !important;  
+    }
+
+    ul, ol {
       text-align: left;
       font-size: 17px !important;
-  
-      li, a {
+
+      li {
         font-size: 17px !important;
-      }   
+      }
     }
 
     .fig, .fig a {
