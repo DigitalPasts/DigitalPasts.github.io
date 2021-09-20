@@ -61,11 +61,7 @@ section .container:hover .middle {
     .container h3 a {
         font-size: 30px !important;
     }
-    .container .image {
-        opacity: 0.7 !important;
-    }
     .container .middle {
-        opacity: 1 !important;
-        top: 60% !important;
+        display: none;
     }
 }
