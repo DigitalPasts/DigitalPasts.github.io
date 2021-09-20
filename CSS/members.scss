@@ -6,17 +6,17 @@ section {
   grid-gap: 50px 10px;
 
   h4 {
-    font-size: 17px;
+    font-size: 1vw;
     font-weight: normal;
   }
 
   p {
     padding: 5px 0;
     text-align: center;
-    font-size: 15px !important;
+    font-size: 0.75vw !important;
 
     a {
-      font-size: 15px !important;
+      font-size: inherit !important;
     }
   }
 
@@ -51,6 +51,14 @@ section {
   .members {
     grid-template-columns: 1fr !important;
     padding-bottom: 10px !important;
+
+    h4 {
+      font-size: 17px !important;
+    }
+
+    p {
+      font-size: 15px !important;
+    }
 
     .container {
       width: 25vw !important;

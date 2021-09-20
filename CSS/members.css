@@ -4,16 +4,16 @@ section .members {
     grid-gap: 50px 10px;
 }
 section .members h4 {
-    font-size: 17px;
+    font-size: 1vw;
     font-weight: normal;
 }
 section .members p {
     padding: 5px 0;
     text-align: center;
-    font-size: 15px !important;
+    font-size: 0.75vw !important;
 }
 section .members p a {
-    font-size: 15px !important;
+    font-size: inherit !important;
 }
 section .members .member {
     display: grid;
@@ -39,6 +39,12 @@ section .members .member .text {
     .members {
         grid-template-columns: 1fr !important;
         padding-bottom: 10px !important;
+    }
+    .members h4 {
+        font-size: 17px !important;
+    }
+    .members p {
+        font-size: 15px !important;
     }
     .members .container {
         width: 25vw !important;
