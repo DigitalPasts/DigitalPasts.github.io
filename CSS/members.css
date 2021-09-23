@@ -40,10 +40,10 @@ section .members .member .text {
         grid-template-columns: 1fr !important;
         padding-bottom: 10px !important;
     }
-    .members h4 {
+    .members .text h4 {
         font-size: 17px !important;
     }
-    .members p {
+    .members .text p {
         font-size: 15px !important;
     }
     .members .container {
