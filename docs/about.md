@@ -18,7 +18,7 @@ We can summarize our vision in the following four main goals:
 - investigating the strengths and weaknesses of new technologies when used for humanities research.
 - nourishing interdisciplinary research by using shared digital methodologies, such as linked open data (LOD).
 
-For more information on our projects, each of which touches on at least one or more of these goals, see the [Projects page](projects.html). For existing tools for assyriologists, see the [Babylonian Engine tools page][BEn-link].
+For more information on our projects, each of which touches on at least one or more of these goals, see the [Projects page](projects.html). For existing tools for assyriologists, see the [Babylonian Engine (version 1.0) demo][BEn-new-demo] or the [beta version][BEn-old].
 
 Scholars, companies, or other parties interested in cooperating with the lab may contact us through the lab email: [{{ site.email }}](mailto:{{ site.email }}).
 

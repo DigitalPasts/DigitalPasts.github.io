@@ -7,7 +7,8 @@ title: Projects
 
 The Babylonian Engine is a growing repository for tools designed to aid the research, teaching, and knowledge distribution of the ancient cultures of Mesopotamia. One of the greatest obstacles of assyriology is an incredible amount of data, and at the same time an extremely limited number of people able to access it and make it accessible for the rest of the world. The artificial intelligence revolution and general developments in computer and data science can give us the long awaited solutions for that problems, by creating an appropriate interface. For our existing tools and more information, see the [Babylonian Engine Page](BEn.md). For tools in the making, see other projects in this page.
 
-{% include BEn_link.html %}
+{% include BEn_new.html %}
+{% include BEn_old.html %}
 
 ## Mesopotamian Ancient Place-names Almanac (MAPA)
 
