@@ -9,11 +9,11 @@ Although data science is a new field, in the humanities, working with data is an
 
 This move is not only the result of modern conveniences, but the result of opportunity. New technologies, such as natural language processing (NLP), optical character recognition (OCR), computer vision applications, and other machine learning (ML) models, offer innovative research avenues. They provide new methods for scholars to analyze their data from different perspectives. Feedback from humanities researchers is also imperative for improving and developing further these new technologies, giving them practical applications and advancing their capabilities, particularly by using human-in-the-loop and human-machine interfaces.
 
-Furthermore, digitization offers not only a better preservation method, but also the opportunity for a wider audience to access the data, scholars and laymen alike. Information and knowledge are no longer the sole propriety of the academic few. It is fast becoming widely accessible, granting new pedagogic and interdisciplinary cooperation opportunities that enrich our cultural knowledge.
+Furthermore, digitization offers not only a better preservation method, but also the opportunity for a wider audience to access the data, scholars and laypeople alike. Information and knowledge are no longer the sole propriety of the academic few. It is fast becoming widely accessible, granting new pedagogic and interdisciplinary cooperation opportunities that enrich our cultural knowledge.
 
 We can summarize our vision in the following four main goals: 
 
-- curation of data in digital methods, be it texts, artifacts, or otherwise.
+- curation of cultural heritage in digital methods.
 - using and developing ethical ML models for working with historical sources, particularly cuneiform texts.
 - investigating the strengths and weaknesses of new technologies when used for humanities research.
 - nourishing interdisciplinary research by using shared digital methodologies, such as linked open data (LOD).
