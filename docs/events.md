@@ -1,13 +1,23 @@
 ---
 layout: default-main
-title: Events
+title: Events and Presentations
 ---
 
-## Upcoming
+## Conference Papers and Invited Lectures
 
-In May, we will hold a hybrid conference on uses of optical character recognition with humanities data: challenges, potential, and impacts. More information about the conference will be found here in the upcoming months. Follow us on [Twitter]({{ site.twitter}}) to stay updated!
+Shai Gordin and Avital Romach (Accepted) "Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform". DH 2022, Tokyo, Japan 25-29 July 2022. long paper. <a href="https://dh2022.adho.org/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
-## Past Events
+Shai Gordin (12/2021) “The Babylonian Engine: Studying ancient Babylonia using OCR, NLP and ML”. Journal of Electornic Imaging Webinar - Deep Learning: Applications and Recent Directions, Bar-Ilan University. <a href="https://www.spiedigitallibrary.org/jei-deep-learning-applications-and-recent-directions?SSO=1" target="_blank">See recorded lecture<i class="fas fa-external-link-square-alt"></i></a>
+
+Shai Gordin and Samuel Clark (06/2021) “MAPA: A Linked Open Data Gazetteer of ancient Babylonia”. Conference poster, Digital Humanities Summer Institute – Online Edition, 7-11, 14-18 June 2021, University of Victoria, Canada.
+
+Shai Gordin (04/2021) “Walking among the orchards of Gilgamesh: the role of spatial memory in and around the Neo-Babylonian City”. Transcultural Mobilities and Memories, Minho University, Portugal.
+
+Shai Gordin and Ethan Fetaya (11/2020) “The Babylonian Engine: Human-Machine collaboration for restoring ancient Mesopotamian heritage”. CHNT 25: Conference on Cultural Heritage and New Technologies, Vienna.
+
+Shai Gordin (11/2020) “Mesopotamian Ancient Place-names Almanac: Doing Historical Geography in the Age of Linked Open Data Spatial Data". Metadata in Assyriology: Spatial Analysis, and Historical Geography, Uppsala University, Sweden.
+
+## Past DigPasts Events
 
 ### Human - Machine Cooperation in Archaeology, Epigraphy and Ancient History (19-20 Feb 2020)
 
