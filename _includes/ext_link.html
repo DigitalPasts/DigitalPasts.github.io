@@ -1,0 +1,6 @@
+<!--
+This snippet is used for opening external links in a new tab, using liquid
+In the markdown document, use the following syntax to generate the external link:
+{% include ext_link.html link="full path to link" text="text to display on the website" %}
+-->
+<a href="{{ include.link }}" target="_blank">{{ include.text }}</a>
