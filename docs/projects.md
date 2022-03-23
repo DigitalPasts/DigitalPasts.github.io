@@ -21,6 +21,13 @@ MAPA is an historical geography project of the city of Uruk, one of the largest 
 When taking 2D images of cuneiform tablets, which are 3D objects, some information is always lost, no matter how high the image quality. Capturing them in 3D models is the ideal way to document them digitally and keep all the information they hold, both for scholars wanting to study them, and for computer vision applications, such as sign identification. For this purpose, the lab has acquired a 
 <a href="https://www.creativeinfocom.com/pdfs/smartscan-specification-he-r5-c5.pdf" target="_blank">3D Hexagon scanner</a>. We are currently in the process of creating 3D models of tablets held at the Israel Museum and the Bible Lands Museum. We also enthusiastically welcome solicitations for scanning other historical artifacts, and providing technical support for publishing them. Contact us for more information (<{{ site.email}}>).
 
+## Archaeomagnetic Analysis of Ancient Clay Bricks
+
+Archaeomagentic research on Bronze and Iron Age materials has become a flourishing field with proven contributions to both archaeology (chronology and site formation processes) and geophysics (the study of the Earth’s magnetic field and related phenomenon). This is a multi-faceted archaeomagnetic research on baked clays from the ancient Near East, in which we are analyzing dozens of bricks from Mesopotamia in various museum collections. The collaborative work includes Tel Aviv University (hosting institute), Scripps Institution of Oceanography at UC San Diego (Paleomagnetic Laboratory), Digital Pasts Lab at Ariel University (Mesopotamian History and Digital Humanities), and Institute of Archaeology at UCL (Mesopotamian history/archaeology).
+
+Collaborators: Prof. <a href="http://magician.ucsd.edu/" target="_blank">Lisa Tauxe</a> (UC San Diego), Prof. <a href="https://telaviv.academia.edu/ErezBenYosef" target="_blank">Erez Ben-Yosef</a>
+
+
 ## CuRe-D (Cuneiform Recognition Documents)
 
 Machine learning models need as much data as we can give them. Although digital cuneiform text editions available online, are growing fast in recent years, there are still countless more in traditional print publications. Usually, existing OCR models perform very well in extracting text from images, such as scanned pdfs - if it is written in a modern language, like English. Although cuneiform text editions are written in the Latin alphabet, they include special characters and peculiar markings that make off-the-shelf OCR models useless. For this reason, we developed an OCR model specifically trained for cuneiform text editions. This will enable exponentially increasing the available corpus of cuneiform texts.
