@@ -7,7 +7,7 @@ title: Events and Presentations
 
 Shai Gordin and Avital Romach (Accepted) "Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform". DH 2022, Tokyo, Japan 25-29 July 2022. long paper. <a href="https://dh2022.adho.org/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
-Shai Gordin (12/2021) “The Babylonian Engine: Studying ancient Babylonia using OCR, NLP and ML”. Journal of Electornic Imaging Webinar - Deep Learning: Applications and Recent Directions, Bar-Ilan University. <a href="https://www.spiedigitallibrary.org/jei-deep-learning-applications-and-recent-directions?SSO=1" target="_blank">See recorded lecture<i class="fas fa-external-link-square-alt"></i></a>
+Shai Gordin (12/2021) “The Babylonian Engine: Studying ancient Babylonia using OCR, NLP and ML”. Journal of Electornic Imaging Webinar - Deep Learning: Applications and Recent Directions, Bar-Ilan University. <a href="https://www.spiedigitallibrary.org/jei-deep-learning-applications-and-recent-directions?SSO=1" target="_blank">See recorded lecture <i class="fas fa-external-link-square-alt"></i></a>
 
 Shai Gordin and Samuel Clark (06/2021) “MAPA: A Linked Open Data Gazetteer of ancient Babylonia”. Conference poster, Digital Humanities Summer Institute – Online Edition, 7-11, 14-18 June 2021, University of Victoria, Canada.
 
@@ -17,7 +17,7 @@ Shai Gordin and Ethan Fetaya (11/2020) “The Babylonian Engine: Human-Machine c
 
 Shai Gordin (11/2020) “Mesopotamian Ancient Place-names Almanac: Doing Historical Geography in the Age of Linked Open Data Spatial Data". Metadata in Assyriology: Spatial Analysis, and Historical Geography, Uppsala University, Sweden.
 
-## Past DigPasts Events
+## Past Events of the DigPasts Lab
 
 ### Human - Machine Cooperation in Archaeology, Epigraphy and Ancient History (19-20 Feb 2020)
 
@@ -32,7 +32,7 @@ The conference and workshop Human-Machine Cooperation in Archaeology, Epigraphy 
 *	Copyrights vs. opening and sharing our sources.
 *	Intensive small learning workshops on the implementation of digital humanities tools.
 
-We would like to thank all participants for their fascinating talks and workshop sessions. A summary of the talks and workshops with abstracts can be viewed in the [following link](/file_links/Abstracts_conference_2020.pdf).
+We would like to thank all participants for their fascinating talks and workshop sessions. A summary of the talks and workshops with abstracts can be viewed in the <a href="/file_links/Abstracts_conference_2020.pdf" target="_blank">following link</a>.
 
 
 
