@@ -12,17 +12,21 @@ The Babylonian Engine is a growing repository for tools designed to aid the rese
 
 ## Mesopotamian Ancient Place-names Almanac (MAPA)
 
-MAPA is an historical geography project of the city of Uruk, one of the largest and most important cities of Mesopotamia, in the age of Empires (first millennium BCE). It incorporates both textual and remote-sensing data for large scale relational mapping of the landscape. The core of the project is made up of a gazetteer of placenames in texts and surveys, both on the ground and via remote sensing. This gazetteer is formatted according to the standards of the JSON-LD based {% include ext_link.html link="https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md" text="Linked Places format (LPF)" %} of the {% include target_link.html link="http://whgazetteer.org/" text="World Historical Gazetteer" %}. For more information, see the [MAPA page](MAPA.md).
+MAPA is an historical geography project of the city of Uruk, one of the largest and most important cities of Mesopotamia, in the age of Empires (first millennium BCE). It incorporates both textual and remote-sensing data for large scale relational mapping of the landscape. The core of the project is made up of a gazetteer of placenames in texts and surveys, both on the ground and via remote sensing. This gazetteer is formatted according to the standards of the JSON-LD based 
+<a href="https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md" target="_blank">Linked Places format (LPF)</a> of the 
+<a href="http://whgazetteer.org/" target="_blank">World Historical Gazetteer</a>. For more information, see the [MAPA page](MAPA.md).
 
 ## 3D Scanning of Cuneiform Tablets
 
-When taking 2D images of cuneiform tablets, which are 3D objects, some information is always lost, no matter how high the image quality. Capturing them in 3D models is the ideal way to document them digitally and keep all the information they hold, both for scholars wanting to study them, and for computer vision applications, such as sign identification. For this purpose, the lab has acquired a {% include ext_link.html link="https://www.creativeinfocom.com/pdfs/smartscan-specification-he-r5-c5.pdf" text="3D Hexagon scanner" %}. We are currently in the process of creating 3D models of tablets held at the Israel Museum and the Bible Lands Museum. We also enthusiastically welcome solicitations for scanning other historical artifacts, and providing technical support for publishing them. Contact us for more information (<{{ site.email}}>).
+When taking 2D images of cuneiform tablets, which are 3D objects, some information is always lost, no matter how high the image quality. Capturing them in 3D models is the ideal way to document them digitally and keep all the information they hold, both for scholars wanting to study them, and for computer vision applications, such as sign identification. For this purpose, the lab has acquired a 
+<a href="https://www.creativeinfocom.com/pdfs/smartscan-specification-he-r5-c5.pdf" target="_blank">3D Hexagon scanner</a>. We are currently in the process of creating 3D models of tablets held at the Israel Museum and the Bible Lands Museum. We also enthusiastically welcome solicitations for scanning other historical artifacts, and providing technical support for publishing them. Contact us for more information (<{{ site.email}}>).
 
 ## CuRe-D (Cuneiform Recognition Documents)
 
 Machine learning models need as much data as we can give them. Although digital cuneiform text editions available online, are growing fast in recent years, there are still countless more in traditional print publications. Usually, existing OCR models perform very well in extracting text from images, such as scanned pdfs - if it is written in a modern language, like English. Although cuneiform text editions are written in the Latin alphabet, they include special characters and peculiar markings that make off-the-shelf OCR models useless. For this reason, we developed an OCR model specifically trained for cuneiform text editions. This will enable exponentially increasing the available corpus of cuneiform texts.
 
-Collaborators: Prof. {% include ext_link.html link="https://scholar.google.com/citations?user=xCYHonIAAAAJ&hl=en" text="Jonathan Berant" %} (Tel Aviv University, The Blavatnik School of Computer Science).
+Collaborators: Prof. 
+<a href="https://scholar.google.com/citations?user=xCYHonIAAAAJ&hl=en" target="_blank">Jonathan Berant</a> (Tel Aviv University, The Blavatnik School of Computer Science).
 
 ## CuRe-I (Cuneiform Recognition Images)
 
@@ -30,28 +34,37 @@ In the 19<sup>th</sup> and 20<sup>th</sup> centuries, the most efficient way to 
 
 {% include BEn_new.html %}
 
-Collaborators: Dr {% include ext_link.html link="https://scholar.google.com/citations?user=zLuqh-0AAAAJ&hl=en" text="Ethan Fetaya" %} (Bar Ilan University, Faculty of Engineering), Dr {% include ext_link.html link="https://datascience.tau.ac.il/team/moni-shahar" text="Shimon Shahar" %} (Tel Aviv University, Center for Artificial Intelligence & Data Science).
+Collaborators: Dr 
+<a href="https://scholar.google.com/citations?user=zLuqh-0AAAAJ&hl=en" target="_blank">Ethan Fetaya</a> (Bar Ilan University, Faculty of Engineering), Dr 
+<a href="https://datascience.tau.ac.il/team/moni-shahar" target="_blank">Shimon Shahar</a> (Tel Aviv University, Center for Artificial Intelligence & Data Science).
 
 ## Digital Cuneiform Paleography
 
 Cuneiform palaeography is in its infancy. The last attempt at producing a comprehensive repertoire of the cuneiform signs of all periods, was almost a hundred years ago, in 1926 (Fossey’s magnum opus, *Manuel d’Assyriologie*). It is still widely cited, but largely obsolete, and clearly unsuited for today’s needs. As a result, there is no set criteria to date cuneiform tablets based on the shape of the signs alone, and leading cuneiform experts often offer widely diverging dates for one and the same document, which can differ by a margin of well over a millennium. We thus hope to create a modern, online database of signs per-period and a tool for dating texts based on their palaeography.
 
-Collaborators: Prof. {% include ext_link.html link="https://www.assyriologie.uni-muenchen.de/personen/professoren/jimenez/index.html" text="Enrique Jiménez" %} (LMU Munich, Institut für Assyriologie und Hethitologie), Dr {% include ext_link.html link="https://scholar.google.com/citations?user=zLuqh-0AAAAJ&hl=en" text="Ethan Fetaya" %} (Bar Ilan University, Faculty of Engineering).
+Collaborators: Prof. 
+<a href="https://www.assyriologie.uni-muenchen.de/personen/professoren/jimenez/index.html" target="_blank">Enrique Jiménez</a> (LMU Munich, Institut für Assyriologie und Hethitologie), Dr
+<a href="https://scholar.google.com/citations?user=zLuqh-0AAAAJ&hl=en" target="_blank">Ethan Fetaya</a> (Bar Ilan University, Faculty of Engineering).
 
 ## Machine Translation of Akkadian
 
 Language is one of the biggest barriers between human cultures. But today, this barrier is getting smaller and smaller - no need to say more than "google translate" on that front. But what about low-resource languages, and ancient languages? We are currently developing a machine translation model for translating Akkadian into English. Most people have experienced by now that machine translation is far from perfect, even between modern languages. Nevertheless, it is still able to give a general understanding of a text at hand. Therefore, having such a tool at your fingertips will make instantly accessible millennia of cultural heritage and history.
 
-Collaborators: Prof. {% include ext_link.html link="https://scholar.google.com/citations?user=xCYHonIAAAAJ&hl=en" text="Jonathan Berant" %} (Tel Aviv University, The Blavatnik School of Computer Science), Dr {% include ext_link.html link="https://scholar.google.co.il/citations?user=PZVd2h8AAAAJ&hl=en" text="Omer Levy" %} (Tel Aviv University, The Blavatnik School of Computer Science).
+Collaborators: Prof. 
+<a href="https://scholar.google.com/citations?user=xCYHonIAAAAJ&hl=en" target="_blank">Jonathan Berant</a> (Tel Aviv University, The Blavatnik School of Computer Science), Dr
+<a href="https://scholar.google.co.il/citations?user=PZVd2h8AAAAJ&hl=en" target="_blank">Omer Levy</a> (Tel Aviv University, The Blavatnik School of Computer Science).
 
 ## Stroke Recognition for Cuneiform
 
 An OCR model for recognizing cuneiform signs from 2D or 3D images is one of the biggest *desiderata* for assyriology in the 21<sup>st</sup> century. We are a developing an OCR model for recognizing strokes of cuneiform sign from 2D images of tablets. Cuneiform signs are created by different combination of a limited number of strokes: horizontals, verticals, obliques. The model is being trained to recognize and vectorize each one of these stroke types in a given image.
 
-Collaborators: Prof. {% include ext_link.html link="https://orcid.org/0000-0002-3959-5406" text="Josef Pavlíček" %} (CULS Prague), {% include ext_link.html link="https://orcid.org/0000-0002-1012-650X" text="Adéla Hamplová" %} (CULS Prague).
+Collaborators: Prof. 
+<a href="https://orcid.org/0000-0002-3959-5406" target="_blank">Josef Pavlíček</a> (CULS Prague),
+<a href="https://orcid.org/0000-0002-1012-650X" target="_blank">Adéla Hamplová</a> (CULS Prague).
 
 ## Word-Sense Induction for Low-Resource Semitic Languages
 
 Contextual understanding in the humanities is its bread and butter - and NLP applications using word-embedding for contextualization is a revolutionizing method of doing just that. It provides the ability for an emic understanding of a text at hand, in the context of its own language, often forcing us to confront the biases with which we read the text before. When attempting to apply such models to Akkadian and biblical Hebrew, however, they offer particular challenges: these models work best with large datasets, but Akkadian and biblical Hebrew are low-resource languages. We developed a word-sense induction model that can provide productive, contextual results for these two languages.
 
-Collaborators: Dr {% include ext_link.html link="https://scholar.google.co.il/citations?user=sdfKs_sAAAAJ&hl=en" text="Amos Azaria" %} (Ariel University, Department of Computer Science).
+Collaborators: Dr 
+<a href="https://scholar.google.co.il/citations?user=sdfKs_sAAAAJ&hl=en" target="_blank">Amos Azaria</a> (Ariel University, Department of Computer Science).
