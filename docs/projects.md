@@ -13,7 +13,7 @@ The Babylonian Engine is a growing repository for tools designed to aid the rese
 ## Mesopotamian Ancient Place-names Almanac (MAPA)
 
 MAPA is an historical geography project of the city of Uruk, one of the largest and most important cities of Mesopotamia, in the age of Empires (first millennium BCE). It incorporates both textual and remote-sensing data for large scale relational mapping of the landscape. The core of the project is made up of a gazetteer of placenames in texts and surveys, both on the ground and via remote sensing. This gazetteer is formatted according to the standards of the JSON-LD based <a href="https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md" target="_blank">Linked Places format (LPF)</a>
-{% include target_link.html, link: "https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md", text: "Linked Places format (LPF)" %}
+{% include target_link.html link="https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md" text="Linked Places format (LPF)" %}
 [Linked Places format (LPF)](https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md) of the [World Historical Gazetteer](http://whgazetteer.org/). For more information, see the [MAPA page](MAPA.md).
 
 ## 3D Scanning of Cuneiform Tablets
