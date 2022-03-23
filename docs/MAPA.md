@@ -3,7 +3,7 @@ layout: default+toc
 title: Mesopotamian Ancient Place-names Almanac
 ---
 
-The Mesopotamian Ancient Place-names Almanac (MAPA) focuses on the Mesopotamian deltaic city of Uruk ([modern Warka](https://pleiades.stoa.org/places/912986)). It is one of the earliest mega-cities in world history, settled already from the fourth millennium BCE. Uruk possesses some of the earliest attestations of the cuneiform writing system, and boasts of being the royal seat of the legendary king Gilgamesh.
+The Mesopotamian Ancient Place-names Almanac (MAPA) focuses on the Mesopotamian deltaic city of Uruk (<a href="https://pleiades.stoa.org/places/912986" target="_blank">modern Warka</a>). It is one of the earliest mega-cities in world history, settled already from the fourth millennium BCE. Uruk possesses some of the earliest attestations of the cuneiform writing system, and boasts of being the royal seat of the legendary king Gilgamesh.
 
 ![map of Uruk](/images/MAPA/Shay_2020_10_figure2_preview.jpeg)
 
@@ -17,7 +17,7 @@ In the first millennium BCE, the city became a central hub of cult, commerce and
 
 ## MAPA Gazetteer
 
-The MAPA team assembled the available sporadic registers (see *bibliography* below) into one gazetteer of Uruk and its hinterland in the first millennium BCE. The gazetteer is formatted according to the standards of the JSON-LD based [Linked Places format (LPF)](https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md) of the [World Historical Gazetteer](http://whgazetteer.org/). MAPA is an official partner in the [Pelagios Network](https://pelagios.org/) and is collaborating on its visualization activity. The JSON-LD syntax employed by the LPF is productive both as RDF and Geo-JSON, as well as providing for optional temporal scoping of names, geometry, place types, and place relations. At its core, the LPF allows to index metadata about place records from multiple gazetteers, based on stable URIs. The first version of the gazetteer is now available as TSV and JSON formats in the GitHub [MAPA repository](https://github.com/DigitalPasts/MAPA).
+The MAPA team assembled the available sporadic registers (see *bibliography* below) into one gazetteer of Uruk and its hinterland in the first millennium BCE. The gazetteer is formatted according to the standards of the JSON-LD based <a href="https://github.com/LinkedPasts/linked-places/blob/master/tsv_0.3.md" target="_blank">Linked Places format (LPF)</a> of the <a href="http://whgazetteer.org/" target="_blank">World Historical Gazetteer</a>. MAPA is an official partner in the <a href="https://pelagios.org/" target="_blank">Pelagios Network</a> and is collaborating on its visualization activity. The JSON-LD syntax employed by the LPF is productive both as RDF and Geo-JSON, as well as providing for optional temporal scoping of names, geometry, place types, and place relations. At its core, the LPF allows to index metadata about place records from multiple gazetteers, based on stable URIs. The first version of the gazetteer is now available as TSV and JSON formats in the GitHub <a href="https://github.com/DigitalPasts/MAPA" target="_blank">MAPA repository</a>.
 
 Already this gazetteer data can be visualized as a network (see Fig. 3), which shows the relational proximity of Uruk’s surrounding villages, fields, canals and other urban centres. The results are based on computational analysis of relational data that does not take into account all known connections, but rather gravity and sequence according to the few known elements in the network.
 
@@ -29,7 +29,7 @@ Already this gazetteer data can be visualized as a network (see Fig. 3), which s
 
 We are continuing to enrich the gazetteer. Some of the data we collected from earlier publications is outdated, or missing information needed for our purposes. Placename instances for each entry are being added, according to the most up-to-date textual editions, as well as unpublished references, and linking them to the gazetteer. We are also curating site biographies for each of the ancient canals around Uruk. The biography describes each settlement in both physical and social terms: what kinds of social groups are active there, what are its main economic activities, and what natural features and agricultural systems and technologies are attested there. Most interesting are the outgoing and incoming goods in each site (documented e.g. in administrative texts or correspondence).
 
-Furthermore, we are using the latest available declassified satellite and aerial imagery ([available at USGS](https://earthexplorer.usgs.gov/)) to identify ground features (canals and settlements), and tagging them accordingly. We will also enrich this dataset by scanning more declassified U2 reconnaissance imagery available on site at the [National Archives](https://www.archives.gov/).
+Furthermore, we are using the latest available declassified satellite and aerial imagery (<a href="https://earthexplorer.usgs.gov/" target="_blank">available at USGS</a>) to identify ground features (canals and settlements), and tagging them accordingly. We will also enrich this dataset by scanning more declassified U2 reconnaissance imagery available on site at the <a href="https://www.archives.gov/" target="_blank">National Archives</a>.
 
 ## Vision
 
@@ -37,11 +37,11 @@ MAPA is a first step in a larger vision of integrating textual sources with remo
 
 ### Acknowledgments
 
-We would like to thank Ariel M. Bagg, Michael Jursa, Ran Zadok, Francis Joannès, and the team at [Achemenet](http://www.achemenet.com/) for providing us with text summaries and transliterations of texts from the relevant periods.
+We would like to thank Ariel M. Bagg, Michael Jursa, Ran Zadok, Francis Joannès, and the team at <a href="http://www.achemenet.com/" target="_blank">Achemenet</a> for providing us with text summaries and transliterations of texts from the relevant periods.
 
-We would also like to extend our appreciation to our partners at [Pelagios](https://pelagios.org/), especially Elton Barker, Gethin Rees, and Simon Rainer, for their constant support and technical consultation.
+We would also like to extend our appreciation to our partners at <a href="https://pelagios.org/" target="_blank">Pelagios Network</a>, especially Elton Barker, Gethin Rees, and Simon Rainer, for their constant support and technical consultation.
 
-Lastly, thanks to Karl Grossner from the [World Historical Gazetteer](http://whgazetteer.org/), who assisted us with conforming to the JSON-LD based Linked Places format.
+Lastly, thanks to Karl Grossner from the <a href="http://whgazetteer.org/" target="_blank">World Historical Gazetteer</a>, who assisted us with conforming to the JSON-LD based Linked Places format.
 
 ### Bibliography
 
