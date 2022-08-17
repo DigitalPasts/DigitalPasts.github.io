@@ -1,11 +1,15 @@
 ---
-layout: default-main
+layout: default+toc
 title: Events and Presentations
 ---
 
 ## Conference Papers and Invited Lectures
 
-Shai Gordin and Avital Romach (Accepted) "Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform". DH 2022, Tokyo, Japan 25-29 July 2022. long paper. <a href="https://dh2022.adho.org/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+Shai Gordin (11/2022) "When Networks Matter: Interpreting Patterns in Social and Geographical Networks of First Millennium BCE Babylonia". SBL 2022 Annual Meeting, session: Literature and History of the Persian Period. <a href="https://www.sblcentral.org/home/conferencePaperDetails/61458" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+
+Shai Gordin and Avital Romach (07/2022) "Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform". DH 2022, Tokyo, Japan 25-29 July 2022. long paper. <a href="https://dh2022.adho.org/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+
+Shai Gordin (06/2022) "Neo-Babylonian Scribal Habits from a Stylometric Perspective". Invited lecture, Archival Scribes and Archival Literacy in Babylonia: Theory and Practice, 1-2 June 2022, Leiden University, the Netherlands.
 
 Shai Gordin (12/2021) “The Babylonian Engine: Studying ancient Babylonia using OCR, NLP and ML”. Journal of Electornic Imaging Webinar - Deep Learning: Applications and Recent Directions, Bar-Ilan University. <a href="https://www.spiedigitallibrary.org/jei-deep-learning-applications-and-recent-directions?SSO=1" target="_blank">See recorded lecture <i class="fas fa-external-link-square-alt"></i></a>
 
