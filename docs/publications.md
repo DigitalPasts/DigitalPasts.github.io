@@ -44,8 +44,8 @@ Computer raadt missend spijkerschrift (September 2020). _NRC_.
 
 Shai Gordin and Avital Romach (2022). Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform. In: DH 2022, Tokyo, Japan 25-29 July 2022. <a href="https://docs.google.com/presentation/d/1IMhTPGRwuwSmXgPuFcltaRTk2C4JvwKGYI_laiISE0A/edit?usp=sharing" target="_blank">Presentation slides <i class="fas fa-external-link-square-alt"></i></a>
 
-Shai Gordin & Samuel Clark (2021). MAPA Gazetteer version 0.1. 
-<a href="https://github.com/DigitalPasts/MAPA" target="_blank">https://github.com/DigitalPasts/MAPA  <i class="fas fa-external-link-square-alt"></i></a>
+Shai Gordin & Samuel Clark (2021). MAPA Gazetteer (version 1.0). 
+<a href="https://zenodo.org/record/6411251#.Yv0AzXbMKUk" target="_blank">Zenodo  <i class="fas fa-external-link-square-alt"></i></a>
 
 Shai Gordin (2021). Introduction to the Ancient Middle East: Between Physical and Cultural Geography (Hebrew). Educational resource <a href="https://www.arcgis.com/apps/MapJournal/index.html?appid=0d8ea53679044b78b8237690b5e4c842" target="_blank">ARC-GIS story <i class="fas fa-external-link-square-alt"></i></a>
 
