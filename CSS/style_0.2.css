@@ -290,9 +290,13 @@ footer div a:hover {
     }
 
     footer {
-        height: 400px;
+        height: 500px;
         flex-direction: column-reverse;
         text-align: justify;
         justify-content: space-evenly;
+    }
+
+    #credits {
+        flex-direction: column;
     }
 }
