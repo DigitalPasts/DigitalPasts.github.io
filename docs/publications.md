@@ -1,11 +1,13 @@
 ---
-layout: default-main
+layout: default+toc
 title: Publications
 ---
 
 ## <i class="fas fa-book"></i> Scientific Publications
 
-Shai Gordin and Avital Romach (Accepted). Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform. In: DH 2022, Tokyo, Japan 25-29 July 2022. long paper. <a href="https://dh2022.adho.org/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+Shai Gordin, Avital Romach, & Shmuel Clark. (Accepted). MAPA: A Linked Open Data Gazetteer of the Southern Babylonian Landscape. In: _Interdisciplinary Digital Engagement in Arts & Humanities (IDEAH)_.
+
+Shai Gordin and Avital Romach (2022). Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform. In: DH 2022, Tokyo, Japan 25-29 July 2022. long paper. <a href="https://dh2022.adho.org/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
 António de Freitas and Shai Gordin, eds. (2021). A Digital Ancient Near East: Challenges and Opportunities. Special Volume of _H2D: digital humanities journal_, vol. 3/1. <a href="https://revistas.uminho.pt/index.php/h2d/issue/view/170" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
@@ -16,6 +18,12 @@ Shai Gordin, Gai Gutherz, Ariel Elazary, Avital Romach, Enrique Jiménez, Jonath
 Ethan Fetaya, Yonatan Lifshitz, Elad Aaron, & Shai Gordin (2020). Restoration of Fragmentary Babylonian Texts Using Recurrent Neural Networks. _Proceedings of the National Academy of Sciences_, 117(37), 22743–22751. DOI: <a href="https://doi.org/10.1073/pnas.2003794117" target="_blank">10.1073/pnas.2003794117 <i class="fas fa-external-link-square-alt"></i></a>
 
 ## <i class="far fa-newspaper"></i> Popular Publications
+
+How the secrets of ancient cuneiform texts are being revealed by AI (August 2022). _NewScientist_. <a href="https://www.newscientist.com/article/mg25533981-400-how-the-secrets-of-ancient-cuneiform-texts-are-being-revealed-by-ai/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+
+Shai Gordin (June 2022). Reading & deciphering ancient writing systems with AI. _Open Access Government_. <a href="https://www.openaccessgovernment.org/reading-deciphering-ancient-writing-systems-with-ai/137850/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+
+Shai Gordin (March 2022). AI to study ancient writing systems. _Open Access Government_. <a href="https://www.openaccessgovernment.org/artificial-intelligence-study-ancient-writing-systems/132122/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
 Shai Gordin (September 2021). Digital Assyriology: Using Artificial Intelligence to Unlock an Ancient Lingua Franca. _Research Outreach_ 125: 18–21. DOI: <a href="https://doi.org/10.32907/RO-125-1715801386" target="_blank">10.32907/RO-125-1715801386 <i class="fas fa-external-link-square-alt"></i></a>
 
@@ -34,8 +42,10 @@ Computer raadt missend spijkerschrift (September 2020). _NRC_.
 
 ## <i class="fas fa-globe"></i> Web Publications
 
-Shai Gordin & Samuel Clark (2021). MAPA Gazetteer version 0.1. 
-<a href="https://github.com/DigitalPasts/MAPA" target="_blank">https://github.com/DigitalPasts/MAPA  <i class="fas fa-external-link-square-alt"></i></a>
+Shai Gordin and Avital Romach (2022). Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform. In: DH 2022, Tokyo, Japan 25-29 July 2022. <a href="https://docs.google.com/presentation/d/1IMhTPGRwuwSmXgPuFcltaRTk2C4JvwKGYI_laiISE0A/edit?usp=sharing" target="_blank">Presentation slides <i class="fas fa-external-link-square-alt"></i></a>
+
+Shai Gordin & Samuel Clark (2021). MAPA Gazetteer (version 1.0). 
+<a href="https://zenodo.org/record/6411251#.Yv0AzXbMKUk" target="_blank">Zenodo  <i class="fas fa-external-link-square-alt"></i></a>
 
 Shai Gordin (2021). Introduction to the Ancient Middle East: Between Physical and Cultural Geography (Hebrew). Educational resource <a href="https://www.arcgis.com/apps/MapJournal/index.html?appid=0d8ea53679044b78b8237690b5e4c842" target="_blank">ARC-GIS story <i class="fas fa-external-link-square-alt"></i></a>
 
