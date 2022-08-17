@@ -66,7 +66,7 @@ Collaborators: Prof.
 
 ### Stroke Recognition for Cuneiform
 
-An OCR model for recognizing cuneiform signs from 2D or 3D images is one of the biggest *desiderata* for assyriology in the 21<sup>st</sup> century. We are a developing an OCR model for recognizing strokes of cuneiform sign from 2D images of tablets. Cuneiform signs are created by different combination of a limited number of strokes: horizontals, verticals, obliques. The model is being trained to recognize and vectorize each one of these stroke types in a given image.
+An OCR model for recognizing cuneiform signs from 2D or 3D images is one of the biggest *desiderata* for assyriology in the 21<sup>st</sup> century. We developed an OCR model for recognizing horizontal strokes of cuneiform signs from 2D images of tablets. Cuneiform signs are created by different combination of a limited number of strokes: horizontals, verticals, obliques. This work was a first step in establishing a pipeline for cuneiform OCR from 2D images. The model is able to create a vectorized hand-copy, which will be easier for further OCR applications.
 
 Collaborators: Prof. 
 <a href="https://orcid.org/0000-0002-3959-5406" target="_blank">Josef Pavlíček</a> (CULS Prague),
@@ -74,7 +74,8 @@ Collaborators: Prof.
 
 ### Word-Sense Induction for Low-Resource Semitic Languages
 
-Contextual understanding in the humanities is its bread and butter - and NLP applications using word-embedding for contextualization is a revolutionizing method of doing just that. It provides the ability for an emic understanding of a text at hand, in the context of its own language, often forcing us to confront the biases with which we read the text before. When attempting to apply such models to Akkadian and biblical Hebrew, however, they offer particular challenges: these models work best with large datasets, but Akkadian and biblical Hebrew are low-resource languages. We developed a word-sense induction model that can provide productive, contextual results for these two languages.
+Contextual understanding in the humanities is its bread and butter - and NLP applications using word-embedding for contextualization is a revolutionizing method of doing just that. It provides the ability for an emic understanding of a text at 
+, in the context of its own language, often forcing us to confront the biases with which we read the text before. When attempting to apply such models to Akkadian and biblical Hebrew, however, they offer particular challenges: these models work best with large datasets, but Akkadian and biblical Hebrew are low-resource languages. We developed a word-sense induction model that can provide productive, contextual results for these two languages.
 
 Collaborators: Dr 
 <a href="https://scholar.google.co.il/citations?user=sdfKs_sAAAAJ&hl=en" target="_blank">Amos Azaria</a> (Ariel University, Department of Computer Science).
