@@ -238,15 +238,15 @@ footer {
         cursor: pointer;
       }
     }
+  }
+}
 
-    .funding {
-      display: flex;
-      align-items: center;
+#credits {
+  display: flex;
+  align-items: center;
 
-      p {
-        padding: 10px;
-      }
-    }
+  p {
+    padding: 10px;
   }
 }
 

@@ -184,11 +184,12 @@ footer div a:hover {
     color: #edd59d;
     cursor: pointer;
 }
-footer div .funding {
+
+#credits {
     display: flex;
     align-items: center;
 }
-footer div .funding p {
+#credits p {
     padding: 10px;
 }
 
