@@ -158,7 +158,7 @@ footer {
     background-image: url("../images/navigation/banner_background_light_small.jpg");
     background-size: cover;
     width: 100vw;
-    height: 120px;
+    height: 160px;
     font-family: "Quicksand", sans-serif;
     color: #f4f4f4;
     display: flex;
@@ -167,7 +167,7 @@ footer {
     padding: 20px;
 }
 footer div {
-    padding: 15px;
+    padding: 10px;
 }
 footer div h3 {
     color: #edd59d;
@@ -183,6 +183,13 @@ footer div a i {
 footer div a:hover {
     color: #edd59d;
     cursor: pointer;
+}
+footer div .funding {
+    display: flex;
+    align-items: center;
+}
+footer div .funding p {
+    padding: 10px;
 }
 
 @media (max-width: 1024px) {

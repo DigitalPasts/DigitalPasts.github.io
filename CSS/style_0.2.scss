@@ -208,7 +208,7 @@ footer {
   background-image: url("../images/navigation/banner_background_light_small.jpg");
   background-size: cover;
   width: 100vw;
-  height: 120px;
+  height: 160px;
   // padding: 10px;
   font-family: $font-main;
   color: $light-color;
@@ -218,7 +218,7 @@ footer {
   padding: 20px;
 
   div{
-    padding: 15px;
+    padding: 10px;
 
     h3 {
       color: $secondary-color;
@@ -236,6 +236,15 @@ footer {
       &:hover {
         color: $secondary-color;
         cursor: pointer;
+      }
+    }
+
+    .funding {
+      display: flex;
+      align-items: center;
+
+      p {
+        padding: 10px;
       }
     }
   }
