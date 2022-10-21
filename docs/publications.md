@@ -19,6 +19,8 @@ Ethan Fetaya, Yonatan Lifshitz, Elad Aaron, & Shai Gordin (2020). Restoration of
 
 ## <i class="far fa-newspaper"></i> Popular Publications
 
+Shai Gordin & Avital Romach (October 2022). The Cuneiform Wide Web: From Card Catalogues to Digital Assyriology. _The Ancient Near East Today_. <a href="https://www.asor.org/anetoday/2022/10/cuneiform-wide-web" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+
 How the secrets of ancient cuneiform texts are being revealed by AI (August 2022). _NewScientist_. <a href="https://www.newscientist.com/article/mg25533981-400-how-the-secrets-of-ancient-cuneiform-texts-are-being-revealed-by-ai/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
 Shai Gordin (June 2022). Reading & deciphering ancient writing systems with AI. _Open Access Government_. <a href="https://www.openaccessgovernment.org/reading-deciphering-ancient-writing-systems-with-ai/137850/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
