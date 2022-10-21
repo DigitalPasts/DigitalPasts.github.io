@@ -62,6 +62,13 @@ Collaborators: Prof.
 <a href="https://scholar.google.com/citations?user=xCYHonIAAAAJ&hl=en" target="_blank">Jonathan Berant</a> (Tel Aviv University, The Blavatnik School of Computer Science), Dr
 <a href="https://scholar.google.co.il/citations?user=PZVd2h8AAAAJ&hl=en" target="_blank">Omer Levy</a> (Tel Aviv University, The Blavatnik School of Computer Science).
 
+### Metaphor Detection in Akkadian Letters
+
+Metaphor detection is a high-level semantic task that has only recently become a research interest in natural language processing (NLP) due to the abstract nature of the target object. This project seeks to develop a method for automatic metaphor detection in Akkadian, leveraging the insights of conceptual metaphor theory and frame semantics that are the basis for a number of large metaphor databases (such as UC Berkeley’s <a href="https://metanet.icsi.berkeley.edu/metanet/" target="_blank">MetaNet</a>). We work with the corpus of Neo-Assyrian letters, which is available in lemmatized form on ORACC and is written in a more colloquial style than royal inscriptions or administrative documents. Besides developing a new, richly-annotated set of Akkadian texts available for future use, this project hopes to show the value of cognitive linguistics to NLP research.
+
+Collaborator: Prof. 
+<a href="https://github.com/niekveldhuis" target="_blank">Niek Veldhuis</a> (UC Berkely, Dept. of Middle Eastern Languages and Cultures).
+
 ## Past Projects
 
 ### Stroke Recognition for Cuneiform
