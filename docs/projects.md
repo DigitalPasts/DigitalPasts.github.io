@@ -52,6 +52,12 @@ Machine learning models need as much data as we can give them. Although digital 
 Collaborators: Prof. 
 <a href="https://scholar.google.com/citations?user=xCYHonIAAAAJ&hl=en" target="_blank">Jonathan Berant</a> (Tel Aviv University, The Blavatnik School of Computer Science).
 
+### Deeplomatics
+
+This project focuses on cuneiform tablet shape analysis. Previous works in the field of diplomatics applied to cuneiform have noted that tablet shapes are highly indicative of dating as well as text genre. We have confirmed that this is the case with preliminary experiments in training an image classifier to predict tablet dating taking the tablet’s shape as input. We intend to deepen this line of research, using explainable AI (XAI) techniques to understand exactly how tablet shape correlates with tablet dating and genre, and whether this aligns with the claims in the Assyriological literature. This will enable us to automatically extract another source of information about tablet dating as well as gaining further insights into how cuneiform was used.
+
+Collaborator: Dr <a href="https://data4goodlab.github.io/MichaelFire/" target="_blank">Michael Fire</a> (Ben-Gurion University of the Negev).
+
 ### Digital Cuneiform Paleography
 
 Cuneiform palaeography is in its infancy. The last attempt at producing a comprehensive repertoire of the cuneiform signs of all periods, was almost a hundred years ago, in 1926 (Fossey’s magnum opus, *Manuel d’Assyriologie*). It is still widely cited, but largely obsolete, and clearly unsuited for today’s needs. As a result, there is no set criteria to date cuneiform tablets based on the shape of the signs alone, and leading cuneiform experts often offer widely diverging dates for one and the same document, which can differ by a margin of well over a millennium. We thus hope to create a modern, online database of signs per-period and a tool for dating texts based on their palaeography.
