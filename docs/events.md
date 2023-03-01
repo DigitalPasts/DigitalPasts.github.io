@@ -23,6 +23,20 @@ Shai Gordin (11/2020) “Mesopotamian Ancient Place-names Almanac: Doing Histori
 
 ## Past Events of the DigPasts Lab
 
+### Digital Ancient Near Eastern Studies 2023 (19-21 Feb 2023)
+
+<a href="https://digitalpasts.github.io/DANES/" target="_blank">Link to the conference website</a>
+
+Co-oragnisers: Hubert Mara (eHumanities, MLU Halle-Wittenberg); Gabriel Stanovsky (Computer Science, Hebrew University of Jerusalem)
+
+In recent decades, the rich cultural heritage of the Near East is undergoing a digital revolution. Comprehensive online repositories have made the digital publishing of artefacts in 2D images, interactive 3D models, as well as text editions, a more sustainable common practice. Furthermore, computational analyses of ancient Near Eastern artefacts, texts and art, are starting to become more prevalent, applying quantitative analyses, natural language processing (NLP) or machine learning (ML), to answer questions about these complex ancient civilizations.
+
+The conference, Computational Perspectives on Ancient Near Eastern Literature, Art and Material Culture, established a professional network for Digital Ancient Near Eastern Studies (DANES). The first working groups in the networks will consolidate the successes of recent initiatives led by different research centres, and discuss how best to integrate computational approaches and digital humanities research for ancient Near Eastern texts, art and artefacts.
+
+<a href="https://youtube.com/playlist?list=PLNiWLB_wsOg7tjQs-NMroOCywL4w4la7k" target="_blank">Recording of Day 1</a>
+
+<a href="https://doi.org/10.5281/zenodo.7682926" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7682926.svg" alt="DOI"></a>
+
 ### Human - Machine Cooperation in Archaeology, Epigraphy and Ancient History (19-20 Feb 2020)
 
 The conference and workshop Human-Machine Cooperation in Archaeology, Epigraphy and Ancient History was devoted to the application of digital tools in projects related to ancient history, material culture, and texts. This approach assumes that the application of digital tools to the study of ancient times shares similar challenges, and the output of such projects may be of interest to all participants in the workshop. We brought together international and Israeli scholars of archaeology, epigraphy, biblical studies, ancient history, computer science, digital humanities, and members of the Israeli high-tech industry in order to investigate the following issues:
