@@ -5,7 +5,11 @@ title: Publications
 
 ## <i class="fas fa-book"></i> Scientific Publications
 
-Shai Gordin, Avital Romach, & Shmuel Clark. (Accepted). MAPA: A Linked Open Data Gazetteer of the Southern Babylonian Landscape. In: _Interdisciplinary Digital Engagement in Arts & Humanities (IDEAH)_.
+Shmuel Clark, Mark Altaweel, and Shai Gordin. (2022). Urbanscape, Land Use Change and Centralization in the Region of Uruk, Southern Mesopotamia from the 2nd to 1st Millennium BCE. In: _Land_ 11, no. 11: 1955. <a href="https://doi.org/10.3390/land11111955" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+
+Shai Gordin, Avital Romach, & Shmuel Clark. (2022). MAPA: A Linked Open Data Gazetteer of the Southern Babylonian Landscape. In: _Interdisciplinary Digital Engagement in Arts & Humanities (IDEAH)_<a href="https://doi.org/10.21428/f1f23564.8d442eea" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+
+Adéla Hamplová, David Franc, Josef Pavlíček, Avital Romach, and Shai Gordin. (2022). Cuneiform Reading Using Computer Vision Algorithms. In: _Proceedings of the 2022 5th International Conference on Signal Processing and Machine Learning (SPML '22)_. Association for Computing Machinery, New York, NY, USA, 242–245. <a href="https://doi.org/10.1145/3556384.3556421" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
 Shai Gordin and Avital Romach (2022). Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform. In: DH 2022, Tokyo, Japan 25-29 July 2022. long paper. <a href="https://dh2022.adho.org/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
