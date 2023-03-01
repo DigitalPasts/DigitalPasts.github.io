@@ -29,6 +29,12 @@ Archaeomagentic research on Bronze and Iron Age materials has become a flourishi
 
 Collaborators: Prof. <a href="http://magician.ucsd.edu/" target="_blank">Lisa Tauxe</a> (UC San Diego), Prof. <a href="https://telaviv.academia.edu/ErezBenYosef" target="_blank">Erez Ben-Yosef</a>
 
+### Cuneiform in Augmented 3D Space
+
+With approximately 250 cuneiform tablets in storage, the collection at the National Museums of Scotland is the largest of its kind in Scotland. The pilot project examines possibilities for augmented holographic displays with HoloLens2, for a combination of metadata and 3D Cuneiform artefacts from NMS. Of particular interest within the topic are the epistemic issues of 2D/3D data translation and representation, eye-tracking navigation and multi-channel interaction in the educational and museal context. The project is in collaboration with <a href="https://uk.linkedin.com/in/wamposzyc" target="_blank">Creative Informatics</a>, <a href="https://www.napier.ac.uk/about-us" target="_blank">Edinburgh Napier University</a>.
+ 
+Collaborator: Dr <a href="https://uk.linkedin.com/in/wamposzyc" target="_blank">Michael Wamposzyc</a> (Edinburgh Napier University)
+
 ### CuRe (Cuneiform Recognition)
 
 In the 19<sup>th</sup> and 20<sup>th</sup> centuries, the most efficient way to publish cuneiform tablets was creating hand-copies, drawings imitating cuneiform signs in black and white. This is still widely used to this day in assyriological publications. Therefore, there are tens of thousands of these hand-copies, which, because of their relative simplicity, can be an easier first step into optical character recognition of cuneiform. We trained a machine learning model to identify hand-drawn signs. After achieving successful results with hand-copies, we hope to apply our model to 2D images. A demo of the current capabilities of this model is currently available through the new Babylonian Engine portal.
