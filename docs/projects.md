@@ -31,7 +31,7 @@ Collaborators: Prof. <a href="http://magician.ucsd.edu/" target="_blank">Lisa Ta
 
 ### Cuneiform in Augmented 3D Space
 
-With approximately 250 cuneiform tablets in storage, the collection at the National Museums of Scotland is the largest of its kind in Scotland. The pilot project examines possibilities for augmented holographic displays with HoloLens2, for a combination of metadata and 3D Cuneiform artefacts from NMS. Of particular interest within the topic are the epistemic issues of 2D/3D data translation and representation, eye-tracking navigation and multi-channel interaction in the educational and museal context. The project is in collaboration with <a href="https://uk.linkedin.com/in/wamposzyc" target="_blank">Creative Informatics</a>, <a href="https://www.napier.ac.uk/about-us" target="_blank">Edinburgh Napier University</a>.
+With approximately 250 cuneiform tablets in storage, the collection at the National Museums of Scotland is the largest of its kind in Scotland. The pilot project examines possibilities for augmented holographic displays with HoloLens2, for a combination of metadata and 3D Cuneiform artefacts from NMS. Of particular interest within the topic are the epistemic issues of 2D/3D data translation and representation, eye-tracking navigation and multi-channel interaction in the educational and museal context. The project is in collaboration with <a href="https://creativeinformatics.org/" target="_blank">Creative Informatics</a>, <a href="https://www.napier.ac.uk/about-us" target="_blank">Edinburgh Napier University</a>.
  
 Collaborator: Dr <a href="https://uk.linkedin.com/in/wamposzyc" target="_blank">Michael Wamposzyc</a> (Edinburgh Napier University)
 
