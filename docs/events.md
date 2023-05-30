@@ -35,7 +35,7 @@ Shai Gordin (11/2020) “Mesopotamian Ancient Place-names Almanac: Doing Histori
 
 ## Upcoming Events of the DigPasts Lab
 
-### ALP2023：First Workshop on Ancient Language Processing (Varna, Bulgaria, 7 Sep 2023)
+**ALP2023：First Workshop on Ancient Language Processing (Varna, Bulgaria, 7 Sep 2023)**
 
 <a href="https://www.ancientnlp.com/alp2023/" target="_blank">Link to workshop website</a>
 
@@ -45,7 +45,7 @@ Co-located with <a href="https://ranlp.org/ranlp2023/" target="_blank">RANLP 202
 
 Papers and contributions are encouraged for any work related to Natural Language Processing of Ancient Languages. Deadline for submission is until **July 3, 2023**, for submission guidelines see <a href="https://www.ancientnlp.com/alp2023/call_for_papers/" target="_blank">link</a>.
 
-### ALT2023：Ancient Language Translation Workshop (Macau SAR, China, 4 Sep 2023)
+**ALT2023：Ancient Language Translation Workshop (Macau SAR, China, 4 Sep 2023)**
 
 <a href="https://digitalpasts.github.io/EvaCUN/" target="_blank">Link to Cuneiform Machine Translation Task website</a>
 
@@ -57,7 +57,7 @@ In this year’s <a href="https://github.com/GoThereGit/ALT" target="_blank">wor
 
 ## Past Events of the DigPasts Lab
 
-### Digital Ancient Near Eastern Studies (19-21 Feb 2023)
+**Digital Ancient Near Eastern Studies (19-21 Feb 2023)**
 
 <a href="https://digitalpasts.github.io/DANES/" target="_blank">Link to the conference website</a>; <a href="https://doi.org/10.5281/zenodo.7682926" target="_blank"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.7682926.svg" alt="DOI"></a>
 
@@ -69,7 +69,7 @@ The conference, Computational Perspectives on Ancient Near Eastern Literature, A
 
 <a href="https://youtube.com/playlist?list=PLNiWLB_wsOg7tjQs-NMroOCywL4w4la7k" target="_blank">Recording of Day 1</a>
 
-### Human - Machine Cooperation in Archaeology, Epigraphy and Ancient History (19-20 Feb 2020)
+**Human - Machine Cooperation in Archaeology, Epigraphy and Ancient History (19-20 Feb 2020)**
 
 The conference and workshop Human-Machine Cooperation in Archaeology, Epigraphy and Ancient History was devoted to the application of digital tools in projects related to ancient history, material culture, and texts. This approach assumes that the application of digital tools to the study of ancient times shares similar challenges, and the output of such projects may be of interest to all participants in the workshop. We brought together international and Israeli scholars of archaeology, epigraphy, biblical studies, ancient history, computer science, digital humanities, and members of the Israeli high-tech industry in order to investigate the following issues:
 
