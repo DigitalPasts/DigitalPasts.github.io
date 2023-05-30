@@ -10,7 +10,6 @@ title: Projects
 The Babylonian Engine is a growing repository for tools designed to aid the research, teaching, and knowledge distribution of the ancient cultures of Mesopotamia. One of the greatest obstacles of assyriology is an incredible amount of data, and at the same time an extremely limited number of people able to access it and make it accessible for the rest of the world. The artificial intelligence revolution and general developments in computer and data science can give us the long awaited solutions for that problem, by creating an appropriate interface. For our existing tools and more information, see the [Babylonian Engine Page](BEn.md). For tools in the making, see other projects in this page.
 
 {% include BEn_new.html %}
-{% include BEn_old.html %}
 
 ### Mesopotamian Ancient Place-names Almanac (MAPA)
 
@@ -66,14 +65,6 @@ Collaborators: Prof.
 <a href="https://www.assyriologie.uni-muenchen.de/personen/professoren/jimenez/index.html" target="_blank">Enrique Jiménez</a> (LMU Munich, Institut für Assyriologie und Hethitologie), Dr
 <a href="https://scholar.google.com/citations?user=zLuqh-0AAAAJ&hl=en" target="_blank">Ethan Fetaya</a> (Bar Ilan University, Faculty of Engineering).
 
-### Machine Translation of Akkadian
-
-Language is one of the biggest barriers between human cultures. But today, this barrier is getting smaller and smaller - no need to say more than "google translate" on that front. But what about low-resource languages, and ancient languages? We are currently developing a machine translation model for translating Akkadian into English. Most people have experienced by now that machine translation is far from perfect, even between modern languages. Nevertheless, it is still able to give a general understanding of a text at hand. Therefore, having such a tool at your fingertips will make instantly accessible millennia of cultural heritage and history.
-
-Collaborators: Prof. 
-<a href="https://scholar.google.com/citations?user=xCYHonIAAAAJ&hl=en" target="_blank">Jonathan Berant</a> (Tel Aviv University, The Blavatnik School of Computer Science), Dr
-<a href="https://scholar.google.co.il/citations?user=PZVd2h8AAAAJ&hl=en" target="_blank">Omer Levy</a> (Tel Aviv University, The Blavatnik School of Computer Science).
-
 ### Metaphor Detection in Akkadian Letters
 
 Metaphor detection is a high-level semantic task that has only recently become a research interest in natural language processing (NLP) due to the abstract nature of the target object. This project seeks to develop a method for automatic metaphor detection in Akkadian, leveraging the insights of conceptual metaphor theory and frame semantics that are the basis for a number of large metaphor databases (such as UC Berkeley’s <a href="https://metanet.icsi.berkeley.edu/metanet/" target="_blank">MetaNet</a>). We work with the corpus of Neo-Assyrian letters, which is available in lemmatized form on ORACC and is written in a more colloquial style than royal inscriptions or administrative documents. Besides developing a new, richly-annotated set of Akkadian texts available for future use, this project hopes to show the value of cognitive linguistics to NLP research.
@@ -82,6 +73,14 @@ Collaborator: Prof.
 <a href="https://github.com/niekveldhuis" target="_blank">Niek Veldhuis</a> (UC Berkely, Dept. of Middle Eastern Languages and Cultures).
 
 ## Past Projects
+
+### Machine Translation of Akkadian
+
+Language is one of the biggest barriers between human cultures. But today, this barrier is getting smaller and smaller - no need to say more than "google translate" on that front. But what about low-resource languages, and ancient languages? We are currently developing a machine translation model for translating Akkadian into English. Most people have experienced by now that machine translation is far from perfect, even between modern languages. Nevertheless, it is still able to give a general understanding of a text at hand. Therefore, having such a tool at your fingertips will make instantly accessible millennia of cultural heritage and history.
+
+Collaborators: Prof. 
+<a href="https://scholar.google.com/citations?user=xCYHonIAAAAJ&hl=en" target="_blank">Jonathan Berant</a> (Tel Aviv University, The Blavatnik School of Computer Science), Dr
+<a href="https://scholar.google.co.il/citations?user=PZVd2h8AAAAJ&hl=en" target="_blank">Omer Levy</a> (Tel Aviv University, The Blavatnik School of Computer Science).
 
 ### Stroke Recognition for Cuneiform
 
