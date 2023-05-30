@@ -13,14 +13,19 @@ section .toc h2 {
     margin-bottom: 0;
 }
 section .toc ul {
-    height: 50vh;
-    overflow: overlay;
+    margin: 0;
+    display: contents;
 }
 section .toc ul li {
     list-style: none;
     text-align: left;
     font-size: 1vw;
-    padding-bottom: 10px;
+    padding: 5px 0 0 10px;
+}
+section .toc a, section .toc p a {
+    display: block;
+    border: none;
+    text-decoration: none;
 }
 section .content {
     margin: 0 20vw;
