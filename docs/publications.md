@@ -25,6 +25,8 @@ Ethan Fetaya, Yonatan Lifshitz, Elad Aaron, and Shai Gordin (2020). Restoration 
 
 ## <i class="far fa-newspaper"></i> Popular Publications
 
+Groundbreaking AI project translates 5,000-year-old cuneiform at push of a button (June 2023). _The Times of Israel_. <a href="https://www.timesofisrael.com/groundbreaking-ai-project-translates-5000-year-old-cuneiform-at-push-of-a-button/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
+
 This AI Bot Translates Dead Ancient Languages into English (May 2023). _The Daily Beast_. <a href="https://www.thedailybeast.com/this-ai-bot-translates-dead-ancient-languages-into-english" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
 
 Translating Cuneiform with AI: Potentials and challenges in studying ancient texts (May 2023). _Biblical Archaeology Society_. <a href="https://www.biblicalarchaeology.org/daily/ancient-cultures/ancient-near-eastern-world/translating-cuneiform-ai/" target="_blank"><i class="fas fa-external-link-square-alt"></i></a>
