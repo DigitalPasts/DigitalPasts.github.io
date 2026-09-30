@@ -7,24 +7,20 @@
   group: pi
   status: current
   photo: /images/people/shai-gordin.jpg
-  bio: >-
-    Associate Professor of Ancient Near Eastern History and Digital Humanities,
-    Department of Land of Israel Studies and Archaeology, Ariel University;
-    Visiting Research Fellow, Digital Humanities and Social Sciences Hub, Open University of Israel.
-    Academic editor at PLOS ONE, collection editor at Humanities and Social Sciences Communications,
-    editorial board of OpenDANES, and member of the Pelagios Network Committee.
+  bio: Associate Professor of Ancient Near Eastern History and Digital Humanities, Department of Land of Israel Studies and Archaeology, Ariel University; Visiting Research Fellow, Digital Humanities and Social Sciences Hub, Open University of Israel. Academic editor at PLOS ONE, collection editor at Humanities and Social Sciences Communications, editorial board of OpenDANES, and member of the Pelagios Network Committee.
   links:
     orcid: https://orcid.org/0000-0002-8359-382X
     scholar: https://scholar.google.com/citations?user=A5okNFcAAAAJ&hl=en
     academia: https://ariel.academia.edu/ShaiGordin
 
-# ---- Current PhD students ----
 - name: Stav Klein
   role: PhD candidate
   group: phd
   status: current
   note: Co-supervised with Ran Zadok (Tel Aviv U.) and Gabi Stanovsky (Hebrew U.)
-  projects: [lost-time, evacun]
+  projects:
+  - lost-time
+  - evacun
   photo: /images/people/stav-klein.jpg
   links:
     github: https://github.com/stavkl
@@ -34,8 +30,9 @@
   role: PhD candidate
   group: phd
   status: current
-  projects: [hittite-ml]
-  photo:
+  projects:
+  - hittite-ml
+  photo: null
   links: {}
 
 - name: Matthew Yeater
@@ -43,108 +40,73 @@
   group: phd
   status: current
   note: Co-supervised with Shawn Zelig Aster (Bar-Ilan U.) and Shalom Holtz (Yeshiva U.)
-  projects: [niv-louie]
-  photo:
+  projects:
+  - niv-louie
+  photo: null
   links: {}
 
-- name: Yael Assouline
-  role: PhD candidate
-  group: phd
-  status: current
-  photo:
-  links: {}
-
-- name: Eisam Abu Rabea
-  role: PhD candidate
-  group: phd
-  status: current
-  photo:
-  links: {}
-
-- name: Ahlam Mohammed
-  role: PhD candidate (Tel Aviv University)
-  group: phd
-  status: current
-  note: Co-supervised with Letizia Cerqueglini (Tel Aviv U.)
-  photo:
-  links: {}
-
-# ---- Current MA students ----
 - name: Konstantin Margulyan
   role: MA student
   group: ma
   status: current
-  projects: [assyrian-reliefs, 3d-scanning]
+  projects:
+  - assyrian-reliefs
+  - 3d-scanning
   photo: /images/people/kostiya-margulyan.jpg
   links: {}
 
 - name: Shahar Spencer
-  role: MA student (Hebrew University)
+  role: MA student, Hebrew University of Jerusalem
   group: ma
   status: current
   note: Co-supervised with Gabi Stanovsky (Hebrew U.)
-  projects: [evacun]
-  photo:
+  projects:
+  - evacun
+  photo: null
   links: {}
 
 - name: Yuval Gershfeld
-  role: MA student (Bar-Ilan University)
+  role: MA student, Bar-Ilan University
   group: ma
   status: current
   note: Co-supervised with Ethan Fetaya (Bar-Ilan U.)
-  photo:
+  photo: null
   links: {}
 
-- name: Lilach Kagan
-  role: MA student
-  group: ma
-  status: current
-  photo:
-  links: {}
-
-# ---- Research fellows and close collaborators (confirm whether still lab members) ----
 - name: Morris Alper
-  role: Research fellow (computer science)
+  role: Research fellow (computer science); now University of Miami
   group: collaborator
-  status: current
+  status: alumni
   confirm: true
-  projects: [cured, protosnap, havi]
+  projects:
+  - cured
+  - protosnap
+  - havi
   photo: /images/people/morris-alper.jpg
   links:
     github: https://github.com/morrisalp
     website: https://morrisalp.github.io/
 
 - name: Avital Romach
-  role: Research fellow (humanities)
+  role: Research fellow (humanities); now Yale University
   group: collaborator
-  status: current
+  status: alumni
   confirm: true
-  projects: [cured, stylometry]
+  projects:
+  - cured
+  - stylometry
   photo: /images/people/avital-romach.jpg
   links:
     academia: https://yale.academia.edu/AvitalRomach
 
-# ---- Alumni ----
 - name: Matthew D. Howland
-  role: Postdoctoral fellow
+  role: Postdoctoral fellow, Tel Aviv University
   group: postdoc
   status: alumni
   degree_year: 2022
   note: Co-supervised with Erez Ben-Yosef (Tel Aviv U.)
-  projects: [archaeomagnetism]
-
-- name: Naama Golan
-  role: Postdoctoral fellow
-  group: postdoc
-  status: alumni
-  degree_year: 2019
-
-- name: Christian Locatell
-  role: Postdoctoral fellow
-  group: postdoc
-  status: alumni
-  degree_year: 2019
-  note: Co-supervised with Itzick Shai
+  projects:
+  - archaeomagnetism
 
 - name: Shmuel (Samuel) Clark
   role: PhD, Ariel University
@@ -152,27 +114,32 @@
   status: alumni
   degree_year: 2024
   note: Co-supervised with Ran Zadok (Tel Aviv U.) and Mark Altaweel (UCL)
-  projects: [mapa]
+  projects:
+  - mapa
   photo: /images/people/samuel-clark.jpg
   links:
     academia: https://ariel.academia.edu/ShmuelClark/
 
 - name: Matthew Ong
-  role: PhD sandwich fellow (UC Berkeley)
+  role: PhD sandwich fellow, UC Berkeley
   group: phd
   status: alumni
   degree_year: 2023
-  projects: [metaphor]
+  projects:
+  - metaphor
   photo: /images/people/matthew-ong.jpg
   links:
     academia: https://ucberkeley.academia.edu/MatthewOng
 
 - name: Luis Sáenz
-  role: PhD sandwich fellow (Heidelberg University)
+  role: PhD sandwich fellow, Heidelberg University
   group: phd
   status: alumni
   degree_year: 2022
-  projects: [akkadian-mt, 3d-scanning, cured]
+  projects:
+  - akkadian-mt
+  - 3d-scanning
+  - cured
   photo: /images/people/luis-saenz.jpg
   links:
     academia: https://uni-heidelberg.academia.edu/LuisSaenz
@@ -183,7 +150,8 @@
   status: alumni
   degree_year: 2024
   note: Co-supervised with Ethan Fetaya
-  projects: [cure]
+  projects:
+  - cure
 
 - name: Danielle Kapon Epshtain
   role: MA, Ben-Gurion University
@@ -191,7 +159,8 @@
   status: alumni
   degree_year: 2024
   note: Co-supervised with Michael Fire
-  projects: [deeplomatics]
+  projects:
+  - deeplomatics
   photo: /images/people/danielle-kapon-epshtain.jpg
   links:
     linkedin: https://il.linkedin.com/in/danielle-kapon-687726bb
@@ -202,7 +171,8 @@
   status: alumni
   degree_year: 2022
   note: Co-supervised with Jonathan Berant
-  projects: [akkadian-mt]
+  projects:
+  - akkadian-mt
   photo: /images/people/gai-gutherz.jpg
 
 - name: Moshe Shtekel
@@ -211,18 +181,5 @@
   status: alumni
   degree_year: 2022
   note: Co-supervised with Amos Azaria
-  projects: [wsi]
-
-- name: Noam Bibi
-  role: MA, Ariel University
-  group: ma
-  status: alumni
-  degree_year: 2021
-  note: Co-supervised with Oren Ackerman
-
-- name: Yair Almakyas
-  role: MA, Ariel University
-  group: ma
-  status: alumni
-  degree_year: 2017
-  note: Co-supervised with Itzick Shai
+  projects:
+  - wsi

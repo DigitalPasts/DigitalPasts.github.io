@@ -1,7 +1,7 @@
 ---
 title: "Babylonian Engine"
 short_name: "BEn"
-summary: "OCR, transliteration, translation and restoration tools for cuneiform, from tablet image to English."
+summary: "An AI platform for cuneiform analysis and text curation, from tablet image or printed edition to lemmatized text."
 status: current
 kind: Tool
 image: /images/projects/ben.jpg
@@ -9,10 +9,8 @@ image_alt: "Cuneiform tablet with detected signs outlined. © Yale Babylonian Co
 featured: true
 order: 1
 links:
-  - label: New app on GitHub (in development)
+  - label: BEn app on GitHub
     url: https://github.com/ludovicus-hispanicus/Ben-App
-  - label: Lab code on GitHub
-    url: https://github.com/DigitalPasts
 ---
 
 Approximately five thousand years ago, the first cipher was invented between the rivers Tigris and Euphrates, in modern-day Iraq. There was a need for a more effective way to preserve and convey information over time and distances. They came up with a system of basic words and numbers. Slowly, that system developed and was able to convey more complex words, able to encode full human language. Their cipher was highly effective - it remained in use for more than three millennia.
@@ -43,16 +41,19 @@ The artificial intelligence revolution and general developments in computer scie
 
 This is not to say that we will not need the specialized experts any more. Many of these experts will now also learn computer languages or collaborate with computer scientists, data experts and archivists. Such research groups' designs and models will always need to be guided and corrected by assyriologists. It is humans who tell the models what is right and what is wrong, and the models are there to help us to be consistent, work faster, or provide new insight. Furthermore, the models can be a huge pedagogical help in training a new generation of assyriologists, by assisting the process of acquiring and learning the cuneiform script, as well as the dead languages written with it; and adding, perhaps, some modern programming languages. 
 
-## Current tools
+## The BEn app
 
-The Babylonian Engine is creating tools as part of a pipeline which starts with an image of a cuneiform tablet and ends with its transliteration and translation. We are developing AI models designed specifically for cuneiform texts, as well as general tools for assyriologists - see our [Research page]({{ '/research/' | relative_url }}) for exploring tools under development. The main pipeline, deciphering cuneiform from image to text, is in advanced stages of development.
+The Babylonian Engine is now being rebuilt as a single, modular application for Assyriologists, developed [on GitHub](https://github.com/ludovicus-hispanicus/Ben-App). It runs on a researcher's own computer, keeps its texts in a local database, and lets each user switch tools and recognition models on or off.
 
-Our published models are the following:
+- **CuReD** transliterates printed and hand-copied editions into editable text, and is the core of every installation.
+- **Library** stores, browses and searches the texts a user has processed.
+- **Optional modules** add sign recognition from images (CuRe), page layout detection, segmentation, lemmatization and batch recognition.
+- **Recognition models** can be chosen to fit the task and the budget: an offline fallback (Kraken), open vision-language models running on a local GPU, or cloud models.
 
-- **Atrahasis** is a machine learning model for restoring textual gaps in cuneiform texts, a common task since cuneiform tablets are often broken or abraded. It is currently trained on available digitized daily economic and administrative records from Babylonia under the Persian empire (6th-4th cent. BCE), prepared by F. Joannès and his team in the framework of the Achemenet program (CNRS, Nanterre; see more on the [Achemenet website](http://www.achemenet.com/fr/tree/?/sources-textuelles/textes-par-langues-et-ecritures/babylonien)). The model is able to correctly predict a missing word with 85% accuracy, and in 94% of cases the correct word appears in the top ten suggestions, on the trained corpus. Future versions of the model will be trained on additional corpora and more varied genres. Further information on the model can be found in our [published article](https://www.pnas.org/content/117/37/22743).
+Human curation stays at the centre. The models propose readings, and the scholar corrects and approves them, so every corrected text also becomes new training data.
 
-- **Akkademia** includes three machine learning models for transliterating and segmenting Unicode cuneiform signs. Cuneiform signs are polyvalent, meaning each sign has more than one possible reading, and the appropriate reading is determined by the preceding and following signs. We trained [HMM](https://en.wikipedia.org/wiki/Hidden_Markov_model), [MEMM](https://en.wikipedia.org/wiki/Maximum-entropy_Markov_model) and [Bi](https://en.wikipedia.org/wiki/Bidirectional_recurrent_neural_networks)[LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) machine learning models to determine the appropriate reading and segmentation automatically. For training we used the RINAP corpora (Royal Inscriptions of the Neo-Assyrian Period), which are available in JSON and XML/TEI formats thanks to the efforts of the Official Inscriptions of the Middle East in Antiquity (OIMEA) Munich Project of Karen Radner and Jamie Novotny, funded by the Alexander von Humboldt Foundation, available [here](http://oracc.museum.upenn.edu/rinap/). We achieve accuracy rates of 89.5% with HMM, 94% with MEMM, and 96.7% with BiLSTM on the trained corpora, and also surprisingly good results on texts from other genres and periods. Further information on the models can be found in our [published article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240511).
+## Earlier models
 
-## Vision 
-
-We plan that several years from now (although we cannot say for sure how many), when archaeologists and philologists are on an excavation site and discovering a new archive of cuneiform texts, they will be able to take a picture of each tablet, and get a rough transliteration and translation of the texts; a possible dating based on the handwriting, even a suggested scribe or scribal group; genre attribution; and more. We plan to have online editing tools for cuneiform texts, for researchers to edit and improve upon the engine's initial results. We plan to create virtual reality tours of the ancient capitals and steppe of Mesopotamia and Anatolia, and gamify the learning experience for students. This will revolutionize the field of assyriology from a niche subject to one that is better known and studied, expedite the research process significantly, and exponentially increase our knowledge of one the earliest and most prospering societies in the world.
+- **Atrahasis** restores missing words in broken cuneiform texts. Trained on Achaemenid-period Babylonian records from the [Achemenet](http://www.achemenet.com/) programme, it predicts the missing word 85% of the time, and the right word is among its top ten suggestions 94% of the time ([PNAS 2020](https://doi.org/10.1073/pnas.2003794117)).
+- **Akkademia** transliterates and segments Unicode cuneiform signs, reaching 96.7% accuracy on the Royal Inscriptions of the Neo-Assyrian Period ([PLOS ONE 2020](https://doi.org/10.1371/journal.pone.0240511)).
+- **Akkadian machine translation** translates cuneiform into English from signs or from transliteration ([PNAS Nexus 2023](https://doi.org/10.1093/pnasnexus/pgad096)).
