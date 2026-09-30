@@ -1,9 +1,61 @@
-description: "This is the website for the Digital Pasts Lab, introducing its various projects"
+title: "Digital Pasts Lab"
+short_title: "DigPasts()"
+description: "The Digital Pasts Lab at Ariel University works on Ancient Language Processing: computational methods for reading, translating and analysing ancient languages and scripts, from cuneiform onwards."
+tagline: "We build computational methods for reading ancient languages and scripts."
+url: "https://digitalpasts.github.io"
+baseurl: ""
+lang: en
+
 email: "digpasts@gmail.com"
-twitter: "https://twitter.com/DigPastsLab"
-twitter-handle: "@DigPastsLab"
-webname: "Digital Pasts Lab"
-BEn-old: "https://babylonian.herokuapp.com/#/"
-BEn-new: "https://ben-digpasts.com/"
-BEn-new-demo: "https://ben-digpasts.com/demo"
 github: "https://github.com/DigitalPasts"
+twitter: "https://twitter.com/DigPastsLab"
+twitter_handle: "DigPastsLab"
+
+# External tools
+ben_app: "https://github.com/ludovicus-hispanicus/Ben-App"
+
+# Show a small "To confirm" tag on data entries marked `confirm: true`.
+# Set to false before the site goes live.
+show_confirm: true
+
+# Main navigation, in order
+navigation:
+  - title: Research
+    url: /research/
+  - title: Tools & Data
+    url: /tools/
+  - title: Publications
+    url: /publications/
+  - title: People
+    url: /people/
+  - title: News
+    url: /news/
+
+# One file per project in _projects/, published at /research/<file-name>/
+collections:
+  projects:
+    output: true
+    permalink: /research/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

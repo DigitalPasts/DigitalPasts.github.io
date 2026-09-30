@@ -1,0 +1,7 @@
+{% assign t = include.talk %}
+{% assign d = t.date | append: "" %}
+{% assign today = site.time | date: "%Y-%m" %}
+<li class="dated{% if d > today %} upcoming{% endif %}">
+  <time datetime="{{ d }}">{{ d | slice: 0, 7 }}</time>
+  <span>{% if d > today %}<span class="tag tag-sand">Upcoming</span>{% endif %}{% if t.kind == "keynote" %}<span class="tag">Keynote</span>{% elsif t.kind == "invited" %}<span class="tag">Invited</span>{% endif %}{% if t.citation %}{{ t.citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% else %}{{ t.speakers }}, “{{ t.title }}.” {{ t.event }}{% if t.place %}, {{ t.place }}{% endif %}.{% endif %}{% if t.url %} <a href="{{ t.url | relative_url }}" class="more-link">Link</a>{% endif %} {% include confirm.html item=t %}</span>
+</li>

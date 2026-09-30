@@ -1,0 +1,231 @@
+# Lab members. status: current | alumni. group: pi | staff | postdoc | phd | ma | intern | collaborator
+# now / now_url: alumni only, current position and a link to it.
+# confirm: true marks entries Shai still needs to confirm (hide once checked).
+# Source: Gordin CV (Sep 2026) and the 2023 members page.
+
+
+- name: Shai Gordin
+  role: Associate Professor, Lab Director
+  group: pi
+  status: current
+  photo: /images/people/shai-gordin.jpg
+  bio: Associate Professor of Ancient Near Eastern History and Digital Humanities, Department of Land of Israel Studies and Archaeology, Ariel University; Visiting Research Fellow, Digital Humanities and Social Sciences Hub, Open University of Israel. Academic editor at PLOS ONE, collection editor at Humanities and Social Sciences Communications, editorial board of OpenDANES, and member of the Pelagios Network Committee.
+  links:
+    orcid: https://orcid.org/0000-0002-8359-382X
+    scholar: https://scholar.google.com/citations?user=A5okNFcAAAAJ&hl=en
+    academia: https://ariel.academia.edu/ShaiGordin
+
+- name: Inna Kizhner
+  role: Lab Manager; Researcher in Quantitative Ancient Materials and Cultures
+  group: staff
+  status: current
+  note: Supported by the Council for Higher Education (VATAT)
+  links:
+    scholar: https://scholar.google.com/citations?user=TC-tBawAAAAJ
+
+- name: Yael Assouline
+  role: PhD candidate
+  group: phd
+  status: current
+
+- name: Eisam Abu Rabea
+  role: PhD candidate
+  group: phd
+  status: current
+
+- name: Ahlam Mohammed
+  role: PhD candidate, Tel Aviv University
+  group: phd
+  status: current
+  note: Co-supervised with Letizia Cerqueglini (Tel Aviv U.)
+
+- name: Lilach Kagan
+  role: MA student
+  group: ma
+  status: current
+
+- name: Bryce Hoenigman
+  role: Research intern, University of Chicago
+  group: intern
+  status: current
+
+- name: Stav Klein
+  role: PhD candidate
+  group: phd
+  status: current
+  note: Co-supervised with Ran Zadok (Tel Aviv U.) and Gabi Stanovsky (Hebrew U.)
+  projects:
+  - lost-time
+  - evacun
+  photo: /images/people/stav-klein.jpg
+  links:
+    github: https://github.com/stavkl
+    website: https://stavkl.github.io/linguistics-for-nlp/
+
+- name: Emma Yavasan
+  role: PhD candidate
+  group: phd
+  status: current
+  projects:
+  - hittite-ml
+  photo: null
+  links: {}
+
+- name: Matthew Yeater
+  role: PhD candidate
+  group: phd
+  status: current
+  note: Co-supervised with Shawn Zelig Aster (Bar-Ilan U.) and Shalom Holtz (Yeshiva U.)
+  projects:
+  - niv-louie
+  photo: null
+  links: {}
+
+- name: Konstantin Margulyan
+  role: MA student
+  group: ma
+  status: current
+  projects:
+  - assyrian-reliefs
+  - 3d-scanning
+  photo: /images/people/kostiya-margulyan.jpg
+  links: {}
+
+- name: Shahar Spencer
+  role: MA student, Hebrew University of Jerusalem
+  group: ma
+  status: current
+  note: Co-supervised with Gabi Stanovsky (Hebrew U.)
+  projects:
+  - evacun
+  photo: null
+  links: {}
+
+- name: Yuval Gershfeld
+  role: MA student, Bar-Ilan University
+  group: ma
+  status: current
+  note: Co-supervised with Ethan Fetaya (Bar-Ilan U.)
+  photo: null
+  links: {}
+
+- name: Morris Alper
+  role: Research fellow (computer science)
+  group: collaborator
+  status: alumni
+  projects:
+  - cured
+  - protosnap
+  - havi
+  photo: /images/people/morris-alper.jpg
+  links:
+    github: https://github.com/morrisalp
+    website: https://morrisalp.github.io/
+  now: Assistant Professor, University of Miami
+  now_url: https://morrisalp.github.io/
+  degree_year: 2025
+  confirm: true
+
+- name: Avital Romach
+  role: Research fellow (humanities)
+  group: collaborator
+  status: alumni
+  projects:
+  - cured
+  - stylometry
+  photo: /images/people/avital-romach.jpg
+  links:
+    academia: https://yale.academia.edu/AvitalRomach
+  now: PhD student in Assyriology, Yale University
+  now_url: https://nelc.yale.edu/people/avital-romach
+  degree_year: 2025
+  confirm: true
+
+- name: Matthew D. Howland
+  role: Postdoctoral fellow, Tel Aviv University
+  group: postdoc
+  status: alumni
+  degree_year: 2022
+  note: Co-supervised with Erez Ben-Yosef (Tel Aviv U.)
+  projects:
+  - archaeomagnetism
+  now: Assistant Professor of Anthropology, Wichita State University
+  now_url: https://news.wichita.edu/2024/12/10/dr-matthew-howland-wins-community-engagement-and-public-outreach-award-for-3d-archaeology-platform/
+
+- name: Shmuel (Samuel) Clark
+  role: PhD, Ariel University
+  group: phd
+  status: alumni
+  degree_year: 2024
+  note: Co-supervised with Ran Zadok (Tel Aviv U.) and Mark Altaweel (UCL)
+  projects:
+  - mapa
+  photo: /images/people/samuel-clark.jpg
+  links:
+    academia: https://ariel.academia.edu/ShmuelClark/
+  now: Teaching Associate, Land of Israel Studies and Archaeology, Bar-Ilan University
+  now_url: https://cris.biu.ac.il/en/persons/shmuel-clark/
+
+- name: Matthew Ong
+  role: PhD sandwich fellow, UC Berkeley
+  group: phd
+  status: alumni
+  degree_year: 2023
+  projects:
+  - metaphor
+  photo: /images/people/matthew-ong.jpg
+  links:
+    academia: https://ucberkeley.academia.edu/MatthewOng
+
+- name: Luis Sáenz
+  role: PhD sandwich fellow, Heidelberg University
+  group: phd
+  status: alumni
+  degree_year: 2022
+  projects:
+  - akkadian-mt
+  - 3d-scanning
+  - cured
+  photo: /images/people/luis-saenz.jpg
+  links:
+    academia: https://uni-heidelberg.academia.edu/LuisSaenz
+
+- name: Ireman Brauner
+  role: MA, Bar-Ilan University
+  group: ma
+  status: alumni
+  degree_year: 2024
+  note: Co-supervised with Ethan Fetaya
+  projects:
+  - cure
+
+- name: Danielle Kapon Epshtain
+  role: MA, Ben-Gurion University
+  group: ma
+  status: alumni
+  degree_year: 2024
+  note: Co-supervised with Michael Fire
+  projects:
+  - deeplomatics
+  photo: /images/people/danielle-kapon-epshtain.jpg
+  links:
+    linkedin: https://il.linkedin.com/in/danielle-kapon-687726bb
+
+- name: Gai Gutherz
+  role: MA, Tel Aviv University
+  group: ma
+  status: alumni
+  degree_year: 2022
+  note: Co-supervised with Jonathan Berant
+  projects:
+  - akkadian-mt
+  photo: /images/people/gai-gutherz.jpg
+
+- name: Moshe Shtekel
+  role: MA, Ariel University
+  group: ma
+  status: alumni
+  degree_year: 2022
+  note: Co-supervised with Amos Azaria
+  projects:
+  - wsi

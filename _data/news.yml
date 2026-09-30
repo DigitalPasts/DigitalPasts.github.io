@@ -1,0 +1,30 @@
+# Short dated news items for the homepage, newest first.
+# confirm: true = please check wording or date.
+
+- date: "2026-09-01"
+  text: The lab submitted a proposal to hold ALP 2027, the third Workshop on Ancient Language Processing, with a new EvaCun shared task.
+  confirm: true
+
+- date: "2026-06-01"
+  text: "New Schmidt Sciences HAVI grant (2027–2029): \"Tracing the Signs: Multimodal Foundation Models for Ancient Writing\", with Ahmad Al-Jallad, Morris Alper, Ethan Fetaya and Letizia Cerqueglini."
+  confirm: true
+
+- date: "2026-05-15"
+  text: "Our layered annotation workflow for Semitic epigraphy appears at LT4HALA 2026 (LREC)."
+  confirm: true
+
+- date: "2026-01-01"
+  text: "The lab joins ArchAIa, a Schmidt Sciences HAVI pilot on foundation models for artefacts."
+  confirm: true
+
+- date: "2025-05-01"
+  text: "Three lab papers at ALP 2025 (NAACL): EvaCun 2025, Hittite texts for machine learning, and proto-cuneiform account types."
+  url: https://aclanthology.org/2025.alp-1.0/
+
+- date: "2025-04-24"
+  text: "ProtoSnap, prototype alignment for cuneiform signs, presented at ICLR 2025."
+  url: https://openreview.net/forum?id=XHTirKsQV6
+
+- date: "2025-01-01"
+  text: Shai Gordin promoted to Associate Professor.
+  confirm: true

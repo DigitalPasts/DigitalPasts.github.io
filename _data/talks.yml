@@ -1,0 +1,190 @@
+# Talks by lab members, newest first. Source: Gordin CV (Sep 2026) and Drive "Lectures_Seminars_Conferences".
+# kind: keynote | invited | paper | poster | outreach
+# confirm: true = date or venue taken from Drive folder dates, not the CV; please check.
+
+- date: '2026-06'
+  title: 'Ancient Language Processing: From Clay to Multimodal Data'
+  speakers: S. Gordin
+  event: Invited lecture
+  place: Technion – Israel Institute of Technology, Haifa
+  kind: invited
+  confirm: true
+
+- date: '2026-05'
+  title: 'Neo-Assyrian Relief Style Identification: A Computational Approach for Archaeological Image Analysis'
+  speakers: S. Gordin, K. Margulyan
+  event: Schmidt Sciences HAVI meeting
+  place: Johns Hopkins University, Baltimore
+  kind: paper
+  confirm: true
+
+- date: '2026-01'
+  title: 'In Search of Lost Time: Date Estimation Using Network Analysis'
+  speakers: S. Klein, S. Gordin
+  event: Digital Archaeology at Ariel
+  place: Ariel University
+  kind: paper
+  confirm: true
+
+- date: '2025-07'
+  title: 'Breaking the Unicode Barrier with Niv Louie: Advancing Digital Accessibility through Innovative Screen Reading and Braille Translation Technologies'
+  speakers: M. Yeater, S. Gordin, L. Sáenz
+  event: DH 2025
+  place: Lisbon, Portugal
+  kind: paper
+
+- date: '2025-07'
+  title: '''They Greet Me and I Reply in Elamite'': Building an Elamite Lemma Base and Tracing Linguistic Evolution'
+  speakers: F. Pedron, K. De Graef, T. Homburg, E. Whitacare, S. Gordin
+  event: 70th Rencontre Assyriologique Internationale, E.L.A.M. workshop
+  place: Prague, Czech Republic
+  kind: paper
+
+- date: '2025-06'
+  title: 'Neo-Assyrian Relief Completion: A Deep Learning Approach for Artistic Style and Archaeological Reconstruction'
+  speakers: K. Margulyan, S. Gordin
+  event: DARIAH Annual Event 2025
+  place: Göttingen, Germany
+  kind: paper
+
+- date: '2025-06'
+  title: Genre, Style, and What's Between Them? A Computational Method to Study Cuneiform Scribal Habits
+  speakers: S. Gordin
+  event: Scribes and Libraries in the Ancient Near East
+  place: Bar-Ilan University
+  kind: keynote
+
+- date: '2025-05'
+  title: 'Measured Reading: Studying Cuneiform Tablets using Deep Learning'
+  speakers: S. Gordin
+  event: 'AI and Research: Uses, Potential, Risks'
+  place: Israel Academy of Sciences and Humanities, Jerusalem
+  kind: keynote
+
+- date: '2024-11'
+  title: 'Exploring Geomagnetic Variations in Ancient Mesopotamia: Archaeomagnetic Study of Inscribed Bricks'
+  speakers: M. D. Howland, L. Tauxe, S. Gordin, M. Altaweel, B. Cych, E. Ben-Yosef
+  event: ASOR 2024, Archaeology in Mesopotamia
+  place: Boston, US
+  kind: paper
+
+- date: '2024-09'
+  title: 'Shaping History at Scale: Advanced Machine Learning Techniques for the Shape Analysis and Dating of Cuneiform Tablets over Three Millennia'
+  speakers: S. Gordin
+  event: '''Lost Texts'' Colloquium'
+  place: KU Leuven, Belgium
+  kind: keynote
+
+- date: '2024-08'
+  title: 'CuReD: Deep Learning Optical Character Recognition for Cuneiform Text Editions and Legacy Materials'
+  speakers: S. Gordin, M. Alper, A. Romach, L. Sáenz, N. Yochai, R. Lalazar
+  event: ML4AL workshop at ACL 2024
+  place: Bangkok, Thailand
+  kind: paper
+
+- date: '2024-07'
+  title: 'A Forensic Approach to Tablets: A New 3D Scanning Initiative and Open Dataset'
+  speakers: S. Gordin, L. Sáenz, M. Altaweel
+  event: 69th Rencontre Assyriologique Internationale, Digital and Open Assyriology
+  place: Helsinki, Finland
+  kind: paper
+
+- date: '2024-07'
+  title: 'Digital Ancient Near Eastern Studies: A Transition to Arts and Crafts'
+  speakers: S. Gordin, A. Romach, E.-S. Lincke, H. Mara, A. Sahala, M. Béranger
+  event: 69th Rencontre Assyriologique Internationale, Digital and Open Assyriology
+  place: Helsinki, Finland
+  kind: paper
+
+- date: '2024-05'
+  title: 'Matters of Genre, Style, and Orthography: Hittite Scribal Habits through the Stylometric Lens'
+  speakers: S. Gordin
+  event: The Tablets and Their Scribes
+  place: Academy of Sciences and Literature, Mainz, Germany
+  kind: keynote
+
+- date: '2024-03'
+  title: 'Uncovering the Past while Peering into the Future: Challenges in the Dating and Analysis of Cuneiform Tablets using Machine Learning'
+  speakers: S. Gordin, D. Kapon Epshtain
+  event: Criticism of Digital Intelligence
+  place: Tel Aviv
+  kind: invited
+
+- date: '2024-02'
+  title: Investigating Body Part Construction Metaphors in the Neo-Assyrian Royal Archives
+  speakers: M. Ong, S. Gordin
+  event: 46th Annual Meeting of the German Linguistic Society (DGfS)
+  place: Ruhr University Bochum, Germany
+  kind: paper
+
+- date: '2024-01'
+  title: '20 Acres of Prime Canal-Front: Using Gazetteer-Supported Text Analysis to Begin Mapping Cadastral Texts in Achaemenid Uruk'
+  speakers: S. Clark, S. Gordin
+  event: BANEA 2024, Achaemenid Environments
+  place: University of Glasgow, Scotland
+  kind: paper
+
+- date: '2023-12'
+  title: 'Ancient Language Processing: A Transformative Framework for the Computational Study of Ancient Texts'
+  speakers: S. Gordin
+  event: 'Silvin Košak Memorial Symposium: Ancient Studies in the Digital Era'
+  place: University of Ljubljana, Slovenia
+  kind: keynote
+
+- date: '2023-09'
+  title: 'EvaCun: The First Shared Task on Cuneiform Machine Translation'
+  speakers: S. Gordin
+  event: ALT2023 at MT Summit 2023
+  place: Macau, China
+  kind: invited
+  url: https://www.ancientnlp.com/alt2023/program/
+
+- date: '2023-09'
+  title: '''I exercised authority… I eradicated the lands'': Comparing Perceptions of Southern Babylonia in Neo-Assyrian and Neo-Babylonian Sources'
+  speakers: S. Clark
+  event: EAA 2023
+  place: Belfast
+  kind: paper
+
+- date: '2023-07'
+  title: 'In Search of Lost Time: Restoring Chronologies of Individuals from Broken Cuneiform Resources'
+  speakers: S. Klein, S. Gordin
+  event: GrapHNR 2023
+  place: Mainz, Germany
+  kind: paper
+  url: https://graphentechnologien.hypotheses.org/files/2023/05/GrapHNR-2023-27-Klein-In-Search-of-Lost-Time.pdf
+
+- date: '2023-07'
+  title: 'eAkkadian: A Coursebook for Doing Assyriology Digitally'
+  speakers: S. Gordin, L. Sáenz
+  event: 68th Rencontre Assyriologique Internationale
+  place: Leiden, the Netherlands
+  kind: paper
+
+- date: '2023-07'
+  title: Machine Learning of Ancient Scripts and Languages through Collaboration
+  speakers: S. Gordin, O. Lewis
+  event: DH 2023, Pelagios Network panel
+  place: Graz, Austria
+  kind: paper
+
+- date: '2023-07'
+  title: Layers of Authorship in Cuneiform Texts
+  speakers: S. Gordin, A. Romach
+  event: DH 2023, SIG-DLS workshop
+  place: Graz, Austria
+  kind: paper
+
+- date: '2022-07'
+  title: 'Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform'
+  speakers: S. Gordin, A. Romach
+  event: DH 2022
+  place: Tokyo, Japan
+  kind: paper
+
+- date: '2020-11'
+  title: 'The Babylonian Engine: Human-Machine Collaboration for Restoring Ancient Mesopotamian Heritage'
+  speakers: S. Gordin, E. Fetaya
+  event: 'CHNT 25: Conference on Cultural Heritage and New Technologies'
+  place: Vienna, Austria
+  kind: paper

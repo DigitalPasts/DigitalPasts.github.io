@@ -1,0 +1,34 @@
+---
+title: Research
+wide: true
+intro: "We work in Ancient Language Processing and computational history: machine learning and linked data for ancient languages, texts, artefacts and landscapes."
+---
+{% assign flagship = site.projects | where: "featured", true | sort: "order" %}
+{% assign all = site.data.projects.projects %}
+<section class="section">
+  <h2>Flagship projects</h2>
+  <div class="cards">
+    {% for p in flagship %}{% include project-card.html project=p %}{% endfor %}
+  </div>
+</section>
+{% for theme in site.data.projects.themes %}
+{% assign items = all | where: "theme", theme.slug %}
+{% if items.size > 0 %}
+<section class="section theme" id="{{ theme.slug }}">
+  <h2>{{ theme.title }}</h2>
+  {% if theme.summary %}<p class="theme-summary">{{ theme.summary }}</p>{% endif %}
+  <div class="cards cards-compact">
+    {% for p in items %}{% unless p.status == "past" %}{% include project-card.html project=p compact=true %}{% endunless %}{% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endfor %}
+{% assign past = all | where: "status", "past" %}
+{% if past.size > 0 %}
+<section class="section" id="completed">
+  <h2>Completed projects</h2>
+  <div class="cards cards-compact">
+    {% for p in past %}{% include project-card.html project=p compact=true %}{% endfor %}
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,327 @@
+# Lab publications, newest first. Source: Gordin CV (Sep 2026) and the 2023 publications page.
+# type: article | proceedings | chapter | edited | dataset | software | popular
+
+# ---------- 2026 ----------
+- year: 2026
+  type: proceedings
+  authors: T. Bernstein, S. Gordin, L. Cerqueglini
+  title: A Layered Annotation Workflow for Semitic Epigraphy
+  venue: Proceedings of the Fourth Workshop on Language Technologies for Historical and Ancient Languages (LT4HALA 2026) @ LREC 2026
+  details: Palma, Mallorca
+  url: https://lrec.elra.info/lrec2026-ws-lt4hala-18
+
+# ---------- 2025 ----------
+- year: 2025
+  type: article
+  authors: L. Sáenz, S. Gordin
+  title: Two Cuneiform Tablets among the Texts Preserved in the Israel Museum
+  venue: Israel Exploration Journal
+  details: in press
+
+- year: 2025
+  type: proceedings
+  authors: R. Mikulinsky, M. Alper, S. Gordin, E. Jiménez, Y. Cohen, H. Averbuch-Elor
+  title: "ProtoSnap: Prototype Alignment for Cuneiform Signs"
+  venue: The Thirteenth International Conference on Learning Representations (ICLR 2025)
+  url: https://openreview.net/forum?id=XHTirKsQV6
+
+- year: 2025
+  type: proceedings
+  authors: S. Gordin, A. Sahala, S. Spencer, S. Klein
+  title: "EvaCun 2025 Shared Task: Lemmatization and Token Prediction in Akkadian and Sumerian using LLMs"
+  venue: Proceedings of the Second Workshop on Ancient Language Processing (ALP 2025), NAACL 2025
+  url: https://aclanthology.org/2025.alp-1.33/
+
+- year: 2025
+  type: proceedings
+  authors: E. Yavasan, S. Gordin
+  title: "From Clay to Code: Transforming Hittite Texts for Machine Learning"
+  venue: Proceedings of the Second Workshop on Ancient Language Processing (ALP 2025), NAACL 2025
+  url: https://aclanthology.org/2025.alp-1.10/
+
+- year: 2025
+  type: proceedings
+  authors: P. Zadworny, S. Gordin
+  title: Assignment of Account Type to Proto-Cuneiform Economic Texts with Multi-Class Support Vector Machines
+  venue: Proceedings of the Second Workshop on Ancient Language Processing (ALP 2025), NAACL 2025
+  url: https://aclanthology.org/2025.alp-1.3/
+
+- year: 2025
+  type: chapter
+  authors: S. Gordin, E. Yavasan, A. Romach
+  title: "Matters of Genre, Style, and Orthography: Hittite Scribal Habits through the Stylometric Lens"
+  venue: "The Tablets and Their Scribes: The Palaeography of Hittite Cuneiform and Writing Practices in Hittite Anatolia (StBoT 73)"
+  details: Wiesbaden, Harrassowitz, 107–124
+
+- year: 2025
+  type: edited
+  authors: A. Anderson, S. Gordin, B. Li, Y. Liu, M. C. Passarotti, R. Sprugnoli (eds.)
+  title: Proceedings of the Second Workshop on Ancient Language Processing (ALP 2025)
+  venue: Association for Computational Linguistics
+  url: https://aclanthology.org/2025.alp-1.0/
+
+# ---------- 2024 ----------
+- year: 2024
+  type: proceedings
+  authors: S. Gordin, M. Alper, A. Romach, L. Sáenz, N. Yochai, R. Lalazar
+  title: "CuReD: Deep Learning Optical Character Recognition for Cuneiform Text Editions and Legacy Materials"
+  venue: Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL), ACL 2024
+  doi: 10.18653/v1/2024.ml4al-1.14
+
+- year: 2024
+  type: article
+  authors: V. Yugay, K. Paliwal, Y. Cobanoglu, F. Simonjetz, L. Sáenz, E. Gogokhia, S. Gordin, E. Jiménez
+  title: Stylistic Classification of Cuneiform Signs Using Convolutional Neural Networks
+  venue: it – Information Technology
+  details: 66/1, 15–27
+  doi: 10.1515/itit-2023-0114
+
+- year: 2024
+  type: article
+  authors: A. Hamplová, A. Romach, J. Pavlíček, A. Veselý, M. Čejka, D. Franc, S. Gordin
+  title: Cuneiform Stroke Recognition and Vectorization in 2D Images
+  venue: Digital Humanities Quarterly
+  details: 18/1
+  url: http://www.digitalhumanities.org/dhq/vol/18/1/000733/000733.html
+
+- year: 2024
+  type: article
+  authors: E. Barker, C. Palladino, S. Gordin
+  title: Digital Approaches to Investigating Space and Place in Classical Studies
+  venue: The Classical Review
+  details: 74/1, 1–19
+  doi: 10.1017/S0009840X23002858
+
+- year: 2024
+  type: article
+  authors: M. Ong, S. Gordin
+  title: Linguistic Annotation of Cuneiform Texts using Treebanks and Deep Learning
+  venue: Digital Scholarship in the Humanities
+  details: 39/1, 296–307
+  doi: 10.1093/llc/fqae002
+
+- year: 2024
+  type: article
+  authors: M. Ong, S. Gordin
+  title: A Survey of Body Part Construction Metaphors in the Neo-Assyrian Letter Corpus
+  venue: Journal of Open Humanities Data
+  details: 10/1, 10
+  doi: 10.5334/johd.142
+
+- year: 2024
+  type: article
+  authors: M. Ong, S. Gordin
+  title: "Neo-Assyrian Metaphors through the Telescope: Linguistic Patterns involving Body Part Constructions in the State Archives Letter Corpus"
+  venue: Asia Anteriore Antica
+  details: 6, 43–61
+  doi: 10.36253/asiana-2543
+
+- year: 2024
+  type: article
+  authors: S. Gordin, M. Béranger, T. Homburg, H. Mara
+  title: "Insights into Digital Ancient Near Eastern Studies: Introduction"
+  venue: it – Information Technology
+  details: 66/1, 1–3
+  doi: 10.1515/itit-2024-2001
+
+- year: 2024
+  type: edited
+  authors: J. Pavlopoulos, T. Sommerschield, Y. Assael, S. Gordin, K. Cho, M. Passarotti, R. Sprugnoli, Y. Liu, B. Li, A. Anderson (eds.)
+  title: Proceedings of the 1st Workshop on Machine Learning for Ancient Languages (ML4AL 2024)
+  venue: Association for Computational Linguistics
+  url: https://aclanthology.org/2024.ml4al-1.0
+
+- year: 2024
+  type: edited
+  authors: S. Gordin, M. Béranger, T. Homburg, H. Mara (eds.)
+  title: iDANES – Insights into Digital Ancient Near Eastern Studies, Parts 1 and 2
+  venue: Special volumes of it – Information Technology
+  details: 65/6 (2023) and 66/1 (2024)
+
+- year: 2024
+  type: popular
+  authors: S. Gordin, A. Romach, E.-S. Lincke, H. Mara, A. Sahala, M. Béranger
+  title: Digital Ancient Near Eastern Studies – A Transition to Arts and Crafts
+  venue: OpenDANES
+  doi: 10.5281/zenodo.10894909
+
+- year: 2024
+  type: dataset
+  authors: E. Yavasan, S. Gordin
+  title: Glossed Hittite Texts with German Translation for Machine Learning (1.0)
+  venue: Zenodo
+  doi: 10.5281/zenodo.14266302
+
+# ---------- 2023 ----------
+- year: 2023
+  type: article
+  authors: M. D. Howland, L. Tauxe, S. Gordin, M. Altaweel, B. Cych, E. Ben-Yosef
+  title: "Exploring Geomagnetic Variations in Ancient Mesopotamia: Archaeomagnetic Study of Inscribed Bricks from the 3rd–1st Millennia BCE"
+  venue: Proceedings of the National Academy of Sciences
+  details: 120/52, e2313361120
+  doi: 10.1073/pnas.2313361120
+
+- year: 2023
+  type: article
+  authors: S. Clark, S. Gordin
+  title: "The Mesopotamian Ancient Place-Names Almanac (MAPA): A Gazetteer of the Uruk Urbanscape in the Age of Empires"
+  venue: Journal of Open Humanities Data
+  details: 9/20
+  doi: 10.5334/johd.146
+
+- year: 2023
+  type: article
+  authors: G. Gutherz, S. Gordin, L. Sáenz, O. Levy, J. Berant
+  title: Translating Akkadian to English with Neural Machine Translation
+  venue: PNAS Nexus
+  details: 2/5, pgad096
+  doi: 10.1093/pnasnexus/pgad096
+
+- year: 2023
+  type: chapter
+  authors: S. Gordin
+  title: Neo-Babylonian Citizenship Practices in a Comparative Mediterranean Context
+  venue: "Citizenship in Antiquity: Civic Communities in the Ancient Mediterranean"
+  details: London, Routledge, 125–141
+
+- year: 2023
+  type: proceedings
+  authors: E. Barker, T. Gheldof, S. Gordin, O. Lewis, et al.
+  title: "The Pelagios Network: Collaboration as a Community of Practice"
+  venue: "Digital Humanities 2023: Book of Abstracts"
+  details: Graz, 465–468
+  doi: 10.5281/zenodo.8210808
+
+- year: 2023
+  type: edited
+  authors: B. Li, S. Gordin (eds.)
+  title: "Proceedings of ALT2023: First Workshop on Ancient Language Translation"
+  venue: Asia-Pacific Association for Machine Translation
+  url: https://aclanthology.org/2023.alt-1.pdf
+
+- year: 2023
+  type: edited
+  authors: A. Anderson, S. Gordin, S. Klein, B. Li, Y. Liu, M. C. Passarotti (eds.)
+  title: Proceedings of the Ancient Language Processing Workshop (RANLP-ALP 2023)
+  venue: INCOMA Ltd.
+  url: https://aclanthology.org/volumes/2023.alp-1/
+
+- year: 2023
+  type: dataset
+  authors: M. Ong, S. Gordin
+  title: A Survey of Body Part Construction Metaphors in the Neo-Assyrian Letter Corpus (1.6.0)
+  venue: Zenodo
+  doi: 10.5281/zenodo.8432073
+
+- year: 2023
+  type: software
+  authors: S. Gordin, L. Sáenz
+  title: "eAkkadian: An Online Coursebook (v1.0)"
+  url: https://digitalpasts.github.io/eAkkadian/
+
+# ---------- 2022 ----------
+- year: 2022
+  type: article
+  authors: S. Clark, M. Altaweel, S. Gordin
+  title: Urbanscape, Land Use Change and Centralization in the Region of Uruk, Southern Mesopotamia from the 2nd to 1st Millennium BCE
+  venue: Land
+  details: 11/11, 1955
+  doi: 10.3390/land11111955
+
+- year: 2022
+  type: article
+  authors: M. Stekel, A. Azaria, S. Gordin
+  title: Word Sense Induction with Attentive Context Clustering
+  venue: Journal of Data Mining and Digital Humanities
+  doi: 10.46298/jdmdh.9175
+
+- year: 2022
+  type: article
+  authors: S. Gordin, S. Clark, A. Romach
+  title: "MAPA: A Linked Open Data Gazetteer of the Southern Babylonian Landscape"
+  venue: Interdisciplinary Digital Engagement in Arts & Humanities (IDEAH)
+  doi: 10.21428/f1f23564.8d442eea
+
+- year: 2022
+  type: proceedings
+  authors: A. Hamplová, D. Franc, J. Pavlíček, A. Romach, S. Gordin
+  title: Cuneiform Reading Using Computer Vision Algorithms
+  venue: Proceedings of the 5th International Conference on Signal Processing and Machine Learning (SPML '22)
+  details: ACM, 242–245
+  doi: 10.1145/3556384.3556421
+
+- year: 2022
+  type: proceedings
+  authors: S. Gordin, A. Romach
+  title: "Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform"
+  venue: DH 2022, Tokyo
+  details: 212–215
+
+- year: 2022
+  type: popular
+  authors: S. Gordin, A. Romach
+  title: "The Cuneiform Wide Web: From Card Catalogues to Digital Assyriology"
+  venue: The Ancient Near East Today
+  url: https://www.asor.org/anetoday/2022/10/cuneiform-wide-web
+
+# ---------- 2021 ----------
+- year: 2021
+  type: edited
+  authors: A. de Freitas, S. Gordin (eds.)
+  title: "A Digital Ancient Near East: Challenges and Opportunities"
+  venue: "H2D: Digital Humanities Journal"
+  details: 3/1
+  url: https://revistas.uminho.pt/index.php/h2d/issue/view/170
+
+- year: 2021
+  type: proceedings
+  authors: M. Stekel, A. Azaria, S. Gordin
+  title: Word Sense Induction with Attentive Context Clustering
+  venue: Proceedings of the Workshop on Natural Language Processing for Digital Humanities (NLP4DH)
+  details: 144–151
+  url: https://aclanthology.org/2021.nlp4dh-1.17
+
+- year: 2021
+  type: dataset
+  authors: S. Gordin, S. Clark
+  title: MAPA Gazetteer
+  venue: Zenodo
+  doi: 10.5281/zenodo.4540616
+
+- year: 2021
+  type: popular
+  authors: S. Gordin
+  title: "Digital Assyriology: Using Artificial Intelligence to Unlock an Ancient Lingua Franca"
+  venue: Research Outreach
+  details: 125, 18–21
+  doi: 10.32907/RO-125-1715801386
+
+- year: 2021
+  type: popular
+  authors: S. Gordin, A. Romach, E. Fetaya
+  title: "Tidings from Before the Flood: How Artificial Intelligence Rediscovers Ancient Babylonian Texts"
+  venue: The Science Breaker
+  doi: 10.25250/thescbr.brk584
+
+# ---------- 2020 ----------
+- year: 2020
+  type: article
+  authors: S. Gordin, G. Gutherz, A. Elazary, A. Romach, E. Jiménez, J. Berant, Y. Cohen
+  title: Reading Akkadian Cuneiform using Natural Language Processing
+  venue: PLOS ONE
+  details: 15/10, e0240511
+  doi: 10.1371/journal.pone.0240511
+
+- year: 2020
+  type: article
+  authors: E. Fetaya, Y. Lifshitz, E. Aaron, S. Gordin
+  title: Restoration of Fragmentary Babylonian Texts Using Recurrent Neural Networks
+  venue: Proceedings of the National Academy of Sciences
+  details: 117/37, 22743–22751
+  doi: 10.1073/pnas.2003794117
+
+- year: 2005
+  type: software
+  authors: S. Gordin
+  title: "BONUS SCRIBA: A Computerized Database of Dignitaries and Officials in the Hittite Empire"
+  url: https://github.com/DigitalPasts/BONUS_SCRIBA

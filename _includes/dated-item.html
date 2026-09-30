@@ -1,0 +1,8 @@
+{% assign i = include.item %}
+{% assign d = i.date | append: "" %}
+{% if d.size > 7 %}{% assign today = site.time | date: "%Y-%m-%d" %}{% else %}{% assign today = site.time | date: "%Y-%m" %}{% endif %}
+{% assign is_upcoming = false %}{% if d > today %}{% assign is_upcoming = true %}{% endif %}
+<li class="dated{% if is_upcoming %} upcoming{% endif %}">
+  <time datetime="{{ d }}">{{ d | slice: 0, 7 }}</time>
+  <span>{% include confirm.html item=i %}{% if is_upcoming %}<span class="tag tag-sand">Upcoming</span>{% endif %}{{ i.text | default: i.citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% if i.url %} <a href="{{ i.url | relative_url }}" class="more-link">{{ i.link_label | default: "Link" }}</a>{% endif %}</span>
+</li>

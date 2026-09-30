@@ -1,0 +1,37 @@
+---
+title: Publications
+wide: true
+intro: "Papers, books, datasets and software from the lab, newest first, and the press coverage of our work."
+---
+{% assign type_order = "article,chapter,edited,proceedings,dataset,software,volume,web,popular,media" | split: "," %}
+{% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+<div class="filters" role="group" aria-label="Filter by type" hidden>
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="article" aria-pressed="false">Articles</button>
+  <button type="button" data-filter="proceedings" aria-pressed="false">Proceedings</button>
+  <button type="button" data-filter="chapter" aria-pressed="false">Chapters</button>
+  <button type="button" data-filter="edited" aria-pressed="false">Edited volumes</button>
+  <button type="button" data-filter="dataset" aria-pressed="false">Datasets</button>
+  <button type="button" data-filter="software" aria-pressed="false">Software</button>
+  <button type="button" data-filter="popular" aria-pressed="false">Popular</button>
+</div>
+{% for y in by_year %}
+<section class="year-group">
+  <h2>{{ y.name }}</h2>
+  <ul class="pubs">
+    {% for t in type_order %}{% assign of_type = y.items | where: "type", t %}{% for p in of_type %}{% include publication.html pub=p %}{% endfor %}{% endfor %}
+  </ul>
+</section>
+{% endfor %}
+{% if site.data.press %}
+{% assign press = site.data.press | sort: "date" | reverse %}
+<section class="section" id="press" style="margin-top:48px">
+  <h2>In the media</h2>
+  <ul class="dated-list">
+    {% for m in press %}
+    <li class="dated"><time datetime="{{ m.date }}">{{ m.date | slice: 0, 7 }}</time><span><a href="{{ m.url }}">{{ m.title }}</a> · <i>{{ m.outlet }}</i></span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+<script src="{{ '/assets/js/filters.js' | relative_url }}" defer></script>

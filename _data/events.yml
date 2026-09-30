@@ -1,0 +1,59 @@
+# Events the lab organised or co-organised, newest first.
+# confirm: true = details from Drive folders, not the CV; please check.
+
+- date: "2027"
+  title: "ALP 2027: The Third Workshop on Ancient Language Processing"
+  role: Organisers (proposal submitted), with the EvaCun 2027 shared task
+  upcoming: true
+  confirm: true
+  description: >-
+    Scarce data, broken texts, scripts that fail your tokenizer: NLP for ancient
+    languages, from Sumerian to Mayan.
+
+- date: "2025"
+  title: Digital Ancient Near Eastern Studies (DANES) 2025
+  role: Organisers
+  confirm: true
+
+- date: "2025-05"
+  title: "ALP 2025: Second Workshop on Ancient Language Processing, with the EvaCun 2025 shared task"
+  role: Co-organisers and proceedings editors
+  place: NAACL 2025, Albuquerque, US
+  url: https://aclanthology.org/2025.alp-1.0/
+
+- date: "2024-12"
+  title: Digital Ancient Near Eastern Studies (DANES) 2024, with a workshop on fine-tuning LLMs
+  role: Organisers
+  confirm: true
+
+- date: "2024-08"
+  title: "ML4AL 2024: First Workshop on Machine Learning for Ancient Languages"
+  role: Co-organisers and proceedings editors
+  place: ACL 2024, Bangkok, Thailand
+  url: https://aclanthology.org/2024.ml4al-1.0
+
+- date: "2023-09-07"
+  title: "ALP 2023: First Workshop on Ancient Language Processing"
+  role: Co-organisers (with A. Anderson, B. Li, Y. Liu, M. C. Passarotti)
+  place: RANLP 2023, Varna, Bulgaria
+  url: https://www.ancientnlp.com/alp2023/
+
+- date: "2023-09-04"
+  title: "ALT 2023: Ancient Language Translation Workshop, with the EvaCun cuneiform MT task"
+  role: Co-organisers (with B. Li)
+  place: MT Summit 2023, Macau
+  url: https://digitalpasts.github.io/EvaCUN/
+
+- date: "2023-02-19"
+  end_date: 2023-02-21
+  title: "Digital Ancient Near Eastern Studies: Computational Perspectives on Ancient Near Eastern Literature, Art and Material Culture"
+  role: Organisers (with H. Mara and G. Stanovsky); founded the DANES network
+  place: Tel Aviv University and Ariel University
+  url: https://digitalpasts.github.io/DANES/
+
+- date: "2020-02-19"
+  end_date: 2020-02-20
+  title: "Human–Machine Cooperation in Archaeology, Epigraphy and Ancient History"
+  role: Organisers
+  place: Ariel University
+  url: /file_links/Abstracts_conference_2020.pdf

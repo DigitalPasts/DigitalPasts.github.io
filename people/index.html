@@ -1,0 +1,47 @@
+---
+title: People
+wide: true
+intro: "Assyriologists, historians, archaeologists and computer scientists working together."
+---
+{% assign current = site.data.people | where: "status", "current" %}
+{% assign alumni = site.data.people | where: "status", "alumni" %}
+{% assign pi = current | where: "group", "pi" | first %}
+{% if pi %}
+<section class="pi">
+  {% if pi.photo %}<img src="{{ pi.photo | relative_url }}" alt="" width="160" height="160">{% endif %}
+  <div>
+    <h2>{{ pi.name }}</h2>
+    <p class="role">{{ pi.role }}</p>
+    {% if pi.bio %}<p>{{ pi.bio }}</p>{% endif %}
+    {% if pi.links %}<p class="person-links">{% for l in pi.links %}<a href="{{ l[1] }}">{% case l[0] %}{% when "orcid" %}ORCID{% when "scholar" %}Google Scholar{% when "academia" %}Academia{% when "github" %}GitHub{% when "website" %}Website{% else %}{{ l[0] | capitalize }}{% endcase %}</a>{% endfor %}</p>{% endif %}
+  </div>
+</section>
+{% endif %}
+{% assign groups = "staff,postdoc,phd,ma,intern,collaborator" | split: "," %}
+{% for g in groups %}
+{% assign members = current | where: "group", g %}
+{% if members.size > 0 %}
+<section class="people-group">
+  <h2>{% case g %}{% when "staff" %}Lab staff{% when "intern" %}Interns{% when "postdoc" %}Postdoctoral fellows{% when "phd" %}PhD students{% when "ma" %}MA students{% when "collaborator" %}Research fellows{% endcase %}</h2>
+  <ul class="people">
+    {% for p in members %}{% include person.html person=p %}{% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endfor %}
+{% if alumni.size > 0 %}
+{% assign alumni = alumni | sort: "degree_year" | reverse %}
+<section class="people-group" id="alumni">
+  <h2>Alumni</h2>
+  <ul class="alumni">
+    {% for p in alumni %}
+    <li><span class="alumni-year">{{ p.degree_year }}</span><span><b>{{ p.name }}</b> · {{ p.role }}{% if p.now %} · now {% if p.now_url %}<a href="{{ p.now_url }}">{{ p.now }}</a>{% else %}{{ p.now }}{% endif %}{% endif %} {% include confirm.html item=p %}</span></li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+<section class="join" id="join">
+  <h2>Join the lab</h2>
+  <p>We welcome MA and PhD students, postdocs and visiting researchers from the humanities and from computer science. Collaborations with museums, archives and companies are welcome too.</p>
+  <p>Write to <a href="mailto:{{ site.email }}">{{ site.email }}</a> with a short note about your interests.</p>
+</section>

@@ -1,0 +1,156 @@
+# Research themes and projects. status: current | past. slug matches people.yml projects.
+# confirm: true = status or scope needs Shai's check.
+
+themes:
+  - slug: alp
+    title: Ancient Language Processing
+    summary: "Ancient Language Processing is a subfield of NLP for ancient languages and scripts. We build models, datasets and shared tasks for machine translation, lemmatization and annotation, across Akkadian, Sumerian, Hittite, Elamite and Semitic inscriptions, and co-organise the ALP workshop series."
+  - slug: reading
+    title: Reading cuneiform with AI
+    summary: Optical character recognition, sign analysis and multimodal models that turn images of tablets and hand-copies into searchable text.
+  - slug: artefacts
+    title: Tablets and artefacts as data
+    summary: Shape, style and 3D analysis of tablets and reliefs, for dating, provenance and reconstruction.
+  - slug: space-time
+    title: People, time and place
+    summary: Gazetteers, networks and remote sensing for the landscapes, chronologies and communities of first-millennium Babylonia.
+  - slug: language
+    title: Language, meaning and access
+    summary: Metaphor, linguistic annotation and accessibility tools that open cuneiform corpora to more readers.
+
+projects:
+  - slug: havi
+    title: "Tracing the Signs: Multimodal Foundation Models for Ancient Writing"
+    theme: reading
+    status: current
+    summary: Schmidt Sciences HAVI Level I project (2027–2029) building multimodal foundation models for ancient scripts.
+    collaborators: Ahmad Al-Jallad (Ohio State), Morris Alper (University of Miami), Ethan Fetaya (Bar-Ilan University), Letizia Cerqueglini (Tel Aviv University)
+  - slug: archaia
+    title: "ArchAIa: Foundation Models for Artifactual Understanding"
+    theme: artefacts
+    status: current
+    summary: Schmidt Sciences HAVI pilot (2026) on foundation models for archaeological artefacts.
+    collaborators: Daphne Ippolito (Carnegie Mellon) and partners at Johns Hopkins, Southampton, Chile, Hebrew University, Rochester, Oxford and Reading
+  - slug: cured
+    title: CuReD – OCR for cuneiform text editions
+    theme: reading
+    status: current
+    summary: A deep-learning OCR model for printed transliterations and legacy publications, released through the Babylonian Engine.
+    collaborators: Jonathan Berant (Tel Aviv University)
+  - slug: cure
+    title: CuRe – cuneiform sign recognition
+    theme: reading
+    status: current
+    summary: Recognising hand-drawn cuneiform signs in hand-copies, as a first step to reading photographs.
+    collaborators: Ethan Fetaya (Bar-Ilan University), Shimon Shahar (Tel Aviv University)
+  - slug: protosnap
+    title: ProtoSnap and sign palaeography
+    theme: reading
+    status: current
+    summary: Aligning sign prototypes to tablet images, and classifying sign styles by period, for a digital cuneiform palaeography.
+    collaborators: Hadar Averbuch-Elor, Enrique Jiménez (LMU Munich), Yoram Cohen (Tel Aviv University)
+  - slug: akkadian-mt
+    title: Machine translation of Akkadian
+    theme: alp
+    status: past
+    summary: Neural machine translation from Akkadian cuneiform to English (PNAS Nexus 2023).
+    collaborators: Jonathan Berant, Omer Levy (Tel Aviv University)
+  - slug: evacun
+    title: EvaCun shared tasks
+    theme: alp
+    status: current
+    summary: Community benchmarks for cuneiform machine translation (2023), lemmatization and token prediction (2025), and a 2027 edition.
+    links:
+      website: https://digitalpasts.github.io/EvaCUN/
+  - slug: hittite-ml
+    title: Hittite texts for machine learning
+    theme: alp
+    status: current
+    summary: A glossed Hittite corpus with German translation, prepared for machine learning and stylometry.
+  - slug: elamite
+    title: Elamite linked open data dictionary
+    theme: alp
+    status: current
+    confirm: true
+    summary: An Elamite lemma base published as linked open data, tracing linguistic change.
+    collaborators: Federico Pedron, Katrien De Graef (Ghent), Timo Homburg
+  - slug: protocuneiform
+    title: Proto-cuneiform account types
+    theme: alp
+    status: current
+    summary: Classifying the earliest administrative texts from Uruk by account type with machine learning.
+  - slug: semitic-epigraphy
+    title: Layered annotation for Semitic epigraphy
+    theme: alp
+    status: current
+    summary: An annotation workflow for Semitic inscriptions (LT4HALA 2026).
+    collaborators: Letizia Cerqueglini (Tel Aviv University)
+  - slug: deeplomatics
+    title: Deeplomatics – tablet shape analysis
+    theme: artefacts
+    status: current
+    summary: Dating and classifying tablets by their shape with explainable AI, and tracing how cuneiform spread across Western Asia.
+    collaborators: Michael Fire (Ben-Gurion University)
+  - slug: assyrian-reliefs
+    title: Neo-Assyrian relief style
+    theme: artefacts
+    status: current
+    summary: Deep learning for identifying royal styles in Neo-Assyrian palace reliefs, and for reconstructing damaged scenes.
+  - slug: 3d-scanning
+    title: 3D scanning of cuneiform tablets
+    theme: artefacts
+    status: current
+    summary: 3D models of tablets in the Israel Museum and Bible Lands Museum, and an open dataset.
+    collaborators: Mark Altaweel (UCL)
+  - slug: archaeomagnetism
+    title: Archaeomagnetism of Mesopotamian bricks
+    theme: artefacts
+    status: past
+    summary: Inscribed bricks as a record of the ancient geomagnetic field (PNAS 2023).
+    collaborators: Lisa Tauxe (UC San Diego), Erez Ben-Yosef (Tel Aviv University)
+  - slug: mapa
+    title: MAPA – Mesopotamian Ancient Place-names Almanac
+    theme: space-time
+    status: current
+    summary: A linked open data gazetteer of Uruk and its hinterland in the first millennium BCE.
+    links:
+      page: /research/mapa/
+      github: https://github.com/DigitalPasts/MAPA
+  - slug: lost-time
+    title: In Search of Lost Time
+    theme: space-time
+    status: current
+    summary: Estimating the dates of broken documents from networks of the people named in them.
+  - slug: mobility
+    title: A Reason to Move
+    theme: space-time
+    status: current
+    confirm: true
+    summary: Computational analysis of movement and sense of place in ancient texts.
+    collaborators: Chiara Palladino (Durham University)
+  - slug: metaphor
+    title: Metaphor in Akkadian letters
+    theme: language
+    status: past
+    summary: Metaphor detection and treebank annotation in the Neo-Assyrian letter corpus.
+    collaborators: Niek Veldhuis (UC Berkeley)
+  - slug: niv-louie
+    title: Niv Louie – accessible cuneiform
+    theme: language
+    status: current
+    summary: Screen reading and Braille translation for transliterated cuneiform.
+  - slug: wsi
+    title: Word-sense induction for Akkadian and Hebrew
+    theme: language
+    status: past
+    collaborators: Amos Azaria (Ariel University)
+
+tools:
+  - {title: Babylonian Engine (BEn), url: "https://github.com/ludovicus-hispanicus/Ben-App", summary: "Modular app for cuneiform recognition, transliteration and curation."}
+  - {title: eAkkadian, url: "https://digitalpasts.github.io/eAkkadian/", summary: "An online coursebook for doing Assyriology digitally."}
+  - {title: MAPA Gazetteer, url: "https://doi.org/10.5281/zenodo.4540616", summary: "Linked Places gazetteer of Uruk and its hinterland."}
+  - {title: EvaCun data, url: "https://digitalpasts.github.io/EvaCUN/", summary: "Shared-task datasets for cuneiform NLP."}
+  - {title: Hittite glossed texts, url: "https://doi.org/10.5281/zenodo.14266302", summary: "Hittite texts with German translation for machine learning."}
+  - {title: Neo-Assyrian metaphor dataset, url: "https://doi.org/10.5281/zenodo.8432073", summary: "Body part construction metaphors in Neo-Assyrian letters."}
+  - {title: OpenDANES, url: "https://opendanes.org/", summary: "Platform and newsletter of the Digital Ancient Near Eastern Studies network."}
+  - {title: BONUS SCRIBA, url: "https://github.com/DigitalPasts/BONUS_SCRIBA", summary: "Database of Hittite dignitaries and officials."}

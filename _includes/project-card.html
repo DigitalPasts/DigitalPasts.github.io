@@ -1,0 +1,22 @@
+{% comment %}Accepts project= a _projects page or an entry from _data/projects.yml{% endcomment %}
+{% assign p = include.project %}
+{% assign slug = p.slug %}
+{% assign pg = site.projects | where: "slug", slug | first %}
+{% assign data = site.data.projects.projects | where: "slug", slug | first %}
+{% assign title = data.title | default: p.title %}
+{% assign summary = data.summary | default: p.summary %}
+{% assign status = data.status | default: p.status %}
+{% assign image = pg.image | default: p.image %}
+<article class="card">
+  {% if pg %}<a class="card-link" href="{{ pg.url | relative_url }}">{% else %}<div class="card-link">{% endif %}
+    {% if image and include.compact != true %}
+    <img class="card-img" src="{{ image | relative_url }}" alt="" loading="lazy" width="960" height="600">
+    {% elsif include.compact != true %}
+    <div class="card-img card-img-blank" aria-hidden="true"><span>{{ pg.short_name | default: title | split: " – " | first | split: ":" | first }}</span></div>
+    {% endif %}
+    <h3>{{ title }}</h3>
+  {% if pg %}</a>{% else %}</div>{% endif %}
+  {% if summary %}<p>{{ summary }}</p>{% endif %}
+  {% if include.compact and data.collaborators %}<p class="card-meta">With {{ data.collaborators }}</p>{% endif %}{% if include.compact and pg %}<p class="card-meta"><a href="{{ pg.url | relative_url }}">Project page →</a></p>{% endif %}
+  <p class="tags">{% if pg.kind and include.compact != true %}<span class="tag">{{ pg.kind }}</span>{% endif %}{% if status == "past" %}<span class="tag tag-muted">Completed</span>{% endif %}{% include confirm.html item=data %}</p>
+</article>
