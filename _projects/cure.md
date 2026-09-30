@@ -6,8 +6,8 @@ status: current
 kind: Tool
 order: 4
 links:
-  - label: Try it in the Babylonian Engine
-    url: https://ben-digpasts.com/demo
+  - label: Babylonian Engine app (in development)
+    url: https://github.com/ludovicus-hispanicus/Ben-App
 partners: "Dr [Ethan Fetaya](https://scholar.google.com/citations?user=zLuqh-0AAAAJ&hl=en) (Bar Ilan University, Faculty of Engineering), Dr [Shimon Shahar](https://datascience.tau.ac.il/team/moni-shahar) (Tel Aviv University, Center for Artificial Intelligence & Data Science)."
 ---
 

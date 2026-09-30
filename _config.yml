@@ -1,7 +1,7 @@
 title: "Digital Pasts Lab"
 short_title: "DigPasts()"
-description: "The Digital Pasts Lab at Ariel University brings assyriologists and data scientists together to recognise, translate and map cuneiform sources."
-tagline: "We build computational methods for reading the ancient Near East."
+description: "The Digital Pasts Lab at Ariel University works in Ancient Language Processing and digital humanities, bringing historians, philologists and computer scientists together to read, translate and map ancient sources."
+tagline: "We build computational methods for reading the languages and scripts of the ancient world."
 url: "https://digitalpasts.github.io"
 baseurl: ""
 lang: en
@@ -12,9 +12,7 @@ twitter: "https://twitter.com/DigPastsLab"
 twitter_handle: "DigPastsLab"
 
 # External tools
-ben_demo: "https://ben-digpasts.com/demo"
-ben_site: "https://ben-digpasts.com/"
-ben_beta: "https://babylonian.herokuapp.com/#/"
+ben_code: "https://github.com/ludovicus-hispanicus/Ben-App"
 
 # Show a small "To confirm" tag on data entries marked `confirm: true`.
 # Set to false before the site goes live.

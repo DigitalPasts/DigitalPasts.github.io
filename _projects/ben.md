@@ -9,11 +9,9 @@ image_alt: "Cuneiform tablet with detected signs outlined. © Yale Babylonian Co
 featured: true
 order: 1
 links:
-  - label: Open the demo
-    url: https://ben-digpasts.com/demo
-  - label: Beta version
-    url: https://babylonian.herokuapp.com/#/
-  - label: Code on GitHub
+  - label: New app on GitHub (in development)
+    url: https://github.com/ludovicus-hispanicus/Ben-App
+  - label: Lab code on GitHub
     url: https://github.com/DigitalPasts
 ---
 
