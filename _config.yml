@@ -16,6 +16,10 @@ ben_demo: "https://ben-digpasts.com/demo"
 ben_site: "https://ben-digpasts.com/"
 ben_beta: "https://babylonian.herokuapp.com/#/"
 
+# Show a small "To confirm" tag on data entries marked `confirm: true`.
+# Set to false before the site goes live.
+show_confirm: true
+
 # Main navigation, in order
 navigation:
   - title: Research

@@ -4,7 +4,7 @@ title: Digital Pasts Lab
 ---
 {% assign featured = site.projects | where: "featured", true | sort: "order" %}
 {% assign talks = site.data.talks | sort: "date" | reverse %}
-{% assign heads = site.data.people | where: "group", "head" %}
+{% assign heads = site.data.people | where: "group", "pi" %}
 {% assign head = heads.first %}
 <div class="container">
   <section class="hero">
@@ -36,7 +36,7 @@ title: Digital Pasts Lab
     <div>
       <div class="section-head"><h2>Talks</h2><a href="{{ '/news/#talks' | relative_url }}">All talks</a></div>
       <ul class="dated-list">
-        {% for t in talks limit: 3 %}{% include dated-item.html item=t %}{% endfor %}
+        {% for t in talks limit: 3 %}{% include talk.html talk=t %}{% endfor %}
       </ul>
     </div>
   </section>
@@ -44,8 +44,8 @@ title: Digital Pasts Lab
   <section class="section">
     <div class="section-head"><h2>People</h2><a href="{{ '/people/' | relative_url }}">Meet the team</a></div>
     <ul class="faces">
-      {% for p in site.data.people %}{% if p.group != "alumni" and p.photo %}<li><a href="{{ '/people/' | relative_url }}" title="{{ p.name }}"><img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" width="64" height="64"></a></li>{% endif %}{% endfor %}
+      {% for p in site.data.people %}{% if p.status == "current" %}<li><a href="{{ '/people/' | relative_url }}" title="{{ p.name }}">{% if p.photo and p.photo != "" %}<img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" width="64" height="64">{% else %}{% assign parts = p.name | split: " " %}<span class="avatar" role="img" aria-label="{{ p.name }}">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>{% endif %}</a></li>{% endif %}{% endfor %}
     </ul>
-    <p style="margin-top:20px">The lab is led by {{ head.name }}, {{ head.role | split: "," | first | downcase }} of ancient Near Eastern history and digital humanities. <a href="{{ '/people/#join' | relative_url }}">Interested in joining?</a></p>
+    <p style="margin-top:20px">The lab is led by {{ head.name }}, associate professor of ancient Near Eastern history and digital humanities. <a href="{{ '/people/#join' | relative_url }}">Interested in joining?</a></p>
   </section>
 </div>

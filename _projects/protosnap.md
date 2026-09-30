@@ -1,6 +1,6 @@
 ---
-title: "Digital Cuneiform Paleography"
-short_name: "Paleography"
+title: "ProtoSnap and digital cuneiform palaeography"
+short_name: "ProtoSnap"
 summary: "A modern online repertoire of cuneiform signs by period, and a dating tool."
 status: current
 kind: Research

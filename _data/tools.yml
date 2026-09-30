@@ -35,7 +35,7 @@
 - title: Akkadian machine translation
   kind: Tool
   description: "Neural model translating Akkadian cuneiform into English, from signs or from transliteration."
-  project: machine-translation
+  project: akkadian-mt
   links:
     - label: Paper (PNAS Nexus 2023)
       url: https://doi.org/10.1093/pnasnexus/pgad096
@@ -50,9 +50,10 @@
     - label: GitHub
       url: https://github.com/DigitalPasts/MAPA
 
-- title: EvaCUN
+- title: EvaCun
   kind: Dataset
-  description: "Shared task and data for evaluating machine translation of Akkadian and Sumerian."
+  description: "Shared-task datasets for cuneiform NLP: machine translation (2023), lemmatization and token prediction (2025)."
+  project: evacun
   links:
     - label: Task website
       url: https://digitalpasts.github.io/EvaCUN/
@@ -70,3 +71,40 @@
   links:
     - label: Open the story
       url: https://www.arcgis.com/apps/MapJournal/index.html?appid=0d8ea53679044b78b8237690b5e4c842
+
+- title: eAkkadian
+  kind: Course
+  description: "An online coursebook for doing Assyriology digitally."
+  links:
+    - label: Open the coursebook
+      url: https://digitalpasts.github.io/eAkkadian/
+
+- title: Hittite glossed texts
+  kind: Dataset
+  description: "Hittite texts with German translation, prepared for machine learning."
+  project: hittite-ml
+  links:
+    - label: Zenodo
+      url: https://doi.org/10.5281/zenodo.14266302
+
+- title: Neo-Assyrian metaphor dataset
+  kind: Dataset
+  description: "Body part construction metaphors in Neo-Assyrian letters."
+  project: metaphor
+  links:
+    - label: Zenodo
+      url: https://doi.org/10.5281/zenodo.8432073
+
+- title: BONUS SCRIBA
+  kind: Dataset
+  description: "Database of Hittite dignitaries and officials."
+  links:
+    - label: GitHub
+      url: https://github.com/DigitalPasts/BONUS_SCRIBA
+
+- title: OpenDANES
+  kind: Code
+  description: "Platform and newsletter of the Digital Ancient Near Eastern Studies network."
+  links:
+    - label: Visit OpenDANES
+      url: https://opendanes.org/

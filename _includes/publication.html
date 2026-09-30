@@ -1,5 +1,7 @@
 {% assign p = include.pub %}
 <li class="pub" data-type="{{ p.type }}">
-  <span class="pub-text">{{ p.citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+  <span class="pub-text">{% if p.citation %}{{ p.citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}{% else %}{{ p.authors }} ({{ p.year }}). {% if p.title %}“{{ p.title }}.”{% endif %}{% if p.venue %} <i>{{ p.venue }}</i>{% endif %}{% if p.details %}, {{ p.details }}{% endif %}.{% endif %}</span>
+  {% if p.doi %}<a class="pub-link" href="https://doi.org/{{ p.doi | remove: 'https://doi.org/' }}">DOI</a>{% endif %}
   {% if p.url %}<a class="pub-link" href="{{ p.url }}">{% if p.url contains "doi.org" %}DOI{% else %}Link{% endif %}</a>{% endif %}
+  {% include confirm.html item=p %}
 </li>

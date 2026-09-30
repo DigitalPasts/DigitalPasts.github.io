@@ -1,21 +1,34 @@
 ---
 title: Research
 wide: true
-intro: "We develop machine learning and linked data methods for cuneiform texts, and use them to ask new questions about the history of ancient Mesopotamia."
+intro: "We develop machine learning and linked data methods for cuneiform and other ancient sources, and use them to ask new questions about the history of the ancient Near East."
 ---
-{% assign current = site.projects | where: "status", "current" | sort: "order" %}
-{% assign past = site.projects | where: "status", "past" | sort: "order" %}
-  <section class="section">
-    <h2>Current projects</h2>
-    <div class="cards">
-      {% for p in current %}{% include project-card.html project=p %}{% endfor %}
-    </div>
-  </section>
-  {% if past.size > 0 %}
-  <section class="section">
-    <h2>Completed projects</h2>
-    <div class="cards">
-      {% for p in past %}{% include project-card.html project=p %}{% endfor %}
-    </div>
-  </section>
-  {% endif %}
+{% assign flagship = site.projects | where: "featured", true | sort: "order" %}
+{% assign all = site.data.projects.projects %}
+<section class="section">
+  <h2>Flagship projects</h2>
+  <div class="cards">
+    {% for p in flagship %}{% include project-card.html project=p %}{% endfor %}
+  </div>
+</section>
+{% for theme in site.data.projects.themes %}
+{% assign items = all | where: "theme", theme.slug %}
+{% if items.size > 0 %}
+<section class="section theme" id="{{ theme.slug }}">
+  <h2>{{ theme.title }}</h2>
+  {% if theme.summary %}<p class="theme-summary">{{ theme.summary }}</p>{% endif %}
+  <div class="cards cards-compact">
+    {% for p in items %}{% unless p.status == "past" %}{% include project-card.html project=p compact=true %}{% endunless %}{% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endfor %}
+{% assign past = all | where: "status", "past" %}
+{% if past.size > 0 %}
+<section class="section" id="completed">
+  <h2>Completed projects</h2>
+  <div class="cards cards-compact">
+    {% for p in past %}{% include project-card.html project=p compact=true %}{% endfor %}
+  </div>
+</section>
+{% endif %}

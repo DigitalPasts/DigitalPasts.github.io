@@ -1,32 +1,40 @@
 ---
 title: News & Events
 wide: true
-intro: "What the lab has been doing: new papers, talks, and the workshops and conferences we organise."
+intro: "What the lab has been doing: news, talks, and the workshops and conferences we organise."
 ---
 {% assign talks = site.data.talks | sort: "date" | reverse %}
 {% assign events = site.data.events | sort: "date" | reverse %}
-<div class="two-col">
-  <section>
-    <h2>News</h2>
-    <ul class="dated-list">
-      {% for item in site.data.news %}{% include dated-item.html item=item %}{% endfor %}
+<section class="section">
+  <h2>News</h2>
+  <ul class="dated-list news-list">
+    {% for item in site.data.news %}{% include dated-item.html item=item %}{% endfor %}
+  </ul>
+</section>
+{% assign talks_by_year = talks | group_by_exp: "t", "t.date | slice: 0, 4" %}
+<section class="section" id="talks">
+  <h2>Talks</h2>
+  {% for y in talks_by_year %}
+  <div class="year-group">
+    <h2>{{ y.name }}</h2>
+    <ul class="dated-list talks-list">
+      {% for t in y.items %}{% include talk.html talk=t %}{% endfor %}
     </ul>
-  </section>
-  <section id="talks">
-    <h2>Talks</h2>
-    <ul class="dated-list">
-      {% for t in talks %}{% include dated-item.html item=t %}{% endfor %}
-    </ul>
-  </section>
-</div>
+  </div>
+  {% endfor %}
+</section>
 <section class="section" id="events">
   <h2>Workshops and conferences we organise</h2>
   {% for e in events %}
+  {% assign d = e.date | append: "" %}
   <article class="event">
-    <span class="eyebrow">{{ e.when }}{% if e.place %} · {{ e.place }}{% endif %}</span>
-    <h3>{{ e.title }}</h3>
-    <p>{{ e.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+    <span class="eyebrow">{{ e.when | default: d }}{% if e.end_date %} to {{ e.end_date }}{% endif %}{% if e.place %} · {{ e.place }}{% endif %}</span>
+    <h3>{% if e.upcoming %}<span class="tag tag-sand">Upcoming</span>{% endif %}{{ e.title }} {% include confirm.html item=e %}</h3>
+    {% if e.role %}<p class="meta">{{ e.role }}</p>{% endif %}
+    {% assign desc = e.description | default: e.summary %}
+    {% if desc %}<p>{{ desc | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>{% endif %}
     {% if e.with %}<p class="meta">With {{ e.with }}</p>{% endif %}
+    {% if e.url %}<p class="event-links"><a href="{{ e.url | relative_url }}">Event page →</a></p>{% endif %}
     {% if e.links %}<p class="event-links">{% for l in e.links %}<a href="{{ l.url | relative_url }}">{{ l.label }} →</a>{% endfor %}</p>{% endif %}
   </article>
   {% endfor %}

@@ -1,53 +1,266 @@
-# Talks, conference papers and invited lectures by lab members.
-# Items dated after the site was last built are shown as "Upcoming".
-# Fields:
-#   date:      "YYYY-MM" in quotes (or "YYYY-MM-DD")
-#   citation:  speakers, "Title", event and place, in Markdown
-#   url:       link to programme, abstract or recording (optional)
+# Talks by lab members, newest first. Source: Gordin CV (Sep 2026) and Drive "Lectures_Seminars_Conferences".
+# kind: keynote | invited | paper | poster | outreach
+# confirm: true = date or venue taken from Drive folder dates, not the CV; please check.
+
+- date: "2026-06"
+  title: "Ancient Language Processing: From Clay to Multimodal Data"
+  speakers: S. Gordin
+  event: Invited lecture
+  place: Technion – Israel Institute of Technology, Haifa
+  kind: invited
+  confirm: true
+
+- date: "2026-05"
+  title: "Neo-Assyrian Relief Style Identification: A Computational Approach for Archaeological Image Analysis"
+  speakers: S. Gordin, K. Margulyan
+  event: Schmidt Sciences HAVI meeting
+  place: Johns Hopkins University, Baltimore
+  kind: paper
+  confirm: true
+
+- date: "2026-01"
+  title: "In Search of Lost Time: Date Estimation Using Network Analysis"
+  speakers: S. Klein, S. Gordin
+  event: Digital Archaeology at Ariel
+  place: Ariel University
+  kind: paper
+  confirm: true
+
+- date: "2025-12"
+  title: "East and West of Eden: Computational Shape Analysis for Understanding the Spread of Cuneiform across Western Asia"
+  speakers: S. Gordin
+  event: Department seminar
+  place: Ben-Gurion University of the Negev
+  kind: invited
+  confirm: true
+
+- date: "2025-12"
+  title: "Distant Viewing: Deep Learning for the Study of Cuneiform (Hebrew)"
+  speakers: S. Gordin
+  event: Youth Academy
+  place: Bloomfield Science Museum, Jerusalem
+  kind: outreach
+  confirm: true
+
+- date: "2025-10"
+  title: "Distant Viewing: Computer Vision Applications for Cuneiform"
+  speakers: S. Gordin
+  event: Assyriology in Practice
+  place: Hebrew University of Jerusalem
+  kind: invited
+  confirm: true
+
+- date: "2025-09"
+  title: "A Reason to Move: Investigating Ancient Mobility and Sense of Place"
+  speakers: C. Palladino, S. Gordin
+  event: Schmidt Sciences AI and Humanities meeting (poster)
+  place: Paris
+  kind: poster
+  confirm: true
+
+- date: "2025-07"
+  title: "Breaking the Unicode Barrier with Niv Louie: Advancing Digital Accessibility through Innovative Screen Reading and Braille Translation Technologies"
+  speakers: M. Yeater, S. Gordin, L. Sáenz
+  event: DH 2025
+  place: Lisbon, Portugal
+  kind: paper
+
+- date: "2025-07"
+  title: "'They Greet Me and I Reply in Elamite': Building an Elamite Lemma Base and Tracing Linguistic Evolution"
+  speakers: F. Pedron, K. De Graef, T. Homburg, E. Whitacare, S. Gordin
+  event: 70th Rencontre Assyriologique Internationale, E.L.A.M. workshop
+  place: Prague, Czech Republic
+  kind: paper
+
+- date: "2025-06"
+  title: "Neo-Assyrian Relief Completion: A Deep Learning Approach for Artistic Style and Archaeological Reconstruction"
+  speakers: K. Margulyan, S. Gordin
+  event: DARIAH Annual Event 2025
+  place: Göttingen, Germany
+  kind: paper
+
+- date: "2025-06"
+  title: "Genre, Style, and What's Between Them? A Computational Method to Study Cuneiform Scribal Habits"
+  speakers: S. Gordin
+  event: Scribes and Libraries in the Ancient Near East
+  place: Bar-Ilan University
+  kind: keynote
+
+- date: "2025-05"
+  title: "Measured Reading: Studying Cuneiform Tablets using Deep Learning"
+  speakers: S. Gordin
+  event: "AI and Research: Uses, Potential, Risks"
+  place: Israel Academy of Sciences and Humanities, Jerusalem
+  kind: keynote
+
+- date: "2025-04"
+  title: "Ancient Language Processing: From Clay to Data (Hebrew)"
+  speakers: S. Gordin
+  event: Digital Humanities seminar
+  place: Hebrew University of Jerusalem
+  kind: invited
+  confirm: true
+
+- date: "2024-11"
+  title: "Exploring Geomagnetic Variations in Ancient Mesopotamia: Archaeomagnetic Study of Inscribed Bricks"
+  speakers: M. D. Howland, L. Tauxe, S. Gordin, M. Altaweel, B. Cych, E. Ben-Yosef
+  event: ASOR 2024, Archaeology in Mesopotamia
+  place: Boston, US
+  kind: paper
+
+- date: "2024-09"
+  title: "Shaping History at Scale: Advanced Machine Learning Techniques for the Shape Analysis and Dating of Cuneiform Tablets over Three Millennia"
+  speakers: S. Gordin
+  event: "'Lost Texts' Colloquium"
+  place: KU Leuven, Belgium
+  kind: keynote
+
+- date: "2024-08"
+  title: "CuReD: Deep Learning Optical Character Recognition for Cuneiform Text Editions and Legacy Materials"
+  speakers: S. Gordin, M. Alper, A. Romach, L. Sáenz, N. Yochai, R. Lalazar
+  event: ML4AL workshop at ACL 2024
+  place: Bangkok, Thailand
+  kind: paper
+
+- date: "2024-07"
+  title: "A Forensic Approach to Tablets: A New 3D Scanning Initiative and Open Dataset"
+  speakers: S. Gordin, L. Sáenz, M. Altaweel
+  event: 69th Rencontre Assyriologique Internationale, Digital and Open Assyriology
+  place: Helsinki, Finland
+  kind: paper
+
+- date: "2024-07"
+  title: "Digital Ancient Near Eastern Studies: A Transition to Arts and Crafts"
+  speakers: S. Gordin, A. Romach, E.-S. Lincke, H. Mara, A. Sahala, M. Béranger
+  event: 69th Rencontre Assyriologique Internationale, Digital and Open Assyriology
+  place: Helsinki, Finland
+  kind: paper
+
+- date: "2024-05"
+  title: "Matters of Genre, Style, and Orthography: Hittite Scribal Habits through the Stylometric Lens"
+  speakers: S. Gordin
+  event: The Tablets and Their Scribes
+  place: Academy of Sciences and Literature, Mainz, Germany
+  kind: keynote
+
+- date: "2024-05"
+  title: Experts panel on Linked Open Data in Israel
+  speakers: S. Gordin
+  event: Digital Humanities and Social Sciences in Israel
+  place: Tel Aviv University
+  kind: invited
+
+- date: "2024-03"
+  title: "Uncovering the Past while Peering into the Future: Challenges in the Dating and Analysis of Cuneiform Tablets using Machine Learning"
+  speakers: S. Gordin, D. Kapon Epshtain
+  event: "Criticism of Digital Intelligence"
+  place: Tel Aviv
+  kind: invited
+
+- date: "2024-02"
+  title: "Investigating Body Part Construction Metaphors in the Neo-Assyrian Royal Archives"
+  speakers: M. Ong, S. Gordin
+  event: 46th Annual Meeting of the German Linguistic Society (DGfS)
+  place: Ruhr University Bochum, Germany
+  kind: paper
+
+- date: "2024-01"
+  title: "20 Acres of Prime Canal-Front: Using Gazetteer-Supported Text Analysis to Begin Mapping Cadastral Texts in Achaemenid Uruk"
+  speakers: S. Clark, S. Gordin
+  event: BANEA 2024, Achaemenid Environments
+  place: University of Glasgow, Scotland
+  kind: paper
+
+- date: "2023-12"
+  title: "Ancient Language Processing: A Transformative Framework for the Computational Study of Ancient Texts"
+  speakers: S. Gordin
+  event: "Silvin Košak Memorial Symposium: Ancient Studies in the Digital Era"
+  place: University of Ljubljana, Slovenia
+  kind: keynote
+
+- date: "2023-11"
+  title: A Few Useful Things to Know About the Interdisciplinary Study of Ancient Documents
+  speakers: S. Gordin
+  event: ASOR 2023 workshop, Protect and Secure
+  place: Chicago, US
+  kind: invited
 
 - date: "2023-09"
-  citation: "Shmuel D. Clark, \"'I exercised authority…I eradicated the lands': Comparing Perceptions of Southern Babylonia in Neo-Assyrian and Neo-Babylonian Sources\". EAA 2023, Belfast, Ireland 30 August-2 Septmber 2023, session: What Makes a Settlement? Comparative Perspectives on Settlement Structures and Patterns from Neolithic to Iron Age."
-  url: "https://www.e-a-a.org/EAA2023/Programme.aspx?WebsiteKey=4c013ea5-de96-432a-85f7-b1800c2303bf&hkey=f73d6cf5-b37e-4836-ad06-2ecea6b58060&Program=3#Program"
+  title: "EvaCun: The First Shared Task on Cuneiform Machine Translation"
+  speakers: S. Gordin
+  event: ALT2023 at MT Summit 2023
+  place: Macau, China
+  kind: invited
+  url: https://www.ancientnlp.com/alt2023/program/
+
+- date: "2023-09"
+  title: "'I exercised authority… I eradicated the lands': Comparing Perceptions of Southern Babylonia in Neo-Assyrian and Neo-Babylonian Sources"
+  speakers: S. Clark
+  event: EAA 2023
+  place: Belfast
+  kind: paper
 
 - date: "2023-07"
-  citation: "Stav Klein and Shai Gordin, \"In Search of Lost Time – Restoring Chronologies of Individuals from Broken Cuneiform Resources\". GrapHNR 2023, Mainz, Germany 18-21 July 2023, session: Computational Modeling."
-  url: "https://graphentechnologien.hypotheses.org/files/2023/05/GrapHNR-2023-27-Klein-In-Search-of-Lost-Time.pdf"
+  title: "In Search of Lost Time: Restoring Chronologies of Individuals from Broken Cuneiform Resources"
+  speakers: S. Klein, S. Gordin
+  event: GrapHNR 2023
+  place: Mainz, Germany
+  kind: paper
+  url: https://graphentechnologien.hypotheses.org/files/2023/05/GrapHNR-2023-27-Klein-In-Search-of-Lost-Time.pdf
 
 - date: "2023-07"
-  citation: "Shai Gordin and Luis Sáenz, \"eAkkadian: a coursebook for doing Assyriology digitally\". RAI 68, Leiden, Netherlands 17-20 July 2023. Workshop: Equality of Access to Mesopotamia: Outreach and Pedagogy."
-  url: "https://www.universiteitleiden.nl/en/rai68/programme"
+  title: "eAkkadian: A Coursebook for Doing Assyriology Digitally"
+  speakers: S. Gordin, L. Sáenz
+  event: 68th Rencontre Assyriologique Internationale
+  place: Leiden, the Netherlands
+  kind: paper
 
 - date: "2023-07"
-  citation: "Shai Gordin and Orly Lewis, \"Machine learning of Ancient Scripts and Languages through Collaboration\". DH 2023, Graz, Austria 10-14 July 2023. Panel: The Pelagios Network: Collaboration as a Community of Practice."
-  url: "https://www.conftool.pro/dh2023/index.php?page=browseSessions&form_session=35#paperID269"
+  title: Machine Learning of Ancient Scripts and Languages through Collaboration
+  speakers: S. Gordin, O. Lewis
+  event: DH 2023, Pelagios Network panel
+  place: Graz, Austria
+  kind: paper
 
 - date: "2023-07"
-  citation: "Shai Gordin and Avital Romach, \"Layers of Authorship in Cuneiform Texts\". DH 2023, Graz, Austria 10-14 July 2023. Workshop: SIG-DLS Seven Years on."
-  url: "https://dls.hypotheses.org/1315"
+  title: Layers of Authorship in Cuneiform Texts
+  speakers: S. Gordin, A. Romach
+  event: DH 2023, SIG-DLS workshop
+  place: Graz, Austria
+  kind: paper
+
+- date: "2023-02"
+  title: "Ancient Language Processing: Computation of Ancient Texts and Cultures"
+  speakers: S. Gordin
+  event: Kimmel Center for Archaeological Science seminar
+  place: Weizmann Institute of Science
+  kind: invited
 
 - date: "2022-11"
-  citation: "Shai Gordin, \"When Networks Matter: Interpreting Patterns in Social and Geographical Networks of First Millennium BCE Babylonia\". SBL 2022 Annual Meeting, session: Literature and History of the Persian Period."
-  url: "https://www.sblcentral.org/home/conferencePaperDetails/61458"
+  title: "When Networks Matter: Interpreting Patterns in Social and Geographical Networks of First Millennium BCE Babylonia"
+  speakers: S. Gordin
+  event: SBL 2022 Annual Meeting
+  place: Denver, US
+  kind: invited
 
 - date: "2022-07"
-  citation: "Shai Gordin and Avital Romach, \"Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform\". DH 2022, Tokyo, Japan 25-29 July 2022. long paper."
-  url: "https://dh2022.adho.org/"
-
-- date: "2022-06"
-  citation: "Shai Gordin, \"Neo-Babylonian Scribal Habits from a Stylometric Perspective\". Invited lecture, Archival Scribes and Archival Literacy in Babylonia: Theory and Practice, 1-2 June 2022, Leiden University, the Netherlands."
+  title: "Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform"
+  speakers: S. Gordin, A. Romach
+  event: DH 2022
+  place: Tokyo, Japan
+  kind: paper
 
 - date: "2021-12"
-  citation: "Shai Gordin, “The Babylonian Engine: Studying ancient Babylonia using OCR, NLP and ML”. Journal of Electornic Imaging Webinar - Deep Learning: Applications and Recent Directions, Bar-Ilan University. See recorded lecture"
-  url: "https://www.spiedigitallibrary.org/jei-deep-learning-applications-and-recent-directions?SSO=1"
-
-- date: "2021-06"
-  citation: "Shai Gordin and Samuel Clark, “MAPA: A Linked Open Data Gazetteer of ancient Babylonia”. Conference poster, Digital Humanities Summer Institute – Online Edition, 7-11, 14-18 June 2021, University of Victoria, Canada."
-
-- date: "2021-04"
-  citation: "Shai Gordin, “Walking among the orchards of Gilgamesh: the role of spatial memory in and around the Neo-Babylonian City”. Transcultural Mobilities and Memories, Minho University, Portugal."
+  title: "The Babylonian Engine: Studying Ancient Babylonia using OCR, NLP and ML"
+  speakers: S. Gordin
+  event: Journal of Electronic Imaging webinar
+  place: Bar-Ilan University (online)
+  kind: invited
+  url: https://www.spiedigitallibrary.org/jei-deep-learning-applications-and-recent-directions?SSO=1
 
 - date: "2020-11"
-  citation: "Shai Gordin and Ethan Fetaya, “The Babylonian Engine: Human-Machine collaboration for restoring ancient Mesopotamian heritage”. CHNT 25: Conference on Cultural Heritage and New Technologies, Vienna."
-
-- date: "2020-11"
-  citation: "Shai Gordin, “Mesopotamian Ancient Place-names Almanac: Doing Historical Geography in the Age of Linked Open Data Spatial Data\". Metadata in Assyriology: Spatial Analysis, and Historical Geography, Uppsala University, Sweden."
+  title: "The Babylonian Engine: Human-Machine Collaboration for Restoring Ancient Mesopotamian Heritage"
+  speakers: S. Gordin, E. Fetaya
+  event: "CHNT 25: Conference on Cultural Heritage and New Technologies"
+  place: Vienna, Austria
+  kind: paper

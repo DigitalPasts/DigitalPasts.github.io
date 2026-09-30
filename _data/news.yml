@@ -1,31 +1,30 @@
-# Short news items for the homepage and the News page, newest first.
-# Fields:
-#   date:       "YYYY-MM" in quotes (or "YYYY-MM-DD")
-#   text:       one sentence in Markdown
-#   url:        link (optional)
-#   link_label: text for the link (optional, default "Link")
+# Short dated news items for the homepage, newest first.
+# confirm: true = please check wording or date.
 
-- date: "2023-06"
-  text: "_The Times of Israel_ covers our Akkadian-to-English translation model."
-  url: "https://www.timesofisrael.com/groundbreaking-ai-project-translates-5000-year-old-cuneiform-at-push-of-a-button/"
-  link_label: Read
+- date: "2026-09-01"
+  text: The lab submitted a proposal to hold ALP 2027, the third Workshop on Ancient Language Processing, with a new EvaCun shared task.
+  confirm: true
 
-- date: "2023-05"
-  text: "New paper in _PNAS Nexus_: Translating Akkadian to English with Neural Machine Translation."
-  url: "https://doi.org/10.1093/pnasnexus/pgad096"
-  link_label: DOI
+- date: "2026-06-01"
+  text: "New Schmidt Sciences HAVI grant (2027–2029): \"Tracing the Signs: Multimodal Foundation Models for Ancient Writing\", with Ahmad Al-Jallad, Morris Alper, Ethan Fetaya and Letizia Cerqueglini."
+  confirm: true
 
-- date: "2023-02"
-  text: "The Digital Ancient Near Eastern Studies conference launches the DANES network."
-  url: "https://digitalpasts.github.io/DANES/"
-  link_label: Conference site
+- date: "2026-05-15"
+  text: "Our layered annotation workflow for Semitic epigraphy appears at LT4HALA 2026 (LREC)."
+  confirm: true
 
-- date: "2022-11"
-  text: "New paper in _Land_ on land use change and centralisation around Uruk."
-  url: "https://doi.org/10.3390/land11111955"
-  link_label: DOI
+- date: "2026-01-01"
+  text: "The lab joins ArchAIa, a Schmidt Sciences HAVI pilot on foundation models for artefacts."
+  confirm: true
 
-- date: "2022-10"
-  text: "Shai Gordin and Avital Romach write on the \"Cuneiform Wide Web\" for _The Ancient Near East Today_."
-  url: "https://www.asor.org/anetoday/2022/10/cuneiform-wide-web"
-  link_label: Read
+- date: "2025-05-01"
+  text: "Three lab papers at ALP 2025 (NAACL): EvaCun 2025, Hittite texts for machine learning, and proto-cuneiform account types."
+  url: https://aclanthology.org/2025.alp-1.0/
+
+- date: "2025-04-24"
+  text: "ProtoSnap, prototype alignment for cuneiform signs, presented at ICLR 2025."
+  url: https://openreview.net/forum?id=XHTirKsQV6
+
+- date: "2025-01-01"
+  text: Shai Gordin promoted to Associate Professor.
+  confirm: true

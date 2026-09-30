@@ -1,89 +1,228 @@
-# Lab members. Order within each group is the order shown.
-# Fields:
-#   name:      full name
-#   role:      one line, e.g. "PhD candidate (digital humanities)"
-#   group:     head | researchers | phd | ma | alumni
-#   photo:     /images/people/<file>.jpg, square (optional; initials are shown otherwise)
-#   projects:  list of project file names from _projects/ (optional)
-#   now:       alumni only, current position (optional)
-#   links:     any of website, github, orcid, scholar, academia, linkedin, twitter
+# Lab members. status: current | alumni. group: pi | postdoc | phd | ma | collaborator
+# confirm: true marks entries Shai still needs to confirm (hide once checked).
+# Source: Gordin CV (Sep 2026) and the 2023 members page.
 
 - name: Shai Gordin
-  role: Associate Professor, head of the lab
-  group: head
+  role: Associate Professor, Lab Director
+  group: pi
+  status: current
   photo: /images/people/shai-gordin.jpg
-  projects: [ben, mapa]
+  bio: >-
+    Associate Professor of Ancient Near Eastern History and Digital Humanities,
+    Department of Land of Israel Studies and Archaeology, Ariel University;
+    Visiting Research Fellow, Digital Humanities and Social Sciences Hub, Open University of Israel.
+    Academic editor at PLOS ONE, collection editor at Humanities and Social Sciences Communications,
+    editorial board of OpenDANES, and member of the Pelagios Network Committee.
   links:
     orcid: https://orcid.org/0000-0002-8359-382X
     scholar: https://scholar.google.com/citations?user=A5okNFcAAAAJ&hl=en
     academia: https://ariel.academia.edu/ShaiGordin
-    twitter: https://twitter.com/ShGordin
 
-- name: Morris Alper
-  role: PhD research fellow (computer science)
-  group: phd
-  photo: /images/people/morris-alper.jpg
-  projects: [cured, cure]
-  links:
-    github: https://github.com/morrisalp
-    website: https://morrisalp.github.io/
-
-- name: Samuel Clark
-  role: PhD candidate (digital humanities)
-  group: phd
-  photo: /images/people/samuel-clark.jpg
-  projects: [mapa]
-  links:
-    academia: https://ariel.academia.edu/ShmuelClark/
-
+# ---- Current PhD students ----
 - name: Stav Klein
-  role: PhD candidate (digital humanities)
+  role: PhD candidate
   group: phd
+  status: current
+  note: Co-supervised with Ran Zadok (Tel Aviv U.) and Gabi Stanovsky (Hebrew U.)
+  projects: [lost-time, evacun]
   photo: /images/people/stav-klein.jpg
-  projects: [ben]
   links:
     github: https://github.com/stavkl
     website: https://stavkl.github.io/linguistics-for-nlp/
 
-- name: Matthew Ong
-  role: PhD research fellow (humanities)
+- name: Emma Yavasan
+  role: PhD candidate
   group: phd
-  photo: /images/people/matthew-ong.jpg
-  projects: [metaphor]
+  status: current
+  projects: [hittite-ml]
+  photo:
+  links: {}
+
+- name: Matthew Yeater
+  role: PhD candidate
+  group: phd
+  status: current
+  note: Co-supervised with Shawn Zelig Aster (Bar-Ilan U.) and Shalom Holtz (Yeshiva U.)
+  projects: [niv-louie]
+  photo:
+  links: {}
+
+- name: Yael Assouline
+  role: PhD candidate
+  group: phd
+  status: current
+  photo:
+  links: {}
+
+- name: Eisam Abu Rabea
+  role: PhD candidate
+  group: phd
+  status: current
+  photo:
+  links: {}
+
+- name: Ahlam Mohammed
+  role: PhD candidate (Tel Aviv University)
+  group: phd
+  status: current
+  note: Co-supervised with Letizia Cerqueglini (Tel Aviv U.)
+  photo:
+  links: {}
+
+# ---- Current MA students ----
+- name: Konstantin Margulyan
+  role: MA student
+  group: ma
+  status: current
+  projects: [assyrian-reliefs, 3d-scanning]
+  photo: /images/people/kostiya-margulyan.jpg
+  links: {}
+
+- name: Shahar Spencer
+  role: MA student (Hebrew University)
+  group: ma
+  status: current
+  note: Co-supervised with Gabi Stanovsky (Hebrew U.)
+  projects: [evacun]
+  photo:
+  links: {}
+
+- name: Yuval Gershfeld
+  role: MA student (Bar-Ilan University)
+  group: ma
+  status: current
+  note: Co-supervised with Ethan Fetaya (Bar-Ilan U.)
+  photo:
+  links: {}
+
+- name: Lilach Kagan
+  role: MA student
+  group: ma
+  status: current
+  photo:
+  links: {}
+
+# ---- Research fellows and close collaborators (confirm whether still lab members) ----
+- name: Morris Alper
+  role: Research fellow (computer science)
+  group: collaborator
+  status: current
+  confirm: true
+  projects: [cured, protosnap, havi]
+  photo: /images/people/morris-alper.jpg
   links:
-    academia: https://ucberkeley.academia.edu/MatthewOng
+    github: https://github.com/morrisalp
+    website: https://morrisalp.github.io/
 
 - name: Avital Romach
-  role: PhD research fellow (humanities)
-  group: phd
+  role: Research fellow (humanities)
+  group: collaborator
+  status: current
+  confirm: true
+  projects: [cured, stylometry]
   photo: /images/people/avital-romach.jpg
-  projects: [ben, cure, cured]
   links:
     academia: https://yale.academia.edu/AvitalRomach
 
-- name: Luis Sáenz
-  role: PhD research fellow (humanities)
+# ---- Alumni ----
+- name: Matthew D. Howland
+  role: Postdoctoral fellow
+  group: postdoc
+  status: alumni
+  degree_year: 2022
+  note: Co-supervised with Erez Ben-Yosef (Tel Aviv U.)
+  projects: [archaeomagnetism]
+
+- name: Naama Golan
+  role: Postdoctoral fellow
+  group: postdoc
+  status: alumni
+  degree_year: 2019
+
+- name: Christian Locatell
+  role: Postdoctoral fellow
+  group: postdoc
+  status: alumni
+  degree_year: 2019
+  note: Co-supervised with Itzick Shai
+
+- name: Shmuel (Samuel) Clark
+  role: PhD, Ariel University
   group: phd
+  status: alumni
+  degree_year: 2024
+  note: Co-supervised with Ran Zadok (Tel Aviv U.) and Mark Altaweel (UCL)
+  projects: [mapa]
+  photo: /images/people/samuel-clark.jpg
+  links:
+    academia: https://ariel.academia.edu/ShmuelClark/
+
+- name: Matthew Ong
+  role: PhD sandwich fellow (UC Berkeley)
+  group: phd
+  status: alumni
+  degree_year: 2023
+  projects: [metaphor]
+  photo: /images/people/matthew-ong.jpg
+  links:
+    academia: https://ucberkeley.academia.edu/MatthewOng
+
+- name: Luis Sáenz
+  role: PhD sandwich fellow (Heidelberg University)
+  group: phd
+  status: alumni
+  degree_year: 2022
+  projects: [akkadian-mt, 3d-scanning, cured]
   photo: /images/people/luis-saenz.jpg
-  projects: [machine-translation, 3d-scanning, ben, cure]
   links:
     academia: https://uni-heidelberg.academia.edu/LuisSaenz
 
 - name: Ireman Brauner
-  role: MA research fellow (computer science)
+  role: MA, Bar-Ilan University
   group: ma
+  status: alumni
+  degree_year: 2024
+  note: Co-supervised with Ethan Fetaya
   projects: [cure]
 
 - name: Danielle Kapon Epshtain
-  role: MA research fellow (computer science)
+  role: MA, Ben-Gurion University
   group: ma
-  photo: /images/people/danielle-kapon-epshtain.jpg
+  status: alumni
+  degree_year: 2024
+  note: Co-supervised with Michael Fire
   projects: [deeplomatics]
+  photo: /images/people/danielle-kapon-epshtain.jpg
   links:
     linkedin: https://il.linkedin.com/in/danielle-kapon-687726bb
 
-- name: Kostiya Margulyan
-  role: MA research fellow (digital archaeology)
+- name: Gai Gutherz
+  role: MA, Tel Aviv University
   group: ma
-  photo: /images/people/kostiya-margulyan.jpg
-  projects: [3d-scanning]
+  status: alumni
+  degree_year: 2022
+  note: Co-supervised with Jonathan Berant
+  projects: [akkadian-mt]
+  photo: /images/people/gai-gutherz.jpg
+
+- name: Moshe Shtekel
+  role: MA, Ariel University
+  group: ma
+  status: alumni
+  degree_year: 2022
+  note: Co-supervised with Amos Azaria
+  projects: [wsi]
+
+- name: Noam Bibi
+  role: MA, Ariel University
+  group: ma
+  status: alumni
+  degree_year: 2021
+  note: Co-supervised with Oren Ackerman
+
+- name: Yair Almakyas
+  role: MA, Ariel University
+  group: ma
+  status: alumni
+  degree_year: 2017
+  note: Co-supervised with Itzick Shai

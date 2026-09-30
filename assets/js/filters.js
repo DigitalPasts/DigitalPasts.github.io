@@ -4,7 +4,7 @@
   if (!bar) return;
   bar.hidden = false;
   var buttons = bar.querySelectorAll('button');
-  var pubs = document.querySelectorAll('.pub');
+  var pubs = document.querySelectorAll('.year-group .pub');
   var groups = document.querySelectorAll('.year-group');
   bar.addEventListener('click', function (e) {
     var btn = e.target.closest('button');

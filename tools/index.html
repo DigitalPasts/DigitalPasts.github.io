@@ -8,7 +8,7 @@ intro: "Software, models and datasets from the lab, free for scholars and studen
 {% assign items = site.data.tools | where: "kind", k %}
 {% if items.size > 0 %}
 <section class="section">
-  <h2>{% case k %}{% when "Tool" %}Tools and models{% when "Dataset" %}Datasets{% when "Code" %}Code{% when "Course" %}Teaching resources{% endcase %}</h2>
+  <h2>{% case k %}{% when "Tool" %}Tools and models{% when "Dataset" %}Datasets{% when "Code" %}Code and platforms{% when "Course" %}Teaching resources{% endcase %}</h2>
   <ul class="tools">
     {% for t in items %}
     <li class="tool">
