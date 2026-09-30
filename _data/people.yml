@@ -1,6 +1,8 @@
-# Lab members. status: current | alumni. group: pi | postdoc | phd | ma | collaborator
+# Lab members. status: current | alumni. group: pi | staff | postdoc | phd | ma | intern | collaborator
+# now / now_url: alumni only, current position and a link to it.
 # confirm: true marks entries Shai still needs to confirm (hide once checked).
 # Source: Gordin CV (Sep 2026) and the 2023 members page.
+
 
 - name: Shai Gordin
   role: Associate Professor, Lab Director
@@ -12,6 +14,40 @@
     orcid: https://orcid.org/0000-0002-8359-382X
     scholar: https://scholar.google.com/citations?user=A5okNFcAAAAJ&hl=en
     academia: https://ariel.academia.edu/ShaiGordin
+
+- name: Inna Kizhner
+  role: Lab Manager; Researcher in Quantitative Ancient Materials and Cultures
+  group: staff
+  status: current
+  note: Supported by the Council for Higher Education (VATAT)
+  links:
+    scholar: https://scholar.google.com/citations?user=TC-tBawAAAAJ
+
+- name: Yael Assouline
+  role: PhD candidate
+  group: phd
+  status: current
+
+- name: Eisam Abu Rabea
+  role: PhD candidate
+  group: phd
+  status: current
+
+- name: Ahlam Mohammed
+  role: PhD candidate, Tel Aviv University
+  group: phd
+  status: current
+  note: Co-supervised with Letizia Cerqueglini (Tel Aviv U.)
+
+- name: Lilach Kagan
+  role: MA student
+  group: ma
+  status: current
+
+- name: Bryce Hoenigman
+  role: Research intern, University of Chicago
+  group: intern
+  status: current
 
 - name: Stav Klein
   role: PhD candidate
@@ -74,10 +110,9 @@
   links: {}
 
 - name: Morris Alper
-  role: Research fellow (computer science); now University of Miami
+  role: Research fellow (computer science)
   group: collaborator
   status: alumni
-  confirm: true
   projects:
   - cured
   - protosnap
@@ -86,18 +121,25 @@
   links:
     github: https://github.com/morrisalp
     website: https://morrisalp.github.io/
+  now: Assistant Professor, University of Miami
+  now_url: https://morrisalp.github.io/
+  degree_year: 2025
+  confirm: true
 
 - name: Avital Romach
-  role: Research fellow (humanities); now Yale University
+  role: Research fellow (humanities)
   group: collaborator
   status: alumni
-  confirm: true
   projects:
   - cured
   - stylometry
   photo: /images/people/avital-romach.jpg
   links:
     academia: https://yale.academia.edu/AvitalRomach
+  now: PhD student in Assyriology, Yale University
+  now_url: https://nelc.yale.edu/people/avital-romach
+  degree_year: 2025
+  confirm: true
 
 - name: Matthew D. Howland
   role: Postdoctoral fellow, Tel Aviv University
@@ -107,6 +149,8 @@
   note: Co-supervised with Erez Ben-Yosef (Tel Aviv U.)
   projects:
   - archaeomagnetism
+  now: Assistant Professor of Anthropology, Wichita State University
+  now_url: https://news.wichita.edu/2024/12/10/dr-matthew-howland-wins-community-engagement-and-public-outreach-award-for-3d-archaeology-platform/
 
 - name: Shmuel (Samuel) Clark
   role: PhD, Ariel University
@@ -119,6 +163,8 @@
   photo: /images/people/samuel-clark.jpg
   links:
     academia: https://ariel.academia.edu/ShmuelClark/
+  now: Teaching Associate, Land of Israel Studies and Archaeology, Bar-Ilan University
+  now_url: https://cris.biu.ac.il/en/persons/shmuel-clark/
 
 - name: Matthew Ong
   role: PhD sandwich fellow, UC Berkeley

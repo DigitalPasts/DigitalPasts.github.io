@@ -17,12 +17,12 @@ intro: "Assyriologists, historians, archaeologists and computer scientists worki
   </div>
 </section>
 {% endif %}
-{% assign groups = "postdoc,phd,ma,collaborator" | split: "," %}
+{% assign groups = "staff,postdoc,phd,ma,intern,collaborator" | split: "," %}
 {% for g in groups %}
 {% assign members = current | where: "group", g %}
 {% if members.size > 0 %}
 <section class="people-group">
-  <h2>{% case g %}{% when "postdoc" %}Postdoctoral fellows{% when "phd" %}PhD students{% when "ma" %}MA students{% when "collaborator" %}Research fellows{% endcase %}</h2>
+  <h2>{% case g %}{% when "staff" %}Lab staff{% when "intern" %}Interns{% when "postdoc" %}Postdoctoral fellows{% when "phd" %}PhD students{% when "ma" %}MA students{% when "collaborator" %}Research fellows{% endcase %}</h2>
   <ul class="people">
     {% for p in members %}{% include person.html person=p %}{% endfor %}
   </ul>
@@ -35,7 +35,7 @@ intro: "Assyriologists, historians, archaeologists and computer scientists worki
   <h2>Alumni</h2>
   <ul class="alumni">
     {% for p in alumni %}
-    <li><span class="alumni-year">{{ p.degree_year }}</span><span><b>{{ p.name }}</b> · {{ p.role }}{% if p.now %} · now {{ p.now }}{% endif %} {% include confirm.html item=p %}</span></li>
+    <li><span class="alumni-year">{{ p.degree_year }}</span><span><b>{{ p.name }}</b> · {{ p.role }}{% if p.now %} · now {% if p.now_url %}<a href="{{ p.now_url }}">{{ p.now }}</a>{% else %}{{ p.now }}{% endif %}{% endif %} {% include confirm.html item=p %}</span></li>
     {% endfor %}
   </ul>
 </section>
