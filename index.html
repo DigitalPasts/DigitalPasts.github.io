@@ -1,0 +1,51 @@
+---
+layout: home
+title: Digital Pasts Lab
+---
+{% assign featured = site.projects | where: "featured", true | sort: "order" %}
+{% assign talks = site.data.talks | sort: "date" | reverse %}
+{% assign heads = site.data.people | where: "group", "head" %}
+{% assign head = heads.first %}
+<div class="container">
+  <section class="hero">
+    <div>
+      <h1>{{ site.tagline }}</h1>
+      <p>The Digital Pasts Lab at Ariel University brings assyriologists and data scientists together to recognise, translate and map cuneiform sources, and to train the next generation of digital humanists.</p>
+      <div class="hero-actions">
+        <a class="btn" href="{{ site.ben_demo }}">Try the Babylonian Engine</a>
+        <a href="{{ '/research/' | relative_url }}">Explore our research →</a>
+      </div>
+    </div>
+    <img src="{{ '/images/projects/ben.jpg' | relative_url }}" alt="Cuneiform tablet with signs detected by the Babylonian Engine outlined. © Yale Babylonian Collection" width="960" height="600">
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Featured research</h2><a href="{{ '/research/' | relative_url }}">All projects</a></div>
+    <div class="cards">
+      {% for p in featured limit: 3 %}{% include project-card.html project=p %}{% endfor %}
+    </div>
+  </section>
+
+  <section class="section two-col">
+    <div>
+      <div class="section-head"><h2>Latest</h2><a href="{{ '/news/' | relative_url }}">All news</a></div>
+      <ul class="dated-list">
+        {% for item in site.data.news limit: 4 %}{% include dated-item.html item=item %}{% endfor %}
+      </ul>
+    </div>
+    <div>
+      <div class="section-head"><h2>Talks</h2><a href="{{ '/news/#talks' | relative_url }}">All talks</a></div>
+      <ul class="dated-list">
+        {% for t in talks limit: 3 %}{% include dated-item.html item=t %}{% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>People</h2><a href="{{ '/people/' | relative_url }}">Meet the team</a></div>
+    <ul class="faces">
+      {% for p in site.data.people %}{% if p.group != "alumni" and p.photo %}<li><a href="{{ '/people/' | relative_url }}" title="{{ p.name }}"><img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" width="64" height="64"></a></li>{% endif %}{% endfor %}
+    </ul>
+    <p style="margin-top:20px">The lab is led by {{ head.name }}, {{ head.role | split: "," | first | downcase }} of ancient Near Eastern history and digital humanities. <a href="{{ '/people/#join' | relative_url }}">Interested in joining?</a></p>
+  </section>
+</div>

@@ -1,0 +1,31 @@
+# Short news items for the homepage and the News page, newest first.
+# Fields:
+#   date:       "YYYY-MM" in quotes (or "YYYY-MM-DD")
+#   text:       one sentence in Markdown
+#   url:        link (optional)
+#   link_label: text for the link (optional, default "Link")
+
+- date: "2023-06"
+  text: "_The Times of Israel_ covers our Akkadian-to-English translation model."
+  url: "https://www.timesofisrael.com/groundbreaking-ai-project-translates-5000-year-old-cuneiform-at-push-of-a-button/"
+  link_label: Read
+
+- date: "2023-05"
+  text: "New paper in _PNAS Nexus_: Translating Akkadian to English with Neural Machine Translation."
+  url: "https://doi.org/10.1093/pnasnexus/pgad096"
+  link_label: DOI
+
+- date: "2023-02"
+  text: "The Digital Ancient Near Eastern Studies conference launches the DANES network."
+  url: "https://digitalpasts.github.io/DANES/"
+  link_label: Conference site
+
+- date: "2022-11"
+  text: "New paper in _Land_ on land use change and centralisation around Uruk."
+  url: "https://doi.org/10.3390/land11111955"
+  link_label: DOI
+
+- date: "2022-10"
+  text: "Shai Gordin and Avital Romach write on the \"Cuneiform Wide Web\" for _The Ancient Near East Today_."
+  url: "https://www.asor.org/anetoday/2022/10/cuneiform-wide-web"
+  link_label: Read

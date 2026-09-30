@@ -1,0 +1,5 @@
+{% assign p = include.pub %}
+<li class="pub" data-type="{{ p.type }}">
+  <span class="pub-text">{{ p.citation | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+  {% if p.url %}<a class="pub-link" href="{{ p.url }}">{% if p.url contains "doi.org" %}DOI{% else %}Link{% endif %}</a>{% endif %}
+</li>

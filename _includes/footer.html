@@ -1,15 +1,15 @@
-<footer>
-
-  <div>
-    <h3>Contact us</h3>
-    <p>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-    {% include twitter_link.html %}{% include github_link.html %}
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <p class="footer-brand">{{ site.title }}</p>
+      <p>Ariel University, Israel</p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      <p class="footer-links"><a href="{{ '/about/' | relative_url }}">About the lab</a> · <a href="{{ site.github }}">GitHub</a> · <a href="{{ site.twitter }}">X / Twitter</a></p>
+    </div>
+    <div class="footer-credits">
+      <p>Projects in the Digital Pasts Lab have been supported by the Ministry of Science &amp; Technology, Israel (Grant 3-16464), and the Israel Science Foundation (Grant 457/19).</p>
+      <p>Images of cuneiform tablets are used with the kind permission of Klaus Wagensonner, <a href="https://babylonian-collection.yale.edu/">© Yale Babylonian Collection</a>.</p>
+      <p>Original website by <a href="https://yale.academia.edu/AvitalRomach">Avital Romach</a>.</p>
+    </div>
   </div>
-
-  <div id="credits">
-    <p>Projects in the Digital Pasts Lab have been supported by the Ministry of Science & Technology, Israel, Grant 3-16464, and the Israel Science Foundation, Grant 457/19</p>
-    <p>We were kindly provided permission to use all images of cuneiform tablets on this site by Klaus Wagensonner <a href="https://babylonian-collection.yale.edu/" target="_blank">&copy Yale Babylonian Collection</a></p>
-    <p>Website developed by <a href="https://yale.academia.edu/AvitalRomach" target="_blank">Avital Romach</a></p>
-  </div>
-  
 </footer>

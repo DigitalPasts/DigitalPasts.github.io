@@ -1,0 +1,22 @@
+---
+title: People
+wide: true
+intro: "Assyriologists, historians, computer scientists and archaeologists working together."
+---
+{% assign groups = "head,researchers,phd,ma,alumni" | split: "," %}
+{% for g in groups %}
+{% assign members = site.data.people | where: "group", g %}
+{% if members.size > 0 %}
+<section class="people-group">
+  {% unless g == "head" %}<h2>{% case g %}{% when "researchers" %}Researchers{% when "phd" %}PhD students and fellows{% when "ma" %}MA students and fellows{% when "alumni" %}Alumni{% endcase %}</h2>{% endunless %}
+  <ul class="people">
+    {% for p in members %}{% include person.html person=p %}{% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endfor %}
+<section class="join" id="join">
+  <h2>Join the lab</h2>
+  <p>We welcome MA and PhD students, postdocs and visiting researchers from the humanities and from computer science. Collaborations with museums, archives and companies are welcome too.</p>
+  <p>Write to <a href="mailto:{{ site.email }}">{{ site.email }}</a> with a short note about your interests.</p>
+</section>

@@ -1,0 +1,24 @@
+---
+title: Tools & Data
+wide: true
+intro: "Software, models and datasets from the lab, free for scholars and students to use. Most code is open on GitHub."
+---
+{% assign kinds = "Tool,Dataset,Code,Course" | split: "," %}
+{% for k in kinds %}
+{% assign items = site.data.tools | where: "kind", k %}
+{% if items.size > 0 %}
+<section class="section">
+  <h2>{% case k %}{% when "Tool" %}Tools and models{% when "Dataset" %}Datasets{% when "Code" %}Code{% when "Course" %}Teaching resources{% endcase %}</h2>
+  <ul class="tools">
+    {% for t in items %}
+    <li class="tool">
+      <span class="eyebrow">{{ t.kind }}{% if t.project %}{% assign proj = site.projects | where: "slug", t.project | first %}{% if proj %} · <a href="{{ proj.url | relative_url }}">{{ proj.short_name | default: proj.title }}</a>{% endif %}{% endif %}</span>
+      <h3>{{ t.title }}</h3>
+      <p>{{ t.description }}</p>
+      {% if t.links %}<p class="tool-links">{% for l in t.links %}<a href="{{ l.url | relative_url }}">{{ l.label }}</a>{% endfor %}</p>{% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% endfor %}

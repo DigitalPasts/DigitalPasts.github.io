@@ -1,0 +1,33 @@
+---
+title: News & Events
+wide: true
+intro: "What the lab has been doing: new papers, talks, and the workshops and conferences we organise."
+---
+{% assign talks = site.data.talks | sort: "date" | reverse %}
+{% assign events = site.data.events | sort: "date" | reverse %}
+<div class="two-col">
+  <section>
+    <h2>News</h2>
+    <ul class="dated-list">
+      {% for item in site.data.news %}{% include dated-item.html item=item %}{% endfor %}
+    </ul>
+  </section>
+  <section id="talks">
+    <h2>Talks</h2>
+    <ul class="dated-list">
+      {% for t in talks %}{% include dated-item.html item=t %}{% endfor %}
+    </ul>
+  </section>
+</div>
+<section class="section" id="events">
+  <h2>Workshops and conferences we organise</h2>
+  {% for e in events %}
+  <article class="event">
+    <span class="eyebrow">{{ e.when }}{% if e.place %} · {{ e.place }}{% endif %}</span>
+    <h3>{{ e.title }}</h3>
+    <p>{{ e.summary | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+    {% if e.with %}<p class="meta">With {{ e.with }}</p>{% endif %}
+    {% if e.links %}<p class="event-links">{% for l in e.links %}<a href="{{ l.url | relative_url }}">{{ l.label }} →</a>{% endfor %}</p>{% endif %}
+  </article>
+  {% endfor %}
+</section>

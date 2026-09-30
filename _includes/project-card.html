@@ -1,0 +1,13 @@
+{% assign p = include.project %}
+<article class="card">
+  <a class="card-link" href="{{ p.url | relative_url }}">
+    {% if p.image %}
+    <img class="card-img" src="{{ p.image | relative_url }}" alt="" loading="lazy" width="960" height="600">
+    {% else %}
+    <div class="card-img card-img-blank" aria-hidden="true"><span>{{ p.short_name | default: p.title }}</span></div>
+    {% endif %}
+    <h3>{{ p.title }}</h3>
+  </a>
+  <p>{{ p.summary }}</p>
+  <p class="tags">{% if p.kind %}<span class="tag">{{ p.kind }}</span>{% endif %}{% if p.status == "past" %}<span class="tag tag-muted">Completed</span>{% endif %}</p>
+</article>

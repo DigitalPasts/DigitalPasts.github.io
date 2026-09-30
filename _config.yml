@@ -1,9 +1,59 @@
-description: "This is the website for the Digital Pasts Lab, introducing its various projects"
+title: "Digital Pasts Lab"
+short_title: "DigPasts()"
+description: "The Digital Pasts Lab at Ariel University brings assyriologists and data scientists together to recognise, translate and map cuneiform sources."
+tagline: "We build computational methods for reading the ancient Near East."
+url: "https://digitalpasts.github.io"
+baseurl: ""
+lang: en
+
 email: "digpasts@gmail.com"
-twitter: "https://twitter.com/DigPastsLab"
-twitter-handle: "@DigPastsLab"
-webname: "Digital Pasts Lab"
-BEn-old: "https://babylonian.herokuapp.com/#/"
-BEn-new: "https://ben-digpasts.com/"
-BEn-new-demo: "https://ben-digpasts.com/demo"
 github: "https://github.com/DigitalPasts"
+twitter: "https://twitter.com/DigPastsLab"
+twitter_handle: "DigPastsLab"
+
+# External tools
+ben_demo: "https://ben-digpasts.com/demo"
+ben_site: "https://ben-digpasts.com/"
+ben_beta: "https://babylonian.herokuapp.com/#/"
+
+# Main navigation, in order
+navigation:
+  - title: Research
+    url: /research/
+  - title: Tools & Data
+    url: /tools/
+  - title: Publications
+    url: /publications/
+  - title: People
+    url: /people/
+  - title: News
+    url: /news/
+
+# One file per project in _projects/, published at /research/<file-name>/
+collections:
+  projects:
+    output: true
+    permalink: /research/:name/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

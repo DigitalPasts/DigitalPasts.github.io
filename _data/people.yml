@@ -1,0 +1,89 @@
+# Lab members. Order within each group is the order shown.
+# Fields:
+#   name:      full name
+#   role:      one line, e.g. "PhD candidate (digital humanities)"
+#   group:     head | researchers | phd | ma | alumni
+#   photo:     /images/people/<file>.jpg, square (optional; initials are shown otherwise)
+#   projects:  list of project file names from _projects/ (optional)
+#   now:       alumni only, current position (optional)
+#   links:     any of website, github, orcid, scholar, academia, linkedin, twitter
+
+- name: Shai Gordin
+  role: Associate Professor, head of the lab
+  group: head
+  photo: /images/people/shai-gordin.jpg
+  projects: [ben, mapa]
+  links:
+    orcid: https://orcid.org/0000-0002-8359-382X
+    scholar: https://scholar.google.com/citations?user=A5okNFcAAAAJ&hl=en
+    academia: https://ariel.academia.edu/ShaiGordin
+    twitter: https://twitter.com/ShGordin
+
+- name: Morris Alper
+  role: PhD research fellow (computer science)
+  group: phd
+  photo: /images/people/morris-alper.jpg
+  projects: [cured, cure]
+  links:
+    github: https://github.com/morrisalp
+    website: https://morrisalp.github.io/
+
+- name: Samuel Clark
+  role: PhD candidate (digital humanities)
+  group: phd
+  photo: /images/people/samuel-clark.jpg
+  projects: [mapa]
+  links:
+    academia: https://ariel.academia.edu/ShmuelClark/
+
+- name: Stav Klein
+  role: PhD candidate (digital humanities)
+  group: phd
+  photo: /images/people/stav-klein.jpg
+  projects: [ben]
+  links:
+    github: https://github.com/stavkl
+    website: https://stavkl.github.io/linguistics-for-nlp/
+
+- name: Matthew Ong
+  role: PhD research fellow (humanities)
+  group: phd
+  photo: /images/people/matthew-ong.jpg
+  projects: [metaphor]
+  links:
+    academia: https://ucberkeley.academia.edu/MatthewOng
+
+- name: Avital Romach
+  role: PhD research fellow (humanities)
+  group: phd
+  photo: /images/people/avital-romach.jpg
+  projects: [ben, cure, cured]
+  links:
+    academia: https://yale.academia.edu/AvitalRomach
+
+- name: Luis Sáenz
+  role: PhD research fellow (humanities)
+  group: phd
+  photo: /images/people/luis-saenz.jpg
+  projects: [machine-translation, 3d-scanning, ben, cure]
+  links:
+    academia: https://uni-heidelberg.academia.edu/LuisSaenz
+
+- name: Ireman Brauner
+  role: MA research fellow (computer science)
+  group: ma
+  projects: [cure]
+
+- name: Danielle Kapon Epshtain
+  role: MA research fellow (computer science)
+  group: ma
+  photo: /images/people/danielle-kapon-epshtain.jpg
+  projects: [deeplomatics]
+  links:
+    linkedin: https://il.linkedin.com/in/danielle-kapon-687726bb
+
+- name: Kostiya Margulyan
+  role: MA research fellow (digital archaeology)
+  group: ma
+  photo: /images/people/kostiya-margulyan.jpg
+  projects: [3d-scanning]

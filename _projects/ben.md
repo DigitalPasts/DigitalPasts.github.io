@@ -1,0 +1,60 @@
+---
+title: "Babylonian Engine"
+short_name: "BEn"
+summary: "OCR, transliteration, translation and restoration tools for cuneiform, from tablet image to English."
+status: current
+kind: Tool
+image: /images/projects/ben.jpg
+image_alt: "Cuneiform tablet with detected signs outlined. © Yale Babylonian Collection"
+featured: true
+order: 1
+links:
+  - label: Open the demo
+    url: https://ben-digpasts.com/demo
+  - label: Beta version
+    url: https://babylonian.herokuapp.com/#/
+  - label: Code on GitHub
+    url: https://github.com/DigitalPasts
+---
+
+Approximately five thousand years ago, the first cipher was invented between the rivers Tigris and Euphrates, in modern-day Iraq. There was a need for a more effective way to preserve and convey information over time and distances. They came up with a system of basic words and numbers. Slowly, that system developed and was able to convey more complex words, able to encode full human language. Their cipher was highly effective - it remained in use for more than three millennia.
+
+<div class="embed"><iframe width="500" height="400" loading="lazy" title="ANE-cunei-HeatMap" src="https://www.arcgis.com/apps/Embed/index.html?webmap=0d1d589823824487b3825237481824ca&extent=1.2935,16.3724,88.0855,52.5025&home=true&zoom=true&previewImage=false&scale=true&search=true&searchextent=true&legend=true&basemap_toggle=true&alt_basemap=topo&disable_scroll=true&theme=light"></iframe></div>
+
+<p class="fig">Fig 1: An interactive map highlighting sites where cuneiform writing was found. Based on Rattenborg, Rune, Johansson, Carolin, Nett, Seraina, Smidt, Gustav Ryberg, & Andersson, Jakob. (2021). Cuneiform Inscriptions Geographical Site Index (CIGS) (1.3) [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.5217600](https://doi.org/10.5281/zenodo.5217600)</p>
+
+Alas, after it fell out of use, no one kept proper documentation, as happens to many good and successful projects. The knowledge of this cipher was lost for close to two thousand years. It was deciphered in the middle of the 19th century by the pure human efforts of 
+[Edward Hincks](https://en.wikipedia.org/wiki/Edward_Hincks),
+[Sir Henry Creswicke Rawlinson](https://en.wikipedia.org/wiki/Sir_Henry_Rawlinson,_1st_Baronet), 
+[Hormuzd Rassam](https://en.wikipedia.org/wiki/Hormuzd_Rassam), and 
+[Sir Austen Henry Layard](https://en.wikipedia.org/wiki/Austen_Henry_Layard). This cipher was named by modern scholars cuneiform.
+
+![early assyriologists and Behistun](/images/BEn/early_assyriologists.jpg)
+
+<p class="fig">Fig 2: From left to right, Hormuzd Rassam, Edward Hincks, Sir Henry Creswicke Rawlinson, and Sir Austen Henry Layard. Below them is the [Behistun Inscription](https://en.wikipedia.org/wiki/Behistun_Inscription) of king [Darius I](https://en.wikipedia.org/wiki/Darius_the_Great), written using the cuneiform script in three different languages: Old Persian, Elamite, and Babylonian Akkadian. Thanks to knowledge of Middle Persian, it was possible to crack the cuneiform script, as well as Elamite and Akkadian, which by this point have not been read for close to two millennia.</p>
+
+Cuneiform writings informed us regarding many things we did not know about our past - the emerging cultures, states and empires of the ancient Near East, their thousands of years of history, literature, and scientific endeavors. Their contribution to world heritage does not stand on its own, either. Our astronomical knowledge and sixty-based numerical system are owed to the ancient Mesopotamians, to name a few, as well as further knowledge of neighboring cultures such as the Egyptians and Greeks, and the historical background for the emergence of monotheistic Judaism and the writings of the Bible. 
+
+But is our knowledge so far derived from a representative sample of the data? Estimations on how many cuneiform texts are published to date, compared to excavated tablets discovered overall, are difficult to come by. Scholars estimate that sources written in cuneiform constitute one of the largest corpora of ancient texts, second only to Greek. Even the most optimistic estimations would have to admit that there are tens of thousands of texts waiting to be published, if not far more. They are sitting in their hundreds on museum shelves, and new excavations only continue to add to their number, and to their wait.
+
+## Purpose
+
+Nowadays, cuneiform is being redeciphered - by machines. The purpose of the Babylonian Engine is to create a platform for digital assyriology in the 21st century. One of the greatest obstacles of assyriology from the very inception of the field is an incredible amount of data, and at the same time an extremely limited number of people able to access it and make it accessible for the rest of the world. Traditional methods have not found a solution for this problem. Assyriological training is exhilarating, but complex, and requires the development of several specialized skills in ancient languages and scripts. Furthermore, the process of reading the texts is extremely time-consuming, and requires that many scholars devote a large portion of their time only to publishing texts. Yet, the countless tablets are of vital importance to world history and cultural heritage. They ought to be made accessible, be researched, and the information they hold should be widely spread and known.
+
+The artificial intelligence revolution and general developments in computer science can give us the long awaited solutions for these problems. With enough data for training, machine learning models should be able to identify cuneiform signs from images, transliterate and translate cuneiform texts into modern languages with the press of a button, and even more textual post-processing. With enough online data, assyriologists will have easier and quicker access to hundreds of thousands of texts, and they will be able to create more comprehensive, more sustainable, and more replicable research.
+
+This is not to say that we will not need the specialized experts any more. Many of these experts will now also learn computer languages or collaborate with computer scientists, data experts and archivists. Such research groups' designs and models will always need to be guided and corrected by assyriologists. It is humans who tell the models what is right and what is wrong, and the models are there to help us to be consistent, work faster, or provide new insight. Furthermore, the models can be a huge pedagogical help in training a new generation of assyriologists, by assisting the process of acquiring and learning the cuneiform script, as well as the dead languages written with it; and adding, perhaps, some modern programming languages. 
+
+## Current tools
+
+The Babylonian Engine is creating tools as part of a pipeline which starts with an image of a cuneiform tablet and ends with its transliteration and translation. We are developing AI models designed specifically for cuneiform texts, as well as general tools for assyriologists - see our [Research page]({{ '/research/' | relative_url }}) for exploring tools under development. The main pipeline, deciphering cuneiform from image to text, is in advanced stages of development.
+
+Our published models are the following:
+
+- **Atrahasis** is a machine learning model for restoring textual gaps in cuneiform texts, a common task since cuneiform tablets are often broken or abraded. It is currently trained on available digitized daily economic and administrative records from Babylonia under the Persian empire (6th-4th cent. BCE), prepared by F. Joannès and his team in the framework of the Achemenet program (CNRS, Nanterre; see more on the [Achemenet website](http://www.achemenet.com/fr/tree/?/sources-textuelles/textes-par-langues-et-ecritures/babylonien)). The model is able to correctly predict a missing word with 85% accuracy, and in 94% of cases the correct word appears in the top ten suggestions, on the trained corpus. Future versions of the model will be trained on additional corpora and more varied genres. Further information on the model can be found in our [published article](https://www.pnas.org/content/117/37/22743).
+
+- **Akkademia** includes three machine learning models for transliterating and segmenting Unicode cuneiform signs. Cuneiform signs are polyvalent, meaning each sign has more than one possible reading, and the appropriate reading is determined by the preceding and following signs. We trained [HMM](https://en.wikipedia.org/wiki/Hidden_Markov_model), [MEMM](https://en.wikipedia.org/wiki/Maximum-entropy_Markov_model) and [Bi](https://en.wikipedia.org/wiki/Bidirectional_recurrent_neural_networks)[LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory) machine learning models to determine the appropriate reading and segmentation automatically. For training we used the RINAP corpora (Royal Inscriptions of the Neo-Assyrian Period), which are available in JSON and XML/TEI formats thanks to the efforts of the Official Inscriptions of the Middle East in Antiquity (OIMEA) Munich Project of Karen Radner and Jamie Novotny, funded by the Alexander von Humboldt Foundation, available [here](http://oracc.museum.upenn.edu/rinap/). We achieve accuracy rates of 89.5% with HMM, 94% with MEMM, and 96.7% with BiLSTM on the trained corpora, and also surprisingly good results on texts from other genres and periods. Further information on the models can be found in our [published article](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240511).
+
+## Vision 
+
+We plan that several years from now (although we cannot say for sure how many), when archaeologists and philologists are on an excavation site and discovering a new archive of cuneiform texts, they will be able to take a picture of each tablet, and get a rough transliteration and translation of the texts; a possible dating based on the handwriting, even a suggested scribe or scribal group; genre attribution; and more. We plan to have online editing tools for cuneiform texts, for researchers to edit and improve upon the engine's initial results. We plan to create virtual reality tours of the ancient capitals and steppe of Mesopotamia and Anatolia, and gamify the learning experience for students. This will revolutionize the field of assyriology from a niche subject to one that is better known and studied, expedite the research process significantly, and exponentially increase our knowledge of one the earliest and most prospering societies in the world.

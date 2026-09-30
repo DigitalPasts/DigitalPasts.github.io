@@ -1,0 +1,20 @@
+{% assign p = include.person %}
+<li class="person">
+  {% if p.photo %}
+  <img src="{{ p.photo | relative_url }}" alt="" width="96" height="96" loading="lazy">
+  {% else %}
+  {% assign parts = p.name | split: " " %}
+  <span class="avatar" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>
+  {% endif %}
+  <div>
+    <h3>{{ p.name }}</h3>
+    <p class="role">{{ p.role }}</p>
+    {% if p.now %}<p class="now">Now: {{ p.now }}</p>{% endif %}
+    {% if p.projects %}
+    <p class="person-projects">{% for slug in p.projects %}{% assign proj = site.projects | where: "slug", slug | first %}{% if proj %}<a href="{{ proj.url | relative_url }}">{{ proj.short_name | default: proj.title }}</a>{% unless forloop.last %}, {% endunless %}{% endif %}{% endfor %}</p>
+    {% endif %}
+    {% if p.links %}
+    <p class="person-links">{% for l in p.links %}<a href="{{ l[1] }}">{% case l[0] %}{% when "website" %}Website{% when "github" %}GitHub{% when "orcid" %}ORCID{% when "scholar" %}Scholar{% when "academia" %}Academia{% when "linkedin" %}LinkedIn{% when "twitter" %}X{% else %}{{ l[0] | capitalize }}{% endcase %}</a>{% endfor %}</p>
+    {% endif %}
+  </div>
+</li>

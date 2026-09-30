@@ -1,0 +1,21 @@
+---
+title: Research
+wide: true
+intro: "We develop machine learning and linked data methods for cuneiform texts, and use them to ask new questions about the history of ancient Mesopotamia."
+---
+{% assign current = site.projects | where: "status", "current" | sort: "order" %}
+{% assign past = site.projects | where: "status", "past" | sort: "order" %}
+  <section class="section">
+    <h2>Current projects</h2>
+    <div class="cards">
+      {% for p in current %}{% include project-card.html project=p %}{% endfor %}
+    </div>
+  </section>
+  {% if past.size > 0 %}
+  <section class="section">
+    <h2>Completed projects</h2>
+    <div class="cards">
+      {% for p in past %}{% include project-card.html project=p %}{% endfor %}
+    </div>
+  </section>
+  {% endif %}

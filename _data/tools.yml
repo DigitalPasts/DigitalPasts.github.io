@@ -1,0 +1,72 @@
+# Tools, datasets, code and teaching resources made by the lab.
+# Fields:
+#   title:        name
+#   kind:         Tool | Dataset | Code | Course
+#   description:  one or two sentences
+#   project:      project file name from _projects/ (optional)
+#   links:        list of {label, url}
+
+- title: Babylonian Engine
+  kind: Tool
+  description: "Web platform bringing together the lab's models for cuneiform: sign recognition from hand-copies, transliteration and gap restoration."
+  project: ben
+  links:
+    - label: Open the demo
+      url: https://ben-digpasts.com/demo
+    - label: Beta version
+      url: https://babylonian.herokuapp.com/#/
+
+- title: Atrahasis
+  kind: Tool
+  description: "Restores missing words in broken cuneiform texts. Predicts the right word 85% of the time on Achaemenid-period Babylonian records."
+  project: ben
+  links:
+    - label: Paper (PNAS 2020)
+      url: https://doi.org/10.1073/pnas.2003794117
+
+- title: Akkademia
+  kind: Tool
+  description: "Models that transliterate and segment Unicode cuneiform signs, reaching 96.7% accuracy on Neo-Assyrian royal inscriptions."
+  project: ben
+  links:
+    - label: Paper (PLOS ONE 2020)
+      url: https://doi.org/10.1371/journal.pone.0240511
+
+- title: Akkadian machine translation
+  kind: Tool
+  description: "Neural model translating Akkadian cuneiform into English, from signs or from transliteration."
+  project: machine-translation
+  links:
+    - label: Paper (PNAS Nexus 2023)
+      url: https://doi.org/10.1093/pnasnexus/pgad096
+
+- title: MAPA Gazetteer
+  kind: Dataset
+  description: "Linked open data gazetteer of Uruk and its hinterland in the first millennium BCE, in the Linked Places format."
+  project: mapa
+  links:
+    - label: Zenodo
+      url: https://zenodo.org/record/6411251
+    - label: GitHub
+      url: https://github.com/DigitalPasts/MAPA
+
+- title: EvaCUN
+  kind: Dataset
+  description: "Shared task and data for evaluating machine translation of Akkadian and Sumerian."
+  links:
+    - label: Task website
+      url: https://digitalpasts.github.io/EvaCUN/
+
+- title: DigitalPasts on GitHub
+  kind: Code
+  description: "Source code and data for the lab's projects."
+  links:
+    - label: Repositories
+      url: https://github.com/DigitalPasts
+
+- title: The Ancient Middle East, a map story
+  kind: Course
+  description: "Hebrew introduction to the physical and cultural geography of the ancient Middle East, as an interactive map journal."
+  links:
+    - label: Open the story
+      url: https://www.arcgis.com/apps/MapJournal/index.html?appid=0d8ea53679044b78b8237690b5e4c842

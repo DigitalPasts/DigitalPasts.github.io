@@ -1,0 +1,53 @@
+# Talks, conference papers and invited lectures by lab members.
+# Items dated after the site was last built are shown as "Upcoming".
+# Fields:
+#   date:      "YYYY-MM" in quotes (or "YYYY-MM-DD")
+#   citation:  speakers, "Title", event and place, in Markdown
+#   url:       link to programme, abstract or recording (optional)
+
+- date: "2023-09"
+  citation: "Shmuel D. Clark, \"'I exercised authority…I eradicated the lands': Comparing Perceptions of Southern Babylonia in Neo-Assyrian and Neo-Babylonian Sources\". EAA 2023, Belfast, Ireland 30 August-2 Septmber 2023, session: What Makes a Settlement? Comparative Perspectives on Settlement Structures and Patterns from Neolithic to Iron Age."
+  url: "https://www.e-a-a.org/EAA2023/Programme.aspx?WebsiteKey=4c013ea5-de96-432a-85f7-b1800c2303bf&hkey=f73d6cf5-b37e-4836-ad06-2ecea6b58060&Program=3#Program"
+
+- date: "2023-07"
+  citation: "Stav Klein and Shai Gordin, \"In Search of Lost Time – Restoring Chronologies of Individuals from Broken Cuneiform Resources\". GrapHNR 2023, Mainz, Germany 18-21 July 2023, session: Computational Modeling."
+  url: "https://graphentechnologien.hypotheses.org/files/2023/05/GrapHNR-2023-27-Klein-In-Search-of-Lost-Time.pdf"
+
+- date: "2023-07"
+  citation: "Shai Gordin and Luis Sáenz, \"eAkkadian: a coursebook for doing Assyriology digitally\". RAI 68, Leiden, Netherlands 17-20 July 2023. Workshop: Equality of Access to Mesopotamia: Outreach and Pedagogy."
+  url: "https://www.universiteitleiden.nl/en/rai68/programme"
+
+- date: "2023-07"
+  citation: "Shai Gordin and Orly Lewis, \"Machine learning of Ancient Scripts and Languages through Collaboration\". DH 2023, Graz, Austria 10-14 July 2023. Panel: The Pelagios Network: Collaboration as a Community of Practice."
+  url: "https://www.conftool.pro/dh2023/index.php?page=browseSessions&form_session=35#paperID269"
+
+- date: "2023-07"
+  citation: "Shai Gordin and Avital Romach, \"Layers of Authorship in Cuneiform Texts\". DH 2023, Graz, Austria 10-14 July 2023. Workshop: SIG-DLS Seven Years on."
+  url: "https://dls.hypotheses.org/1315"
+
+- date: "2022-11"
+  citation: "Shai Gordin, \"When Networks Matter: Interpreting Patterns in Social and Geographical Networks of First Millennium BCE Babylonia\". SBL 2022 Annual Meeting, session: Literature and History of the Persian Period."
+  url: "https://www.sblcentral.org/home/conferencePaperDetails/61458"
+
+- date: "2022-07"
+  citation: "Shai Gordin and Avital Romach, \"Optical Character Recognition for Complex Scripts: A Case-study in Cuneiform\". DH 2022, Tokyo, Japan 25-29 July 2022. long paper."
+  url: "https://dh2022.adho.org/"
+
+- date: "2022-06"
+  citation: "Shai Gordin, \"Neo-Babylonian Scribal Habits from a Stylometric Perspective\". Invited lecture, Archival Scribes and Archival Literacy in Babylonia: Theory and Practice, 1-2 June 2022, Leiden University, the Netherlands."
+
+- date: "2021-12"
+  citation: "Shai Gordin, “The Babylonian Engine: Studying ancient Babylonia using OCR, NLP and ML”. Journal of Electornic Imaging Webinar - Deep Learning: Applications and Recent Directions, Bar-Ilan University. See recorded lecture"
+  url: "https://www.spiedigitallibrary.org/jei-deep-learning-applications-and-recent-directions?SSO=1"
+
+- date: "2021-06"
+  citation: "Shai Gordin and Samuel Clark, “MAPA: A Linked Open Data Gazetteer of ancient Babylonia”. Conference poster, Digital Humanities Summer Institute – Online Edition, 7-11, 14-18 June 2021, University of Victoria, Canada."
+
+- date: "2021-04"
+  citation: "Shai Gordin, “Walking among the orchards of Gilgamesh: the role of spatial memory in and around the Neo-Babylonian City”. Transcultural Mobilities and Memories, Minho University, Portugal."
+
+- date: "2020-11"
+  citation: "Shai Gordin and Ethan Fetaya, “The Babylonian Engine: Human-Machine collaboration for restoring ancient Mesopotamian heritage”. CHNT 25: Conference on Cultural Heritage and New Technologies, Vienna."
+
+- date: "2020-11"
+  citation: "Shai Gordin, “Mesopotamian Ancient Place-names Almanac: Doing Historical Geography in the Age of Linked Open Data Spatial Data\". Metadata in Assyriology: Spatial Analysis, and Historical Geography, Uppsala University, Sweden."

@@ -1,0 +1,24 @@
+---
+title: Publications
+wide: true
+intro: "Papers, edited volumes, datasets and press coverage from the lab, newest first."
+---
+{% assign type_order = "article,volume,proceedings,web,media" | split: "," %}
+{% assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+<div class="filters" role="group" aria-label="Filter by type" hidden>
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="article" aria-pressed="false">Articles</button>
+  <button type="button" data-filter="proceedings" aria-pressed="false">Proceedings</button>
+  <button type="button" data-filter="volume" aria-pressed="false">Edited volumes</button>
+  <button type="button" data-filter="web" aria-pressed="false">Slides, data &amp; stories</button>
+  <button type="button" data-filter="media" aria-pressed="false">In the media</button>
+</div>
+{% for y in by_year %}
+<section class="year-group">
+  <h2>{{ y.name }}</h2>
+  <ul class="pubs">
+    {% for t in type_order %}{% assign of_type = y.items | where: "type", t %}{% for p in of_type %}{% include publication.html pub=p %}{% endfor %}{% endfor %}
+  </ul>
+</section>
+{% endfor %}
+<script src="{{ '/assets/js/filters.js' | relative_url }}" defer></script>

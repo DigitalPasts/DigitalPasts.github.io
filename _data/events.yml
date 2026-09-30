@@ -1,0 +1,52 @@
+# Conferences, workshops and colloquia organised by the lab, newest first.
+# Fields:
+#   date:     "YYYY-MM-DD" in quotes (start date)
+#   when:     human-readable dates, e.g. "19–21 Feb 2023"
+#   title:    event name
+#   place:    city or "Online" (optional)
+#   summary:  one or two sentences in Markdown
+#   with:     co-organisers (optional)
+#   links:    list of {label, url}
+
+- date: "2023-09-07"
+  when: "7 Sep 2023"
+  title: "ALP 2023: First Workshop on Ancient Language Processing"
+  place: Varna, Bulgaria (with RANLP 2023)
+  summary: "A forum for natural language processing of ancient languages and scripts, with shared tasks on machine translation for Ancient Chinese and Akkadian."
+  with: "Adam Anderson (UC Berkeley), Bin Li (Nanjing Normal University), Yudong Liu (Western Washington University), Marco C. Passarotti (Università Cattolica del Sacro Cuore)"
+  links:
+    - label: Workshop website
+      url: https://www.ancientnlp.com/alp2023/
+
+- date: "2023-09-04"
+  when: "4 Sep 2023"
+  title: "ALT 2023: Ancient Language Translation Workshop"
+  place: Macau SAR, China (with MT Summit 2023)
+  summary: "Hands-on workshop and shared tasks on machine translation for Ancient Chinese and Mesopotamian languages."
+  with: "Bin Li (Nanjing Normal University)"
+  links:
+    - label: Cuneiform translation task
+      url: https://digitalpasts.github.io/EvaCUN/
+    - label: Workshop repository
+      url: https://github.com/GoThereGit/ALT
+
+- date: "2023-02-19"
+  when: "19–21 Feb 2023"
+  title: "Digital Ancient Near Eastern Studies (DANES)"
+  summary: "Computational Perspectives on Ancient Near Eastern Literature, Art and Material Culture. The conference founded the DANES network and its working groups."
+  with: "Hubert Mara (MLU Halle-Wittenberg), Gabriel Stanovsky (Hebrew University of Jerusalem)"
+  links:
+    - label: Conference website
+      url: https://digitalpasts.github.io/DANES/
+    - label: Abstracts (Zenodo)
+      url: https://doi.org/10.5281/zenodo.7682926
+    - label: Recording of day 1
+      url: https://youtube.com/playlist?list=PLNiWLB_wsOg7tjQs-NMroOCywL4w4la7k
+
+- date: "2020-02-19"
+  when: "19–20 Feb 2020"
+  title: "Human-Machine Cooperation in Archaeology, Epigraphy and Ancient History"
+  summary: "Conference and workshop on digital tools for ancient history, material culture and texts, bringing together scholars, computer scientists and industry."
+  links:
+    - label: Abstracts (PDF)
+      url: /file_links/Abstracts_conference_2020.pdf
