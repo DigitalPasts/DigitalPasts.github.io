@@ -11,13 +11,17 @@ This move is not only the result of modern conveniences, but the result of oppor
 
 Furthermore, digitization offers not only a better preservation method, but also the opportunity for a wider audience to access the data, scholars and laypeople alike. Information and knowledge are no longer the sole propriety of the academic few. It is fast becoming widely accessible, granting new pedagogic and interdisciplinary cooperation opportunities that enrich our cultural knowledge.
 
+## Ancient Language Processing
+
+Much of our work now belongs to **Ancient Language Processing (ALP)**, a subfield of natural language processing that deals with ancient languages and scripts, from the first writing in Mesopotamia and Egypt around 3000 BCE to late antiquity. Ancient languages pose problems that modern NLP rarely meets: very little data, broken and fragmentary texts, scripts that standard tokenizers cannot handle, and transliteration conventions that differ from one field to the next. The lab helped build this field as a community: it co-founded the ALP workshop series at the main NLP conferences (RANLP 2023, ACL 2024, NAACL 2025, with a 2027 edition proposed), runs the EvaCun shared tasks, and teaches an international graduate course in Ancient Language Processing. Our own work began with Akkadian cuneiform and now covers Sumerian, Hittite, Elamite, proto-cuneiform and Semitic epigraphy.
+
 We can summarize our vision in the following four main goals: 
 
 - curation of cultural heritage in digital methods.
-- using and developing ethical ML models for working with historical sources, particularly cuneiform texts.
+- using and developing ethical ML models for ancient languages and historical sources, beginning with cuneiform.
 - investigating the strengths and weaknesses of new technologies when used for humanities research.
 - nourishing interdisciplinary research by using shared digital methodologies, such as linked open data (LOD).
 
-For more information on our projects, each of which touches on at least one or more of these goals, see the [Research page]({{ '/research/' | relative_url }}). For existing tools for assyriologists, see the [Babylonian Engine demo]({{ site.ben_demo }}) or the [beta version]({{ site.ben_beta }}).
+For more information on our projects, each of which touches on at least one or more of these goals, see the [Research page]({{ '/research/' | relative_url }}). Our tools for Assyriologists come together in the [Babylonian Engine app]({{ site.ben_demo }}).
 
 Scholars, companies, or other parties interested in cooperating with the lab may contact us through the lab email: [{{ site.email }}](mailto:{{ site.email }}).

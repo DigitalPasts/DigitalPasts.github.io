@@ -2,12 +2,12 @@
 # confirm: true = status or scope needs Shai's check.
 
 themes:
+  - slug: alp
+    title: Ancient Language Processing
+    summary: "Ancient Language Processing is a subfield of NLP for ancient languages and scripts. We build models, datasets and shared tasks for machine translation, lemmatization and annotation, across Akkadian, Sumerian, Hittite, Elamite and Semitic inscriptions, and co-organise the ALP workshop series."
   - slug: reading
     title: Reading cuneiform with AI
     summary: Optical character recognition, sign analysis and multimodal models that turn images of tablets and hand-copies into searchable text.
-  - slug: alp
-    title: Ancient Language Processing
-    summary: NLP for low-resource ancient languages, including machine translation, lemmatization, annotation and shared tasks for Akkadian, Sumerian, Hittite and Elamite.
   - slug: artefacts
     title: Tablets and artefacts as data
     summary: Shape, style and 3D analysis of tablets and reliefs, for dating, provenance and reconstruction.
@@ -146,7 +146,7 @@ projects:
     collaborators: Amos Azaria (Ariel University)
 
 tools:
-  - {title: Babylonian Engine (BEn), url: "https://ben-digpasts.com/", summary: "Web tools for restoring, transliterating and translating cuneiform."}
+  - {title: Babylonian Engine (BEn), url: "https://github.com/ludovicus-hispanicus/Ben-App", summary: "Modular app for cuneiform recognition, transliteration and curation."}
   - {title: eAkkadian, url: "https://digitalpasts.github.io/eAkkadian/", summary: "An online coursebook for doing Assyriology digitally."}
   - {title: MAPA Gazetteer, url: "https://doi.org/10.5281/zenodo.4540616", summary: "Linked Places gazetteer of Uruk and its hinterland."}
   - {title: EvaCun data, url: "https://digitalpasts.github.io/EvaCUN/", summary: "Shared-task datasets for cuneiform NLP."}

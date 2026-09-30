@@ -6,15 +6,13 @@
 #   project:      project file name from _projects/ (optional)
 #   links:        list of {label, url}
 
-- title: Babylonian Engine
+- title: Babylonian Engine (BEn)
   kind: Tool
-  description: "Web platform bringing together the lab's models for cuneiform: sign recognition from hand-copies, transliteration and gap restoration."
+  description: "Modular desktop platform for cuneiform recognition, transliteration, lemmatization and curation, with pluggable AI models."
   project: ben
   links:
-    - label: Open the demo
-      url: https://ben-digpasts.com/demo
-    - label: Beta version
-      url: https://babylonian.herokuapp.com/#/
+    - label: BEn app on GitHub
+      url: https://github.com/ludovicus-hispanicus/Ben-App
 
 - title: Atrahasis
   kind: Tool
